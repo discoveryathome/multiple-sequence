@@ -44,7 +44,8 @@ not claimed.
 
 Start contributing at [AGENTS.md](AGENTS.md) and [DISCOVERY.md](DISCOVERY.md).
 Douglas Colkitt is the consenting maintainer; results await his review and review
-capacity is unspecified. This is LOCAL mode: nothing has been published, pushed,
-posted or submitted to a hub. Code is MIT; third-party data retain their own
-terms. Verifier/frontier changes deserve the most care, and review capacity will
+capacity is unspecified. The pilot is hosted privately at
+[discoveryathome/multiple-sequence](https://github.com/discoveryathome/multiple-sequence).
+No hub PR has been submitted; public donation intake remains paused.
+Code is MIT; third-party data retain their own terms. Verifier/frontier changes deserve the most care, and review capacity will
 set the pace of sustained donations.

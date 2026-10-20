@@ -2,8 +2,10 @@
 
 Read `DISCOVERY.md`, then `discover/frontier.json`, `docs/MODEL.md`, and
 `docs/REPRODUCE.md`. Run `python3 scripts/verify.py` before changing anything.
-This is LOCAL mode. No GitHub repository, remote messages, hub application,
-listing consent or permission to publish is implied.
+The pilot has a private GitHub repository at discoveryathome/multiple-sequence.
+Repository initialization and the initial push were authorized by the user.
+Do not submit a hub PR. No public listing, public release, or unsolicited remote
+messages are authorized.
 
 Read `research/contributor-30m/REPORT.md` and its `candidate-records.json` before
 refinement. Existing cards identify independent family scopes; their initial

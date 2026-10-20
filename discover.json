@@ -1,7 +1,7 @@
 {
   "schema": "discover/v0",
   "title": "Multiple sequence alignment optimization",
-  "summary": "Exact affine sum-of-pairs refinement from strong protein aligners, with independent BAliBASE reference accuracy evaluated separately. Local pilot.",
+  "summary": "Exact affine sum-of-pairs refinement from strong protein aligners, with independent BAliBASE reference accuracy evaluated separately. Private pilot; not submitted to the hub.",
   "domains": [
     "bioinformatics",
     "combinatorial-optimization"
@@ -12,7 +12,7 @@
       "name": "Douglas Colkitt"
     }
   ],
-  "canonical_repo": "file:///Users/colkitt/discover-work/incubatedPilots/multiple-sequence/start-multiple-sequence",
+  "canonical_repo": "https://github.com/discoveryathome/multiple-sequence",
   "entry": {
     "agents": "AGENTS.md",
     "project": "DISCOVERY.md",
@@ -43,7 +43,7 @@
   },
   "review": {
     "paused": true,
-    "note": "Douglas Colkitt agreed to maintain this pilot in chat on 2026-10-20. Review throughput unspecified. Local mode only; no public donor intake or listing consent."
+    "note": "Douglas Colkitt agreed to maintain this pilot. Review throughput unspecified. Private GitHub repository authorized; public donor intake remains paused and no hub PR is authorized."
   },
   "requirements": {
     "ram_gb": 2,

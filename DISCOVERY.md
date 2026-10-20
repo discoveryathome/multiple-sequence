@@ -61,15 +61,15 @@ is removed because it makes the hypothesis less attractive.
 `discover/catalog.json` has four weighted tracks: refinement (35), verifier
 hardening (25), biological evaluation (25), and independent baseline/coverage
 replication (15). The seeded picker distributes distinct family tasks. Claims
-and handoffs are local files; there is no public coordination service in LOCAL
-mode. Inspect overlap before working, and retain the seed in the result package.
+and handoffs remain local files; the private GitHub repository is not listed
+on the hub. Inspect overlap before working, and retain the seed in the result package.
 The first step on every card is an executable positive control already run in
 this pilot.
 
 Douglas Colkitt has agreed to maintain the project. Review throughput is not yet
 specified. Contributions remain proposals until he reviews them; checks do not
 automatically merge or accept them. Public donation intake is paused because
-this is a local pilot, not because there is no maintainer. Publication, listing,
+the private pilot is not open for public donations. Public release, listing,
 review capacity and data redistribution terms must be handled before launch.
 
 To review: verify immutable inputs/model, run the exact checker, replay the

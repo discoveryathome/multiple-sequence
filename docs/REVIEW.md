@@ -8,5 +8,5 @@ or external evaluator implementations are compared.
 
 No independent human review, maintainer acceptance, publication, hub consent,
 public repository, formal proof or global-optimality certificate is claimed.
-The project remains in LOCAL mode. Review the scoring model, verifier,
+The repository is private on GitHub; no hub PR has been submitted. Review the scoring model, verifier,
 reference provenance and complete accuracy report before accepting its records.
