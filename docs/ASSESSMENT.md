@@ -1,3 +1,7 @@
+> This assessment describes the initial frozen portfolio. The later
+> [contributor rehearsal](../research/contributor-30m/REPORT.md) changes the
+> practical search frontier and gives the current featured-pilot recommendation.
+
 # Initial pilot assessment
 
 This report covers the initial fixed-budget implementation, before any subsequent

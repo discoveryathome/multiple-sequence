@@ -1,6 +1,6 @@
 {
   "schema": "discover-frontier/v0",
-  "statement": "Best locally observed MSA-SP-v1 integer score for eight pinned BAliBASE protein families among MAFFT L-INS-i, G-INS-i, FAMSA2 and the recorded refinements. Four cases exceed the strongest baseline score. Values certify feasible alignments under the model, not global optima or biological discovery.",
+  "statement": "Best integer MSA-SP-v1 scores in the frozen initial eight-family experiment, among MAFFT L-INS-i, G-INS-i, FAMSA2 and the recorded initial refinements. Four cases exceed the strongest baseline score. Later unreviewed candidates are in research/contributor-30m/candidate-records.json. Values certify feasible alignments, not global optima or biological discovery.",
   "status": "Local pilot; author-checked, pending Douglas Colkitt review; unlisted.",
   "evidence_level": [
     "author-checked"
@@ -43,7 +43,8 @@
     "https://mafft.ddbj.nig.ac.jp/alignment/software/algorithms/",
     "https://doi.org/10.1038/s41587-026-03095-3",
     "results/evaluation.json",
-    "results/toolchain.json"
+    "results/toolchain.json",
+    "research/contributor-30m/REPORT.md"
   ],
   "assumptions": [
     {

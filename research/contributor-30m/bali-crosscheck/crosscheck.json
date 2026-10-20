@@ -1,0 +1,366 @@
+{
+  "status": "PASS",
+  "checks": 24,
+  "results": [
+    {
+      "label": "BB11001.control",
+      "our_accuracy": {
+        "pair_hits": 339,
+        "reference_pairs": 342,
+        "candidate_core_pairs": 339,
+        "core_columns": 57,
+        "column_hits": 56,
+        "core_pair_recall": 0.9912280701754386,
+        "core_pair_precision": 1.0,
+        "core_column_recall": 0.9824561403508771
+      },
+      "legacy_sp": 0.991,
+      "alignment": "research/contributor-30m/outputs/BB11001/control-final.fa"
+    },
+    {
+      "label": "BB11001.converged",
+      "our_accuracy": {
+        "pair_hits": 327,
+        "reference_pairs": 342,
+        "candidate_core_pairs": 333,
+        "core_columns": 57,
+        "column_hits": 52,
+        "core_pair_recall": 0.956140350877193,
+        "core_pair_precision": 0.9819819819819819,
+        "core_column_recall": 0.9122807017543859
+      },
+      "legacy_sp": 0.956,
+      "alignment": "research/contributor-30m/convergence/BB11001/final.fa"
+    },
+    {
+      "label": "BB11001.row_dp",
+      "our_accuracy": {
+        "pair_hits": 327,
+        "reference_pairs": 342,
+        "candidate_core_pairs": 333,
+        "core_columns": 57,
+        "column_hits": 52,
+        "core_pair_recall": 0.956140350877193,
+        "core_pair_precision": 0.9819819819819819,
+        "core_column_recall": 0.9122807017543859
+      },
+      "legacy_sp": 0.956,
+      "alignment": "research/contributor-30m/outputs/BB11001/row-final.fa"
+    },
+    {
+      "label": "BB11015.control",
+      "our_accuracy": {
+        "pair_hits": 1050,
+        "reference_pairs": 1188,
+        "candidate_core_pairs": 1116,
+        "core_columns": 198,
+        "column_hits": 168,
+        "core_pair_recall": 0.8838383838383839,
+        "core_pair_precision": 0.9408602150537635,
+        "core_column_recall": 0.8484848484848485
+      },
+      "legacy_sp": 0.884,
+      "alignment": "research/contributor-30m/outputs/BB11015/control-final.fa"
+    },
+    {
+      "label": "BB11015.row_dp",
+      "our_accuracy": {
+        "pair_hits": 970,
+        "reference_pairs": 1188,
+        "candidate_core_pairs": 1082,
+        "core_columns": 198,
+        "column_hits": 140,
+        "core_pair_recall": 0.8164983164983165,
+        "core_pair_precision": 0.8964879852125693,
+        "core_column_recall": 0.7070707070707071
+      },
+      "legacy_sp": 0.816,
+      "alignment": "research/contributor-30m/outputs/BB11015/row-final.fa"
+    },
+    {
+      "label": "BB11029.converged",
+      "our_accuracy": {
+        "pair_hits": 172,
+        "reference_pairs": 306,
+        "candidate_core_pairs": 231,
+        "core_columns": 51,
+        "column_hits": 25,
+        "core_pair_recall": 0.5620915032679739,
+        "core_pair_precision": 0.7445887445887446,
+        "core_column_recall": 0.49019607843137253
+      },
+      "legacy_sp": 0.562,
+      "alignment": "research/contributor-30m/convergence/BB11029/final.fa"
+    },
+    {
+      "label": "BB11029.row_dp",
+      "our_accuracy": {
+        "pair_hits": 184,
+        "reference_pairs": 306,
+        "candidate_core_pairs": 252,
+        "core_columns": 51,
+        "column_hits": 25,
+        "core_pair_recall": 0.6013071895424836,
+        "core_pair_precision": 0.7301587301587301,
+        "core_column_recall": 0.49019607843137253
+      },
+      "legacy_sp": 0.601,
+      "alignment": "research/contributor-30m/additional/BB11029/row-final.fa"
+    },
+    {
+      "label": "BB12021.control",
+      "our_accuracy": {
+        "pair_hits": 585,
+        "reference_pairs": 585,
+        "candidate_core_pairs": 585,
+        "core_columns": 39,
+        "column_hits": 39,
+        "core_pair_recall": 1.0,
+        "core_pair_precision": 1.0,
+        "core_column_recall": 1.0
+      },
+      "legacy_sp": 1.0,
+      "alignment": "research/contributor-30m/outputs/BB12021/control-final.fa"
+    },
+    {
+      "label": "BB12021.row_dp",
+      "our_accuracy": {
+        "pair_hits": 585,
+        "reference_pairs": 585,
+        "candidate_core_pairs": 585,
+        "core_columns": 39,
+        "column_hits": 39,
+        "core_pair_recall": 1.0,
+        "core_pair_precision": 1.0,
+        "core_column_recall": 1.0
+      },
+      "legacy_sp": 1.0,
+      "alignment": "research/contributor-30m/outputs/BB12021/row-final.fa"
+    },
+    {
+      "label": "BB12040.row_dp",
+      "our_accuracy": {
+        "pair_hits": 918,
+        "reference_pairs": 960,
+        "candidate_core_pairs": 934,
+        "core_columns": 96,
+        "column_hits": 88,
+        "core_pair_recall": 0.95625,
+        "core_pair_precision": 0.9828693790149893,
+        "core_column_recall": 0.9166666666666666
+      },
+      "legacy_sp": 0.956,
+      "alignment": "research/contributor-30m/additional/BB12040/row-final.fa"
+    },
+    {
+      "label": "BB20029.control",
+      "our_accuracy": {
+        "pair_hits": 10175,
+        "reference_pairs": 11774,
+        "candidate_core_pairs": 11238,
+        "core_columns": 29,
+        "column_hits": 0,
+        "core_pair_recall": 0.864192288092407,
+        "core_pair_precision": 0.905410215340808,
+        "core_column_recall": 0.0
+      },
+      "legacy_sp": 0.864,
+      "alignment": "research/contributor-30m/outputs/BB20029/control-final.fa"
+    },
+    {
+      "label": "BB20029.converged",
+      "our_accuracy": {
+        "pair_hits": 9920,
+        "reference_pairs": 11774,
+        "candidate_core_pairs": 10814,
+        "core_columns": 29,
+        "column_hits": 0,
+        "core_pair_recall": 0.8425343978257177,
+        "core_pair_precision": 0.9173293878305899,
+        "core_column_recall": 0.0
+      },
+      "legacy_sp": 0.843,
+      "alignment": "research/contributor-30m/convergence/BB20029/final.fa"
+    },
+    {
+      "label": "BB20029.row_dp",
+      "our_accuracy": {
+        "pair_hits": 9920,
+        "reference_pairs": 11774,
+        "candidate_core_pairs": 10814,
+        "core_columns": 29,
+        "column_hits": 0,
+        "core_pair_recall": 0.8425343978257177,
+        "core_pair_precision": 0.9173293878305899,
+        "core_column_recall": 0.0
+      },
+      "legacy_sp": 0.843,
+      "alignment": "research/contributor-30m/outputs/BB20029/row-final.fa"
+    },
+    {
+      "label": "BB20030.control",
+      "our_accuracy": {
+        "pair_hits": 31221,
+        "reference_pairs": 34592,
+        "candidate_core_pairs": 32608,
+        "core_columns": 32,
+        "column_hits": 0,
+        "core_pair_recall": 0.902549722479186,
+        "core_pair_precision": 0.9574644259077527,
+        "core_column_recall": 0.0
+      },
+      "legacy_sp": 0.903,
+      "alignment": "research/contributor-30m/outputs/BB20030/control-final.fa"
+    },
+    {
+      "label": "BB20030.row_dp",
+      "our_accuracy": {
+        "pair_hits": 30499,
+        "reference_pairs": 34592,
+        "candidate_core_pairs": 32011,
+        "core_columns": 32,
+        "column_hits": 0,
+        "core_pair_recall": 0.8816778445883441,
+        "core_pair_precision": 0.9527662366061667,
+        "core_column_recall": 0.0
+      },
+      "legacy_sp": 0.882,
+      "alignment": "research/contributor-30m/outputs/BB20030/row-final.fa"
+    },
+    {
+      "label": "BB20036.row_dp",
+      "our_accuracy": {
+        "pair_hits": 71201,
+        "reference_pairs": 73710,
+        "candidate_core_pairs": 72634,
+        "core_columns": 18,
+        "column_hits": 0,
+        "core_pair_recall": 0.9659611992945326,
+        "core_pair_precision": 0.9802709474901561,
+        "core_column_recall": 0.0
+      },
+      "legacy_sp": 0.966,
+      "alignment": "research/contributor-30m/additional/BB20036/row-final.fa"
+    },
+    {
+      "label": "BB30017.row_dp",
+      "our_accuracy": {
+        "pair_hits": 8689,
+        "reference_pairs": 11025,
+        "candidate_core_pairs": 9900,
+        "core_columns": 105,
+        "column_hits": 49,
+        "core_pair_recall": 0.7881179138321995,
+        "core_pair_precision": 0.8776767676767677,
+        "core_column_recall": 0.4666666666666667
+      },
+      "legacy_sp": 0.788,
+      "alignment": "research/contributor-30m/additional/BB30017/row-final.fa"
+    },
+    {
+      "label": "BB30027.control",
+      "our_accuracy": {
+        "pair_hits": 3733,
+        "reference_pairs": 4180,
+        "candidate_core_pairs": 3821,
+        "core_columns": 22,
+        "column_hits": 17,
+        "core_pair_recall": 0.8930622009569378,
+        "core_pair_precision": 0.9769693797435226,
+        "core_column_recall": 0.7727272727272727
+      },
+      "legacy_sp": 0.893,
+      "alignment": "research/contributor-30m/outputs/BB30027/control-final.fa"
+    },
+    {
+      "label": "BB30027.row_dp",
+      "our_accuracy": {
+        "pair_hits": 3690,
+        "reference_pairs": 4180,
+        "candidate_core_pairs": 3801,
+        "core_columns": 22,
+        "column_hits": 16,
+        "core_pair_recall": 0.8827751196172249,
+        "core_pair_precision": 0.9707971586424625,
+        "core_column_recall": 0.7272727272727273
+      },
+      "legacy_sp": 0.883,
+      "alignment": "research/contributor-30m/outputs/BB30027/row-final.fa"
+    },
+    {
+      "label": "BB40010.control",
+      "our_accuracy": {
+        "pair_hits": 1882,
+        "reference_pairs": 2196,
+        "candidate_core_pairs": 2094,
+        "core_columns": 61,
+        "column_hits": 33,
+        "core_pair_recall": 0.8570127504553734,
+        "core_pair_precision": 0.8987583572110793,
+        "core_column_recall": 0.5409836065573771
+      },
+      "legacy_sp": 0.857,
+      "alignment": "research/contributor-30m/outputs/BB40010/control-final.fa"
+    },
+    {
+      "label": "BB40010.row_dp",
+      "our_accuracy": {
+        "pair_hits": 1858,
+        "reference_pairs": 2196,
+        "candidate_core_pairs": 2094,
+        "core_columns": 61,
+        "column_hits": 30,
+        "core_pair_recall": 0.8460837887067395,
+        "core_pair_precision": 0.8872970391595033,
+        "core_column_recall": 0.4918032786885246
+      },
+      "legacy_sp": 0.846,
+      "alignment": "research/contributor-30m/outputs/BB40010/row-final.fa"
+    },
+    {
+      "label": "BB50007.row_dp",
+      "our_accuracy": {
+        "pair_hits": 13228,
+        "reference_pairs": 15939,
+        "candidate_core_pairs": 14931,
+        "core_columns": 63,
+        "column_hits": 12,
+        "core_pair_recall": 0.8299140473053517,
+        "core_pair_precision": 0.8859419998660505,
+        "core_column_recall": 0.19047619047619047
+      },
+      "legacy_sp": 0.83,
+      "alignment": "research/contributor-30m/additional/BB50007/row-final.fa"
+    },
+    {
+      "label": "BB50013.control",
+      "our_accuracy": {
+        "pair_hits": 18433,
+        "reference_pairs": 19431,
+        "candidate_core_pairs": 18986,
+        "core_columns": 127,
+        "column_hits": 103,
+        "core_pair_recall": 0.9486387730945397,
+        "core_pair_precision": 0.9708732750447698,
+        "core_column_recall": 0.8110236220472441
+      },
+      "legacy_sp": 0.949,
+      "alignment": "research/contributor-30m/outputs/BB50013/control-final.fa"
+    },
+    {
+      "label": "BB50013.row_dp",
+      "our_accuracy": {
+        "pair_hits": 18424,
+        "reference_pairs": 19431,
+        "candidate_core_pairs": 18960,
+        "core_columns": 127,
+        "column_hits": 102,
+        "core_pair_recall": 0.9481755956975966,
+        "core_pair_precision": 0.9717299578059072,
+        "core_column_recall": 0.8031496062992126
+      },
+      "legacy_sp": 0.948,
+      "alignment": "research/contributor-30m/outputs/BB50013/row-final.fa"
+    }
+  ]
+}

@@ -1,0 +1,634 @@
+{
+  "summary": {
+    "full_cases": 12,
+    "score_improved": 11,
+    "accuracy_improved": 3,
+    "accuracy_worse": 8,
+    "accuracy_equal": 1,
+    "pearson_per_pair_gain_vs_recall_delta": 0.10957336511277024,
+    "spearman": 0.2097902097902098,
+    "mean_recall_delta": 0.003849968400468954,
+    "median_recall_delta": -0.010608021544173396,
+    "note": "Descriptive selected small sample; no significance or generalization claim. Excludes three-row scaling probe."
+  },
+  "records": [
+    {
+      "dataset": "BB11001",
+      "baselines": [
+        {
+          "path": "results/baselines/BB11001.famsa2.fa",
+          "score": 158,
+          "pair_hits": 342,
+          "reference_pairs": 342,
+          "candidate_core_pairs": 342,
+          "core_columns": 57,
+          "column_hits": 57,
+          "core_pair_recall": 1.0,
+          "core_pair_precision": 1.0,
+          "core_column_recall": 1.0
+        },
+        {
+          "path": "results/baselines/BB11001.mafft-ginsi.fa",
+          "score": 169,
+          "pair_hits": 305,
+          "reference_pairs": 342,
+          "candidate_core_pairs": 311,
+          "core_columns": 57,
+          "column_hits": 47,
+          "core_pair_recall": 0.8918128654970761,
+          "core_pair_precision": 0.9807073954983923,
+          "core_column_recall": 0.8245614035087719
+        },
+        {
+          "path": "results/baselines/BB11001.mafft-linsi.fa",
+          "score": 188,
+          "pair_hits": 339,
+          "reference_pairs": 342,
+          "candidate_core_pairs": 339,
+          "core_columns": 57,
+          "column_hits": 56,
+          "core_pair_recall": 0.9912280701754386,
+          "core_pair_precision": 1.0,
+          "core_column_recall": 0.9824561403508771
+        }
+      ],
+      "best_baseline_pair_recall": 1.0,
+      "best_baseline_path": "results/baselines/BB11001.famsa2.fa",
+      "dp_pair_recall": 0.956140350877193,
+      "delta_vs_best_accuracy_baseline": -0.04385964912280704,
+      "converged": {
+        "score": 230,
+        "pair_hits": 327,
+        "reference_pairs": 342,
+        "candidate_core_pairs": 333,
+        "core_columns": 57,
+        "column_hits": 52,
+        "core_pair_recall": 0.956140350877193,
+        "core_pair_precision": 0.9819819819819819,
+        "core_column_recall": 0.9122807017543859
+      }
+    },
+    {
+      "dataset": "BB11015",
+      "baselines": [
+        {
+          "path": "results/baselines/BB11015.famsa2.fa",
+          "score": 47,
+          "pair_hits": 1044,
+          "reference_pairs": 1188,
+          "candidate_core_pairs": 1110,
+          "core_columns": 198,
+          "column_hits": 166,
+          "core_pair_recall": 0.8787878787878788,
+          "core_pair_precision": 0.9405405405405406,
+          "core_column_recall": 0.8383838383838383
+        },
+        {
+          "path": "results/baselines/BB11015.mafft-ginsi.fa",
+          "score": 20,
+          "pair_hits": 869,
+          "reference_pairs": 1188,
+          "candidate_core_pairs": 1038,
+          "core_columns": 198,
+          "column_hits": 114,
+          "core_pair_recall": 0.7314814814814815,
+          "core_pair_precision": 0.8371868978805395,
+          "core_column_recall": 0.5757575757575758
+        },
+        {
+          "path": "results/baselines/BB11015.mafft-linsi.fa",
+          "score": 11,
+          "pair_hits": 871,
+          "reference_pairs": 1188,
+          "candidate_core_pairs": 1041,
+          "core_columns": 198,
+          "column_hits": 114,
+          "core_pair_recall": 0.7331649831649831,
+          "core_pair_precision": 0.8366954851104706,
+          "core_column_recall": 0.5757575757575758
+        }
+      ],
+      "best_baseline_pair_recall": 0.8787878787878788,
+      "best_baseline_path": "results/baselines/BB11015.famsa2.fa",
+      "dp_pair_recall": 0.8164983164983165,
+      "delta_vs_best_accuracy_baseline": -0.062289562289562284
+    },
+    {
+      "dataset": "BB12021",
+      "baselines": [
+        {
+          "path": "results/baselines/BB12021.mafft-linsi.fa",
+          "score": 957,
+          "pair_hits": 549,
+          "reference_pairs": 585,
+          "candidate_core_pairs": 570,
+          "core_columns": 39,
+          "column_hits": 35,
+          "core_pair_recall": 0.9384615384615385,
+          "core_pair_precision": 0.9631578947368421,
+          "core_column_recall": 0.8974358974358975
+        },
+        {
+          "path": "results/baselines/BB12021.famsa2.fa",
+          "score": 992,
+          "pair_hits": 585,
+          "reference_pairs": 585,
+          "candidate_core_pairs": 585,
+          "core_columns": 39,
+          "column_hits": 39,
+          "core_pair_recall": 1.0,
+          "core_pair_precision": 1.0,
+          "core_column_recall": 1.0
+        },
+        {
+          "path": "results/baselines/BB12021.mafft-ginsi.fa",
+          "score": 1053,
+          "pair_hits": 585,
+          "reference_pairs": 585,
+          "candidate_core_pairs": 585,
+          "core_columns": 39,
+          "column_hits": 39,
+          "core_pair_recall": 1.0,
+          "core_pair_precision": 1.0,
+          "core_column_recall": 1.0
+        }
+      ],
+      "best_baseline_pair_recall": 1.0,
+      "best_baseline_path": "results/baselines/BB12021.famsa2.fa",
+      "dp_pair_recall": 1.0,
+      "delta_vs_best_accuracy_baseline": 0.0
+    },
+    {
+      "dataset": "BB20029",
+      "baselines": [
+        {
+          "path": "results/baselines/BB20029.mafft-linsi.fa",
+          "score": 25595,
+          "pair_hits": 10175,
+          "reference_pairs": 11774,
+          "candidate_core_pairs": 11237,
+          "core_columns": 29,
+          "column_hits": 0,
+          "core_pair_recall": 0.864192288092407,
+          "core_pair_precision": 0.9054907893565899,
+          "core_column_recall": 0.0
+        },
+        {
+          "path": "results/baselines/BB20029.famsa2.fa",
+          "score": 25524,
+          "pair_hits": 10003,
+          "reference_pairs": 11774,
+          "candidate_core_pairs": 10784,
+          "core_columns": 29,
+          "column_hits": 0,
+          "core_pair_recall": 0.8495838287752675,
+          "core_pair_precision": 0.9275778931750742,
+          "core_column_recall": 0.0
+        },
+        {
+          "path": "results/baselines/BB20029.mafft-ginsi.fa",
+          "score": 25421,
+          "pair_hits": 9659,
+          "reference_pairs": 11774,
+          "candidate_core_pairs": 10682,
+          "core_columns": 29,
+          "column_hits": 0,
+          "core_pair_recall": 0.8203669101409886,
+          "core_pair_precision": 0.9042314173375773,
+          "core_column_recall": 0.0
+        }
+      ],
+      "best_baseline_pair_recall": 0.864192288092407,
+      "best_baseline_path": "results/baselines/BB20029.mafft-linsi.fa",
+      "dp_pair_recall": 0.8425343978257177,
+      "delta_vs_best_accuracy_baseline": -0.021657890266689295,
+      "converged": {
+        "score": 28715,
+        "pair_hits": 9920,
+        "reference_pairs": 11774,
+        "candidate_core_pairs": 10814,
+        "core_columns": 29,
+        "column_hits": 0,
+        "core_pair_recall": 0.8425343978257177,
+        "core_pair_precision": 0.9173293878305899,
+        "core_column_recall": 0.0
+      }
+    },
+    {
+      "dataset": "BB20030",
+      "baselines": [
+        {
+          "path": "results/baselines/BB20030.mafft-linsi.fa",
+          "score": 257816,
+          "pair_hits": 32525,
+          "reference_pairs": 34592,
+          "candidate_core_pairs": 33332,
+          "core_columns": 32,
+          "column_hits": 14,
+          "core_pair_recall": 0.9402462997224792,
+          "core_pair_precision": 0.9757890315612624,
+          "core_column_recall": 0.4375
+        },
+        {
+          "path": "results/baselines/BB20030.mafft-ginsi.fa",
+          "score": 258594,
+          "pair_hits": 31221,
+          "reference_pairs": 34592,
+          "candidate_core_pairs": 32608,
+          "core_columns": 32,
+          "column_hits": 0,
+          "core_pair_recall": 0.902549722479186,
+          "core_pair_precision": 0.9574644259077527,
+          "core_column_recall": 0.0
+        },
+        {
+          "path": "results/baselines/BB20030.famsa2.fa",
+          "score": 253271,
+          "pair_hits": 30205,
+          "reference_pairs": 34592,
+          "candidate_core_pairs": 31675,
+          "core_columns": 32,
+          "column_hits": 0,
+          "core_pair_recall": 0.8731787696577243,
+          "core_pair_precision": 0.9535911602209944,
+          "core_column_recall": 0.0
+        }
+      ],
+      "best_baseline_pair_recall": 0.9402462997224792,
+      "best_baseline_path": "results/baselines/BB20030.mafft-linsi.fa",
+      "dp_pair_recall": 0.8816778445883441,
+      "delta_vs_best_accuracy_baseline": -0.05856845513413511
+    },
+    {
+      "dataset": "BB30027",
+      "baselines": [
+        {
+          "path": "results/baselines/BB30027.mafft-ginsi.fa",
+          "score": 1642,
+          "pair_hits": 3752,
+          "reference_pairs": 4180,
+          "candidate_core_pairs": 3840,
+          "core_columns": 22,
+          "column_hits": 18,
+          "core_pair_recall": 0.8976076555023923,
+          "core_pair_precision": 0.9770833333333333,
+          "core_column_recall": 0.8181818181818182
+        },
+        {
+          "path": "results/baselines/BB30027.famsa2.fa",
+          "score": 1001,
+          "pair_hits": 3577,
+          "reference_pairs": 4180,
+          "candidate_core_pairs": 3778,
+          "core_columns": 22,
+          "column_hits": 17,
+          "core_pair_recall": 0.8557416267942584,
+          "core_pair_precision": 0.9467972472207518,
+          "core_column_recall": 0.7727272727272727
+        },
+        {
+          "path": "results/baselines/BB30027.mafft-linsi.fa",
+          "score": 3479,
+          "pair_hits": 3733,
+          "reference_pairs": 4180,
+          "candidate_core_pairs": 3821,
+          "core_columns": 22,
+          "column_hits": 17,
+          "core_pair_recall": 0.8930622009569378,
+          "core_pair_precision": 0.9769693797435226,
+          "core_column_recall": 0.7727272727272727
+        }
+      ],
+      "best_baseline_pair_recall": 0.8976076555023923,
+      "best_baseline_path": "results/baselines/BB30027.mafft-ginsi.fa",
+      "dp_pair_recall": 0.8827751196172249,
+      "delta_vs_best_accuracy_baseline": -0.01483253588516742
+    },
+    {
+      "dataset": "BB40010",
+      "baselines": [
+        {
+          "path": "results/baselines/BB40010.mafft-ginsi.fa",
+          "score": 1897,
+          "pair_hits": 1882,
+          "reference_pairs": 2196,
+          "candidate_core_pairs": 2094,
+          "core_columns": 61,
+          "column_hits": 33,
+          "core_pair_recall": 0.8570127504553734,
+          "core_pair_precision": 0.8987583572110793,
+          "core_column_recall": 0.5409836065573771
+        },
+        {
+          "path": "results/baselines/BB40010.famsa2.fa",
+          "score": 1645,
+          "pair_hits": 1928,
+          "reference_pairs": 2196,
+          "candidate_core_pairs": 2134,
+          "core_columns": 61,
+          "column_hits": 38,
+          "core_pair_recall": 0.8779599271402551,
+          "core_pair_precision": 0.9034676663542643,
+          "core_column_recall": 0.6229508196721312
+        },
+        {
+          "path": "results/baselines/BB40010.mafft-linsi.fa",
+          "score": 1643,
+          "pair_hits": 1890,
+          "reference_pairs": 2196,
+          "candidate_core_pairs": 2123,
+          "core_columns": 61,
+          "column_hits": 35,
+          "core_pair_recall": 0.860655737704918,
+          "core_pair_precision": 0.8902496467263307,
+          "core_column_recall": 0.5737704918032787
+        }
+      ],
+      "best_baseline_pair_recall": 0.8779599271402551,
+      "best_baseline_path": "results/baselines/BB40010.famsa2.fa",
+      "dp_pair_recall": 0.8460837887067395,
+      "delta_vs_best_accuracy_baseline": -0.031876138433515555
+    },
+    {
+      "dataset": "BB50013",
+      "baselines": [
+        {
+          "path": "results/baselines/BB50013.famsa2.fa",
+          "score": 58651,
+          "pair_hits": 18185,
+          "reference_pairs": 19431,
+          "candidate_core_pairs": 18974,
+          "core_columns": 127,
+          "column_hits": 101,
+          "core_pair_recall": 0.9358756626009984,
+          "core_pair_precision": 0.9584167808580162,
+          "core_column_recall": 0.7952755905511811
+        },
+        {
+          "path": "results/baselines/BB50013.mafft-linsi.fa",
+          "score": 59720,
+          "pair_hits": 18433,
+          "reference_pairs": 19431,
+          "candidate_core_pairs": 18986,
+          "core_columns": 127,
+          "column_hits": 103,
+          "core_pair_recall": 0.9486387730945397,
+          "core_pair_precision": 0.9708732750447698,
+          "core_column_recall": 0.8110236220472441
+        },
+        {
+          "path": "results/baselines/BB50013.mafft-ginsi.fa",
+          "score": 60185,
+          "pair_hits": 18433,
+          "reference_pairs": 19431,
+          "candidate_core_pairs": 18986,
+          "core_columns": 127,
+          "column_hits": 103,
+          "core_pair_recall": 0.9486387730945397,
+          "core_pair_precision": 0.9708732750447698,
+          "core_column_recall": 0.8110236220472441
+        }
+      ],
+      "best_baseline_pair_recall": 0.9486387730945397,
+      "best_baseline_path": "results/baselines/BB50013.mafft-linsi.fa",
+      "dp_pair_recall": 0.9481755956975966,
+      "delta_vs_best_accuracy_baseline": -0.0004631773969431263
+    },
+    {
+      "dataset": "BB11029",
+      "baselines": [
+        {
+          "path": "research/contributor-30m/additional/BB11029/mafft-linsi.fa",
+          "score": -281,
+          "pair_hits": 122,
+          "reference_pairs": 306,
+          "candidate_core_pairs": 187,
+          "core_columns": 51,
+          "column_hits": 15,
+          "core_pair_recall": 0.39869281045751637,
+          "core_pair_precision": 0.6524064171122995,
+          "core_column_recall": 0.29411764705882354
+        },
+        {
+          "path": "research/contributor-30m/additional/BB11029/mafft-ginsi.fa",
+          "score": -297,
+          "pair_hits": 104,
+          "reference_pairs": 306,
+          "candidate_core_pairs": 154,
+          "core_columns": 51,
+          "column_hits": 12,
+          "core_pair_recall": 0.33986928104575165,
+          "core_pair_precision": 0.6753246753246753,
+          "core_column_recall": 0.23529411764705882
+        },
+        {
+          "path": "research/contributor-30m/additional/BB11029/famsa2.fa",
+          "score": -287,
+          "pair_hits": 149,
+          "reference_pairs": 306,
+          "candidate_core_pairs": 216,
+          "core_columns": 51,
+          "column_hits": 23,
+          "core_pair_recall": 0.4869281045751634,
+          "core_pair_precision": 0.6898148148148148,
+          "core_column_recall": 0.45098039215686275
+        }
+      ],
+      "best_baseline_pair_recall": 0.4869281045751634,
+      "best_baseline_path": "research/contributor-30m/additional/BB11029/famsa2.fa",
+      "dp_pair_recall": 0.6013071895424836,
+      "delta_vs_best_accuracy_baseline": 0.11437908496732024,
+      "converged": {
+        "score": -203,
+        "pair_hits": 172,
+        "reference_pairs": 306,
+        "candidate_core_pairs": 231,
+        "core_columns": 51,
+        "column_hits": 25,
+        "core_pair_recall": 0.5620915032679739,
+        "core_pair_precision": 0.7445887445887446,
+        "core_column_recall": 0.49019607843137253
+      }
+    },
+    {
+      "dataset": "BB12040",
+      "baselines": [
+        {
+          "path": "research/contributor-30m/additional/BB12040/mafft-linsi.fa",
+          "score": 791,
+          "pair_hits": 940,
+          "reference_pairs": 960,
+          "candidate_core_pairs": 940,
+          "core_columns": 96,
+          "column_hits": 93,
+          "core_pair_recall": 0.9791666666666666,
+          "core_pair_precision": 1.0,
+          "core_column_recall": 0.96875
+        },
+        {
+          "path": "research/contributor-30m/additional/BB12040/mafft-ginsi.fa",
+          "score": 750,
+          "pair_hits": 929,
+          "reference_pairs": 960,
+          "candidate_core_pairs": 930,
+          "core_columns": 96,
+          "column_hits": 91,
+          "core_pair_recall": 0.9677083333333333,
+          "core_pair_precision": 0.9989247311827957,
+          "core_column_recall": 0.9479166666666666
+        },
+        {
+          "path": "research/contributor-30m/additional/BB12040/famsa2.fa",
+          "score": 745,
+          "pair_hits": 932,
+          "reference_pairs": 960,
+          "candidate_core_pairs": 948,
+          "core_columns": 96,
+          "column_hits": 91,
+          "core_pair_recall": 0.9708333333333333,
+          "core_pair_precision": 0.9831223628691983,
+          "core_column_recall": 0.9479166666666666
+        }
+      ],
+      "best_baseline_pair_recall": 0.9791666666666666,
+      "best_baseline_path": "research/contributor-30m/additional/BB12040/mafft-linsi.fa",
+      "dp_pair_recall": 0.95625,
+      "delta_vs_best_accuracy_baseline": -0.022916666666666585
+    },
+    {
+      "dataset": "BB20036",
+      "baselines": [
+        {
+          "path": "research/contributor-30m/additional/BB20036/mafft-linsi.fa",
+          "score": 314309,
+          "pair_hits": 70137,
+          "reference_pairs": 73710,
+          "candidate_core_pairs": 71291,
+          "core_columns": 18,
+          "column_hits": 0,
+          "core_pair_recall": 0.9515262515262515,
+          "core_pair_precision": 0.9838128234980572,
+          "core_column_recall": 0.0
+        },
+        {
+          "path": "research/contributor-30m/additional/BB20036/mafft-ginsi.fa",
+          "score": 332755,
+          "pair_hits": 71824,
+          "reference_pairs": 73710,
+          "candidate_core_pairs": 72992,
+          "core_columns": 18,
+          "column_hits": 0,
+          "core_pair_recall": 0.9744132410799078,
+          "core_pair_precision": 0.9839982463831652,
+          "core_column_recall": 0.0
+        },
+        {
+          "path": "research/contributor-30m/additional/BB20036/famsa2.fa",
+          "score": 277803,
+          "pair_hits": 68474,
+          "reference_pairs": 73710,
+          "candidate_core_pairs": 69700,
+          "core_columns": 18,
+          "column_hits": 0,
+          "core_pair_recall": 0.9289648622981956,
+          "core_pair_precision": 0.9824103299856528,
+          "core_column_recall": 0.0
+        }
+      ],
+      "best_baseline_pair_recall": 0.9744132410799078,
+      "best_baseline_path": "research/contributor-30m/additional/BB20036/mafft-ginsi.fa",
+      "dp_pair_recall": 0.9659611992945326,
+      "delta_vs_best_accuracy_baseline": -0.008452041785375175
+    },
+    {
+      "dataset": "BB30017",
+      "baselines": [
+        {
+          "path": "research/contributor-30m/additional/BB30017/mafft-linsi.fa",
+          "score": -6325,
+          "pair_hits": 8709,
+          "reference_pairs": 11025,
+          "candidate_core_pairs": 9732,
+          "core_columns": 105,
+          "column_hits": 56,
+          "core_pair_recall": 0.7899319727891156,
+          "core_pair_precision": 0.8948828606658447,
+          "core_column_recall": 0.5333333333333333
+        },
+        {
+          "path": "research/contributor-30m/additional/BB30017/mafft-ginsi.fa",
+          "score": -5646,
+          "pair_hits": 8639,
+          "reference_pairs": 11025,
+          "candidate_core_pairs": 9726,
+          "core_columns": 105,
+          "column_hits": 50,
+          "core_pair_recall": 0.7835827664399093,
+          "core_pair_precision": 0.8882377133456714,
+          "core_column_recall": 0.47619047619047616
+        },
+        {
+          "path": "research/contributor-30m/additional/BB30017/famsa2.fa",
+          "score": -8690,
+          "pair_hits": 7701,
+          "reference_pairs": 11025,
+          "candidate_core_pairs": 9470,
+          "core_columns": 105,
+          "column_hits": 41,
+          "core_pair_recall": 0.6985034013605442,
+          "core_pair_precision": 0.8131995776135164,
+          "core_column_recall": 0.3904761904761905
+        }
+      ],
+      "best_baseline_pair_recall": 0.7899319727891156,
+      "best_baseline_path": "research/contributor-30m/additional/BB30017/mafft-linsi.fa",
+      "dp_pair_recall": 0.7881179138321995,
+      "delta_vs_best_accuracy_baseline": -0.0018140589569161092
+    },
+    {
+      "dataset": "BB50007",
+      "baselines": [
+        {
+          "path": "research/contributor-30m/additional/BB50007/mafft-linsi.fa",
+          "score": -30392,
+          "pair_hits": 12864,
+          "reference_pairs": 15939,
+          "candidate_core_pairs": 14652,
+          "core_columns": 63,
+          "column_hits": 7,
+          "core_pair_recall": 0.8070769809900245,
+          "core_pair_precision": 0.877968877968878,
+          "core_column_recall": 0.1111111111111111
+        },
+        {
+          "path": "research/contributor-30m/additional/BB50007/mafft-ginsi.fa",
+          "score": -26440,
+          "pair_hits": 12720,
+          "reference_pairs": 15939,
+          "candidate_core_pairs": 14748,
+          "core_columns": 63,
+          "column_hits": 0,
+          "core_pair_recall": 0.7980425371729719,
+          "core_pair_precision": 0.8624898291293734,
+          "core_column_recall": 0.0
+        },
+        {
+          "path": "research/contributor-30m/additional/BB50007/famsa2.fa",
+          "score": -38153,
+          "pair_hits": 11185,
+          "reference_pairs": 15939,
+          "candidate_core_pairs": 13761,
+          "core_columns": 63,
+          "column_hits": 5,
+          "core_pair_recall": 0.7017378756509192,
+          "core_pair_precision": 0.8128043020129351,
+          "core_column_recall": 0.07936507936507936
+        }
+      ],
+      "best_baseline_pair_recall": 0.8070769809900245,
+      "best_baseline_path": "research/contributor-30m/additional/BB50007/mafft-linsi.fa",
+      "dp_pair_recall": 0.8299140473053517,
+      "delta_vs_best_accuracy_baseline": 0.022837066315327226
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "scope": "30-minute contributor rehearsal and inaugural featured-pilot suitability assessment",
+  "task": "refine-bb20029",
+  "base": "85b8c509647df7fa7b538559dd23b4b0d7fb1a49",
+  "seed": "589bdc016c5273ab83ad9e82c6229c86",
+  "model": "MSA-SP-v1",
+  "status": "candidate research; pending Douglas Colkitt review",
+  "researcher": "Codex; same initiating agent, fresh checkout",
+  "evidence_level": "local-only"
+}

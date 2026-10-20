@@ -1,0 +1,8 @@
+test_budget_failure_explicit (__main__.RowDPTests.test_budget_failure_explicit) ... ok
+test_doublegap_affine_history (__main__.RowDPTests.test_doublegap_affine_history) ... ok
+test_exhaustive_fixed_profiles (__main__.RowDPTests.test_exhaustive_fixed_profiles) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.640s
+
+OK

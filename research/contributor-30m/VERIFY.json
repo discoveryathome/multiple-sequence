@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "commands": [
+    "python3 scripts/verify.py",
+    "python3 research/contributor-30m/verify_trial.py",
+    "python3 research/contributor-30m/verify_trial.py --replay-case BB20029",
+    "python3 research/contributor-30m/verify_trial.py --replay-first",
+    "python3 research/contributor-30m/check_local_optima.py",
+    "python3 research/contributor-30m/compare_biology.py"
+  ],
+  "alignment_checks": 180,
+  "first_row_replays": 13,
+  "selected_case_full_row_replays": 58,
+  "base_portfolio_replays": 59,
+  "independent_bali_endpoint_checks": 24,
+  "coordinate_optima": {
+    "BB11001": 230,
+    "BB11029": -203,
+    "BB20029": 28715
+  },
+  "limitations": [
+    "same agent author and tester; no independent human review",
+    "timings on shared host",
+    "reference agreement is not biological ground truth",
+    "91-sequence case only three attempted rows, including one state-budget failure"
+  ]
+}

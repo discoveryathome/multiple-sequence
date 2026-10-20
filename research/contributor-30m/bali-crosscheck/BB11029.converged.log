@@ -1,0 +1,11 @@
+Using XML format reference alignment
+
+Comparing test alignment in /Users/colkitt/discover-work/incubatedPilots/multiple-sequence/contributor-trial/repo/research/contributor-30m/bali-crosscheck/BB11029.converged.msf
+with reference alignment in /Users/colkitt/discover-work/incubatedPilots/multiple-sequence/contributor-trial/repo/research/contributor-30m/additional/BB11029/reference.xml
+
+Using core blocks defined in /Users/colkitt/discover-work/incubatedPilots/multiple-sequence/contributor-trial/repo/research/contributor-30m/additional/BB11029/reference.xml
+
+	SP score= 0.562
+
+	TC score= 0.490
+auto /Users/colkitt/discover-work/incubatedPilots/multiple-sequence/contributor-trial/repo/research/contributor-30m/bali-crosscheck/BB11029.converged.msf 0.562 0.490

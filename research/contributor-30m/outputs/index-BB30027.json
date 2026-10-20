@@ -1,0 +1,502 @@
+[
+  {
+    "peak_rss_native": 69713920,
+    "peak_rss_unit": "bytes",
+    "cpu_user_seconds": 9.20936,
+    "cpu_system_seconds": 0.40882599999999997,
+    "dataset": "BB30027",
+    "started_at": "2026-10-20T20:21:50.170299+00:00",
+    "finished_at": "2026-10-20T20:22:56.224469+00:00",
+    "source_sha256": "62cb48f363d9b8904aa64c0b437b241e272662dcde6b562571391e2c159cee42",
+    "initial_path": "results/experiments/BB30027.gap.s0.fa",
+    "initial_score": 3498,
+    "initial_hash": "36b7f3abd7e8010e3fe42fca6808f84df82040ad5080be1e22a2db2f5e87a1e4",
+    "passes": 1,
+    "row_dp": {
+      "score": 3719,
+      "seconds": 58.81206245801877,
+      "alignment": "row-final.fa",
+      "canonical_sha256": "d660dc6cb8a1739d62630575e103eac4e69d9b5c453db3d5ab824f2b9c5f5adb",
+      "trace": [
+        {
+          "sweep": 0,
+          "row": "1h1o_A",
+          "before": 3498,
+          "after": 3502,
+          "accepted": true,
+          "elapsed": 2.7505878750234842,
+          "step_seconds": 2.6850197500316426,
+          "cross_score": -2039,
+          "total_score": 3502,
+          "states": 164097,
+          "visited": 164097,
+          "max_cell_states": 17,
+          "artifact": "row-0000.fa",
+          "canonical_sha256": "d0c76a2f2feaf0d148ef5135bcd7f772e3c5a0300b01f00bf2a11e134f0c40d5",
+          "observed_at": "2026-10-20T20:21:52.921685+00:00"
+        },
+        {
+          "sweep": 0,
+          "row": "1b7v_A",
+          "before": 3502,
+          "after": 3503,
+          "accepted": true,
+          "elapsed": 4.1373831670498475,
+          "step_seconds": 1.3858935409225523,
+          "cross_score": -748,
+          "total_score": 3503,
+          "states": 89062,
+          "visited": 89062,
+          "max_cell_states": 17,
+          "artifact": "row-0001.fa",
+          "canonical_sha256": "1af81e36578271c0b428c60eac7d5e4e9e1f6f4f5e6b5d09acbe59a0ae22e15d",
+          "observed_at": "2026-10-20T20:21:54.308371+00:00"
+        },
+        {
+          "sweep": 0,
+          "row": "C553_DESDN",
+          "before": 3503,
+          "after": 3505,
+          "accepted": true,
+          "elapsed": 5.945842707995325,
+          "step_seconds": 1.8078097499674186,
+          "cross_score": -634,
+          "total_score": 3505,
+          "states": 101281,
+          "visited": 101281,
+          "max_cell_states": 17,
+          "artifact": "row-0002.fa",
+          "canonical_sha256": "0c1801431d799f8b467b900fe6c0dc6b6efd2030c05a50f7dc6fc1113ad2adfd",
+          "observed_at": "2026-10-20T20:21:56.116884+00:00"
+        },
+        {
+          "sweep": 0,
+          "row": "CYSD_CHLTE",
+          "before": 3505,
+          "after": 3531,
+          "accepted": true,
+          "elapsed": 8.463935208041221,
+          "step_seconds": 2.517434125067666,
+          "cross_score": -687,
+          "total_score": 3531,
+          "states": 138951,
+          "visited": 138951,
+          "max_cell_states": 17,
+          "artifact": "row-0003.fa",
+          "canonical_sha256": "28574f48be1c019dc5c8f4ec1c506f6a3bb4bd499ee7762c3041011f285f24a3",
+          "observed_at": "2026-10-20T20:21:58.635298+00:00"
+        },
+        {
+          "sweep": 0,
+          "row": "1cno_A",
+          "before": 3531,
+          "after": 3531,
+          "accepted": false,
+          "elapsed": 10.55610287503805,
+          "step_seconds": 2.091242416994646,
+          "cross_score": -381,
+          "total_score": 3531,
+          "states": 116427,
+          "visited": 116427,
+          "max_cell_states": 15
+        },
+        {
+          "sweep": 0,
+          "row": "C553_DESVM",
+          "before": 3531,
+          "after": 3533,
+          "accepted": true,
+          "elapsed": 13.854249875061214,
+          "step_seconds": 3.2981317079393193,
+          "cross_score": -392,
+          "total_score": 3533,
+          "states": 127231,
+          "visited": 127231,
+          "max_cell_states": 17,
+          "artifact": "row-0005.fa",
+          "canonical_sha256": "69ae94742c867a76748a0ac08355b295ef55e52e2d20c792936a3edd44282036",
+          "observed_at": "2026-10-20T20:22:04.029779+00:00"
+        },
+        {
+          "sweep": 0,
+          "row": "1dvh_",
+          "before": 3533,
+          "after": 3533,
+          "accepted": false,
+          "elapsed": 16.763252208009362,
+          "step_seconds": 2.9010930829681456,
+          "cross_score": -255,
+          "total_score": 3533,
+          "states": 109024,
+          "visited": 109024,
+          "max_cell_states": 17
+        },
+        {
+          "sweep": 0,
+          "row": "CYSD_CHLLT",
+          "before": 3533,
+          "after": 3598,
+          "accepted": true,
+          "elapsed": 19.810723916976713,
+          "step_seconds": 3.047459583962336,
+          "cross_score": -207,
+          "total_score": 3598,
+          "states": 120040,
+          "visited": 120040,
+          "max_cell_states": 17,
+          "artifact": "row-0007.fa",
+          "canonical_sha256": "9faef2c87a5ba26f48d977cf26a5247e1a2884d6c834fbdb26957d1520fd01ef",
+          "observed_at": "2026-10-20T20:22:09.985413+00:00"
+        },
+        {
+          "sweep": 0,
+          "row": "C550_PARPN",
+          "before": 3598,
+          "after": 3598,
+          "accepted": false,
+          "elapsed": 28.686710125068203,
+          "step_seconds": 8.871865167049691,
+          "cross_score": 406,
+          "total_score": 3598,
+          "states": 183284,
+          "visited": 183284,
+          "max_cell_states": 15
+        },
+        {
+          "sweep": 0,
+          "row": "155c_",
+          "before": 3598,
+          "after": 3598,
+          "accepted": false,
+          "elapsed": 33.60636070801411,
+          "step_seconds": 4.919637207989581,
+          "cross_score": 454,
+          "total_score": 3598,
+          "states": 182212,
+          "visited": 182212,
+          "max_cell_states": 15
+        },
+        {
+          "sweep": 0,
+          "row": "C554_PARSP",
+          "before": 3598,
+          "after": 3598,
+          "accepted": false,
+          "elapsed": 36.30954875005409,
+          "step_seconds": 2.7031800829572603,
+          "cross_score": 331,
+          "total_score": 3598,
+          "states": 114532,
+          "visited": 114532,
+          "max_cell_states": 17
+        },
+        {
+          "sweep": 0,
+          "row": "1fj0_A",
+          "before": 3598,
+          "after": 3598,
+          "accepted": false,
+          "elapsed": 39.02540270797908,
+          "step_seconds": 2.7158401670167223,
+          "cross_score": 769,
+          "total_score": 3598,
+          "states": 155167,
+          "visited": 155167,
+          "max_cell_states": 17
+        },
+        {
+          "sweep": 0,
+          "row": "CY2_RHOGL",
+          "before": 3598,
+          "after": 3611,
+          "accepted": true,
+          "elapsed": 42.28579750005156,
+          "step_seconds": 3.260385417030193,
+          "cross_score": 814,
+          "total_score": 3611,
+          "states": 145991,
+          "visited": 145991,
+          "max_cell_states": 17,
+          "artifact": "row-0012.fa",
+          "canonical_sha256": "abd2a4a9940ce4a587ddfe29bfe1836eb3525c3bf8771d88fcc7598ef486fe44",
+          "observed_at": "2026-10-20T20:22:32.457724+00:00"
+        },
+        {
+          "sweep": 0,
+          "row": "CY21_RHOCE",
+          "before": 3611,
+          "after": 3611,
+          "accepted": false,
+          "elapsed": 45.29230862506665,
+          "step_seconds": 3.005280707962811,
+          "cross_score": 898,
+          "total_score": 3611,
+          "states": 165481,
+          "visited": 165481,
+          "max_cell_states": 17
+        },
+        {
+          "sweep": 0,
+          "row": "CY22_RHOFU",
+          "before": 3611,
+          "after": 3719,
+          "accepted": true,
+          "elapsed": 47.267240624991246,
+          "step_seconds": 1.9749228750588372,
+          "cross_score": 994,
+          "total_score": 3719,
+          "states": 132241,
+          "visited": 132241,
+          "max_cell_states": 17,
+          "artifact": "row-0014.fa",
+          "canonical_sha256": "d660dc6cb8a1739d62630575e103eac4e69d9b5c453db3d5ab824f2b9c5f5adb",
+          "observed_at": "2026-10-20T20:22:37.439305+00:00"
+        },
+        {
+          "sweep": 0,
+          "row": "CY2_RHOVA",
+          "before": 3719,
+          "after": 3719,
+          "accepted": false,
+          "elapsed": 49.42382445803378,
+          "step_seconds": 2.155878874938935,
+          "cross_score": 1305,
+          "total_score": 3719,
+          "states": 143241,
+          "visited": 143241,
+          "max_cell_states": 17
+        },
+        {
+          "sweep": 0,
+          "row": "CYC_DEBHA",
+          "before": 3719,
+          "after": 3719,
+          "accepted": false,
+          "elapsed": 52.01663850003388,
+          "step_seconds": 2.59280545799993,
+          "cross_score": 1591,
+          "total_score": 3719,
+          "states": 150116,
+          "visited": 150116,
+          "max_cell_states": 17
+        },
+        {
+          "sweep": 0,
+          "row": "CYC_ASPNG",
+          "before": 3719,
+          "after": 3719,
+          "accepted": false,
+          "elapsed": 54.50294270797167,
+          "step_seconds": 2.486293875030242,
+          "cross_score": 1680,
+          "total_score": 3719,
+          "states": 152866,
+          "visited": 152866,
+          "max_cell_states": 17
+        },
+        {
+          "sweep": 0,
+          "row": "CYC_SCHPO",
+          "before": 3719,
+          "after": 3719,
+          "accepted": false,
+          "elapsed": 56.845149583066814,
+          "step_seconds": 2.342198250000365,
+          "cross_score": 1757,
+          "total_score": 3719,
+          "states": 148741,
+          "visited": 148741,
+          "max_cell_states": 17
+        },
+        {
+          "sweep": 0,
+          "row": "1akk_",
+          "before": 3719,
+          "after": 3719,
+          "accepted": false,
+          "elapsed": 58.81204962497577,
+          "step_seconds": 1.9668896669754758,
+          "cross_score": 1701,
+          "total_score": 3719,
+          "states": 143241,
+          "visited": 143241,
+          "max_cell_states": 17
+        }
+      ]
+    },
+    "control": {
+      "score": 3498,
+      "seconds": 7.226050916011445,
+      "budget_seconds": 5.0,
+      "alignment": "control-final.fa",
+      "canonical_sha256": "36b7f3abd7e8010e3fe42fca6808f84df82040ad5080be1e22a2db2f5e87a1e4",
+      "trace": [
+        {
+          "seed": 1000,
+          "before": 3498,
+          "after": 3498,
+          "accepted": false,
+          "elapsed": 1.4363013749243692,
+          "trace": [
+            {
+              "round": 0,
+              "operation": "block",
+              "before": 3498,
+              "proposal": 3403,
+              "accepted": false,
+              "proposal_hash": "c101eedc87c497239e2eb199091b10b07227e054b9a2d71e079641b4f79740dc"
+            },
+            {
+              "round": 0,
+              "operation": "subgroup",
+              "before": 3498,
+              "proposal": 2774,
+              "accepted": false,
+              "proposal_hash": "ca153dc67e665702c84428d313a13a9714ced1e010b4d145b095786791635f32"
+            },
+            {
+              "round": 0,
+              "operation": "gap",
+              "before": 3498,
+              "proposal": 3498,
+              "accepted": false,
+              "proposal_hash": "36b7f3abd7e8010e3fe42fca6808f84df82040ad5080be1e22a2db2f5e87a1e4"
+            },
+            {
+              "round": 0,
+              "operation": "profile",
+              "before": 3498,
+              "proposal": -622,
+              "accepted": false,
+              "proposal_hash": "15b3a256374af98bf6686bc3a1e03d3bb7ac661a81b7b2bd47ae8959c5692d53"
+            }
+          ]
+        },
+        {
+          "seed": 1001,
+          "before": 3498,
+          "after": 3498,
+          "accepted": false,
+          "elapsed": 2.9175312910228968,
+          "trace": [
+            {
+              "round": 0,
+              "operation": "block",
+              "before": 3498,
+              "proposal": 30,
+              "accepted": false,
+              "proposal_hash": "49187736119613a4380bb1f0d7267b44bf6c139ff79223f7ab8d920084cdb10b"
+            },
+            {
+              "round": 0,
+              "operation": "subgroup",
+              "before": 3498,
+              "proposal": 2813,
+              "accepted": false,
+              "proposal_hash": "c2acb012d6c9be0268b84d4573d81cb115b3a807bf87d3cb0ca23e585f8cf346"
+            },
+            {
+              "round": 0,
+              "operation": "gap",
+              "before": 3498,
+              "proposal": 3498,
+              "accepted": false,
+              "proposal_hash": "36b7f3abd7e8010e3fe42fca6808f84df82040ad5080be1e22a2db2f5e87a1e4"
+            },
+            {
+              "round": 0,
+              "operation": "profile",
+              "before": 3498,
+              "proposal": 3498,
+              "accepted": false,
+              "proposal_hash": "36b7f3abd7e8010e3fe42fca6808f84df82040ad5080be1e22a2db2f5e87a1e4"
+            }
+          ]
+        },
+        {
+          "seed": 1002,
+          "before": 3498,
+          "after": 3498,
+          "accepted": false,
+          "elapsed": 4.7433940829942,
+          "trace": [
+            {
+              "round": 0,
+              "operation": "block",
+              "before": 3498,
+              "proposal": 3393,
+              "accepted": false,
+              "proposal_hash": "6263547ada30526af71d8af341eb14c8c64863e7998f44dcef887e5559ae869b"
+            },
+            {
+              "round": 0,
+              "operation": "subgroup",
+              "before": 3498,
+              "proposal": 2880,
+              "accepted": false,
+              "proposal_hash": "9301d06c44497eb0508e35f4d260f2afdf0c7cb770365ed7aaeec1eccea0a381"
+            },
+            {
+              "round": 0,
+              "operation": "gap",
+              "before": 3498,
+              "proposal": 3498,
+              "accepted": false,
+              "proposal_hash": "36b7f3abd7e8010e3fe42fca6808f84df82040ad5080be1e22a2db2f5e87a1e4"
+            },
+            {
+              "round": 0,
+              "operation": "profile",
+              "before": 3498,
+              "proposal": 3498,
+              "accepted": false,
+              "proposal_hash": "36b7f3abd7e8010e3fe42fca6808f84df82040ad5080be1e22a2db2f5e87a1e4"
+            }
+          ]
+        },
+        {
+          "seed": 1003,
+          "before": 3498,
+          "after": 3498,
+          "accepted": false,
+          "elapsed": 7.219158665975556,
+          "trace": [
+            {
+              "round": 0,
+              "operation": "block",
+              "before": 3498,
+              "proposal": 3387,
+              "accepted": false,
+              "proposal_hash": "dcd19ee8064225f95adccfc5b940a2c124c154209a6f36843724913c1814341b"
+            },
+            {
+              "round": 0,
+              "operation": "subgroup",
+              "before": 3498,
+              "proposal": 2879,
+              "accepted": false,
+              "proposal_hash": "23517ce987ce813a4937099bab668fb0e490d16dc6395599f5488c165d6bd120"
+            },
+            {
+              "round": 0,
+              "operation": "gap",
+              "before": 3498,
+              "proposal": 3498,
+              "accepted": false,
+              "proposal_hash": "36b7f3abd7e8010e3fe42fca6808f84df82040ad5080be1e22a2db2f5e87a1e4"
+            },
+            {
+              "round": 0,
+              "operation": "profile",
+              "before": 3498,
+              "proposal": 3072,
+              "accepted": false,
+              "proposal_hash": "b412d4659aa12306c472f93dac746c750ec6b2559f9fbb2530780d9728663b65"
+            }
+          ]
+        }
+      ]
+    },
+    "caveat": "One process per arm, DP first then control; time budget rounded by complete control batches. Not a controlled speed benchmark."
+  }
+]

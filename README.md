@@ -22,6 +22,12 @@ The offline check takes seconds on the pilot host; replay takes a few minutes.
 See [reproduction instructions](docs/REPRODUCE.md) for external method builds,
 source hashes, per-case checks and candidate commands.
 
+**Contributor rehearsal:** a subsequent 30-minute trial developed an exact affine
+row optimizer. It improved SP on 11/12 full cases, but reference pair recall
+fell on eight. See the [featured-pilot assessment](research/contributor-30m/REPORT.md)
+and candidate artifacts before choosing new work. These are pending review;
+the initial table below remains the frozen original experiment.
+
 Initial result: combined refinement gains score on 3/8 families, with no core
 accuracy gain and one slight loss. Selecting the best score across all tested
 strategies improves 4/8 families, including one small reference-accuracy gain.

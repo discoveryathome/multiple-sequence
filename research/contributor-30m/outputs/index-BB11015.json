@@ -1,0 +1,221 @@
+[
+  {
+    "dataset": "BB11015",
+    "started_at": "2026-10-20T20:19:26.574767+00:00",
+    "finished_at": "2026-10-20T20:19:48.544449+00:00",
+    "source_sha256": "62cb48f363d9b8904aa64c0b437b241e272662dcde6b562571391e2c159cee42",
+    "initial_path": "results/experiments/BB11015.gap.s0.fa",
+    "initial_score": 70,
+    "initial_hash": "43b482f1d4f60e9d16d629412d5a78e24951a802402db599eaf7742ebfb31784",
+    "passes": 1,
+    "row_dp": {
+      "score": 149,
+      "seconds": 16.014767208020203,
+      "alignment": "row-final.fa",
+      "canonical_sha256": "3bd5bacf9629291c252146831d6dba5e0d452edebf63386eac9313bf93877ad5",
+      "trace": [
+        {
+          "sweep": 0,
+          "row": "1b8p_A",
+          "before": 70,
+          "after": 88,
+          "accepted": true,
+          "elapsed": 4.0843424999620765,
+          "step_seconds": 4.082270874991082,
+          "cross_score": -179,
+          "total_score": 88,
+          "states": 346618,
+          "visited": 346618,
+          "max_cell_states": 7,
+          "artifact": "row-0000.fa",
+          "canonical_sha256": "c67bd9c82cc66185170a81a92924ccd48e07c0372122264c9e0d75a677c20a19",
+          "observed_at": "2026-10-20T20:19:30.659931+00:00"
+        },
+        {
+          "sweep": 0,
+          "row": "1hyh_A",
+          "before": 88,
+          "after": 110,
+          "accepted": true,
+          "elapsed": 8.206253582960926,
+          "step_seconds": 4.120878292014822,
+          "cross_score": 18,
+          "total_score": 110,
+          "states": 338032,
+          "visited": 338032,
+          "max_cell_states": 7,
+          "artifact": "row-0001.fa",
+          "canonical_sha256": "a917ca788ef84b3c2c36f40ec4eb2838c75bad65915dbe73e69c190792e4c9e4",
+          "observed_at": "2026-10-20T20:19:34.781854+00:00"
+        },
+        {
+          "sweep": 0,
+          "row": "1emd_",
+          "before": 110,
+          "after": 136,
+          "accepted": true,
+          "elapsed": 11.938142500002868,
+          "step_seconds": 3.7311666250461712,
+          "cross_score": 197,
+          "total_score": 136,
+          "states": 344782,
+          "visited": 344782,
+          "max_cell_states": 7,
+          "artifact": "row-0002.fa",
+          "canonical_sha256": "c045bab0380ec12e1ff8bd7f264fd43d58172b7e8d0346583b903beb6e90e218",
+          "observed_at": "2026-10-20T20:19:38.513763+00:00"
+        },
+        {
+          "sweep": 0,
+          "row": "1ldg_",
+          "before": 136,
+          "after": 149,
+          "accepted": true,
+          "elapsed": 16.013885999913327,
+          "step_seconds": 4.074946457985789,
+          "cross_score": 195,
+          "total_score": 149,
+          "states": 342149,
+          "visited": 342149,
+          "max_cell_states": 7,
+          "artifact": "row-0003.fa",
+          "canonical_sha256": "3bd5bacf9629291c252146831d6dba5e0d452edebf63386eac9313bf93877ad5",
+          "observed_at": "2026-10-20T20:19:42.589821+00:00"
+        }
+      ]
+    },
+    "control": {
+      "score": 70,
+      "seconds": 5.955815374967642,
+      "budget_seconds": 5.0,
+      "alignment": "control-final.fa",
+      "canonical_sha256": "43b482f1d4f60e9d16d629412d5a78e24951a802402db599eaf7742ebfb31784",
+      "trace": [
+        {
+          "seed": 1000,
+          "before": 70,
+          "after": 70,
+          "accepted": false,
+          "elapsed": 1.7616240000352263,
+          "trace": [
+            {
+              "round": 0,
+              "operation": "block",
+              "before": 70,
+              "proposal": 6,
+              "accepted": false,
+              "proposal_hash": "caa4e60bcb3bd4a11efcbb0ee2db8cba437e5ce131f69c55b09499b801488a15"
+            },
+            {
+              "round": 0,
+              "operation": "subgroup",
+              "before": 70,
+              "proposal": 22,
+              "accepted": false,
+              "proposal_hash": "343e1ba5c3c7881a5d7efa0c5edd297b7101cbdbb084991555f3832edb642f3b"
+            },
+            {
+              "round": 0,
+              "operation": "gap",
+              "before": 70,
+              "proposal": 70,
+              "accepted": false,
+              "proposal_hash": "43b482f1d4f60e9d16d629412d5a78e24951a802402db599eaf7742ebfb31784"
+            },
+            {
+              "round": 0,
+              "operation": "profile",
+              "before": 70,
+              "proposal": -288,
+              "accepted": false,
+              "proposal_hash": "ddc6937d29eef1eb2f0fec395e29de37c7b052475ff497641bdf067d79c2d42f"
+            }
+          ]
+        },
+        {
+          "seed": 1001,
+          "before": 70,
+          "after": 70,
+          "accepted": false,
+          "elapsed": 3.6690301669295877,
+          "trace": [
+            {
+              "round": 0,
+              "operation": "block",
+              "before": 70,
+              "proposal": -84,
+              "accepted": false,
+              "proposal_hash": "0a008bb96dcf1f7fd0fca3e1be7c3c63d9b3d50000d1f592eda2e617f67ebe1e"
+            },
+            {
+              "round": 0,
+              "operation": "subgroup",
+              "before": 70,
+              "proposal": -26,
+              "accepted": false,
+              "proposal_hash": "9f1d461384b5c7b23186a73d65ee1c521e4de18610b16f74b8ddb740533edc33"
+            },
+            {
+              "round": 0,
+              "operation": "gap",
+              "before": 70,
+              "proposal": 70,
+              "accepted": false,
+              "proposal_hash": "43b482f1d4f60e9d16d629412d5a78e24951a802402db599eaf7742ebfb31784"
+            },
+            {
+              "round": 0,
+              "operation": "profile",
+              "before": 70,
+              "proposal": -46,
+              "accepted": false,
+              "proposal_hash": "9b0d373182704927b6b2c1766f6fe2664c789a796f7377bbb46dbd3632296376"
+            }
+          ]
+        },
+        {
+          "seed": 1002,
+          "before": 70,
+          "after": 70,
+          "accepted": false,
+          "elapsed": 5.9524357919581234,
+          "trace": [
+            {
+              "round": 0,
+              "operation": "block",
+              "before": 70,
+              "proposal": 21,
+              "accepted": false,
+              "proposal_hash": "e89da16d33b60ba2b0b3bc46d463b576ad980e5e1ac23860e08560625751b12b"
+            },
+            {
+              "round": 0,
+              "operation": "subgroup",
+              "before": 70,
+              "proposal": 22,
+              "accepted": false,
+              "proposal_hash": "343e1ba5c3c7881a5d7efa0c5edd297b7101cbdbb084991555f3832edb642f3b"
+            },
+            {
+              "round": 0,
+              "operation": "gap",
+              "before": 70,
+              "proposal": 70,
+              "accepted": false,
+              "proposal_hash": "43b482f1d4f60e9d16d629412d5a78e24951a802402db599eaf7742ebfb31784"
+            },
+            {
+              "round": 0,
+              "operation": "profile",
+              "before": 70,
+              "proposal": -46,
+              "accepted": false,
+              "proposal_hash": "9b0d373182704927b6b2c1766f6fe2664c789a796f7377bbb46dbd3632296376"
+            }
+          ]
+        }
+      ]
+    },
+    "caveat": "One process per arm, DP first then control; time budget rounded by complete control batches. Not a controlled speed benchmark."
+  }
+]

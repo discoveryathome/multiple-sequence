@@ -1,0 +1,27 @@
+test_budget_failure_explicit (__main__.RowDPTests.test_budget_failure_explicit) ... ok
+test_doublegap_affine_history (__main__.RowDPTests.test_doublegap_affine_history) ... ok
+test_exhaustive_fixed_profiles (__main__.RowDPTests.test_exhaustive_fixed_profiles) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.149s
+
+OK
+test_seeded_gapped_profiles (__main__.IndependentEnumeration.test_seeded_gapped_profiles) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.322s
+
+OK
+BB11001 4 SP 188 -> 218 gain 30 accuracy delta -0.035088 seconds 1.21
+BB11015 4 SP 70 -> 149 gain 79 accuracy delta -0.06734 seconds 16.01
+BB12021 6 SP 1053 -> 1053 gain 0 accuracy delta 0.0 seconds 2.42
+BB20029 29 SP 25865 -> 28470 gain 2605 accuracy delta -0.021658 seconds 210.03
+BB20030 47 SP 258628 -> 261151 gain 2523 accuracy delta -0.020872 seconds 105.18
+BB30027 20 SP 3498 -> 3719 gain 221 accuracy delta -0.010287 seconds 58.81
+BB40010 9 SP 1897 -> 1982 gain 85 accuracy delta -0.010929 seconds 20.45
+BB50013 18 SP 60185 -> 61063 gain 878 accuracy delta -0.000463 seconds 125.57
+BB11029 4 SP -279 -> -237 gain 42 accuracy delta 0.199346 seconds 4.29
+BB12040 5 SP 802 -> 826 gain 24 accuracy delta -0.022917 seconds 6.1
+BB30017 15 SP -5638 -> -4131 gain 1507 accuracy delta 0.004535 seconds 140.6
+BB50007 23 SP -26440 -> -20416 gain 6024 accuracy delta 0.031872 seconds 387.98
+{"status": "PASS", "alignment_checks": 170, "exact_row_replays": 12, "coverage": "Exact values and preserved residues; biological metrics separately recomputed. Coordinate optimality requires full last-sweep replay."}

@@ -15,13 +15,20 @@ improvements on independent, adequately sized benchmarks, not just metric gains.
 ## Current evidence and frontier
 
 `discover/frontier.json` and its `discover/records.json` table are authoritative
-for the LOCAL pilot. They contain the best saved score found on each of eight
+for the initial LOCAL pilot experiment. They contain its best saved score on each of eight
 BAliBASE instances, not globally optimal scores and not world records.
 `results/evaluation.json` preserves all baseline, seed, ablation and extended
 results; `docs/ASSESSMENT.md` interprets them. Strong comparator outputs are
 MAFFT 7.525 L-INS-i, MAFFT 7.525 G-INS-i, and FAMSA2 2.5.2. No untested
 MUSCLE5 output or published accuracy number is represented as reproduced.
 See `docs/LITERATURE.md` for the external frontier and limitations.
+
+A subsequent contributor rehearsal is retained in
+`research/contributor-30m/REPORT.md` and `candidate-records.json`. Those higher
+score candidates are pending maintainer review, so they have not silently
+replaced the frozen initial table. Read them before working: several families
+are already saturated under exact single-row refinement. A new contribution
+should compare against the relevant candidate as well as the original record.
 
 ## Bottleneck
 

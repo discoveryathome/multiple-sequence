@@ -1,0 +1,119 @@
+[
+  {
+    "dataset": "BB11001",
+    "value": 230,
+    "object": "research/contributor-30m/convergence/BB11001/final.fa",
+    "canonical_sha256": "1d55a7b0d3776a66979f6e27bad815ed15a284e1870ff3383e34879c0c6527b4",
+    "kind": "verified single-row coordinate optimum",
+    "status": "candidate; pending maintainer review",
+    "source": "research/contributor-30m/REPORT.md"
+  },
+  {
+    "dataset": "BB11015",
+    "value": 149,
+    "object": "research/contributor-30m/outputs/BB11015/row-final.fa",
+    "canonical_sha256": "3bd5bacf9629291c252146831d6dba5e0d452edebf63386eac9313bf93877ad5",
+    "kind": "row sweeps",
+    "status": "candidate; pending maintainer review",
+    "source": "research/contributor-30m/REPORT.md"
+  },
+  {
+    "dataset": "BB12021",
+    "value": 1053,
+    "object": "research/contributor-30m/outputs/BB12021/row-final.fa",
+    "canonical_sha256": "cd6928fdbc0ace2e6b87f1245e917f5279b9827e568c15a4d8cd9eb4a6d01141",
+    "kind": "row sweeps",
+    "status": "candidate; pending maintainer review",
+    "source": "research/contributor-30m/REPORT.md"
+  },
+  {
+    "dataset": "BB20029",
+    "value": 28715,
+    "object": "research/contributor-30m/convergence/BB20029/final.fa",
+    "canonical_sha256": "36cd78aacba664145c81d8c289ffbb026530395244adf961fcb5f02d69a91f77",
+    "kind": "verified single-row coordinate optimum",
+    "status": "candidate; pending maintainer review",
+    "source": "research/contributor-30m/REPORT.md"
+  },
+  {
+    "dataset": "BB20030",
+    "value": 261151,
+    "object": "research/contributor-30m/outputs/BB20030/row-final.fa",
+    "canonical_sha256": "bbdaac867c7ea9eb8ae521d5e2e316f3f55c53ce3a3273ef183e94488bc75c43",
+    "kind": "row sweeps",
+    "status": "candidate; pending maintainer review",
+    "source": "research/contributor-30m/REPORT.md"
+  },
+  {
+    "dataset": "BB30027",
+    "value": 3719,
+    "object": "research/contributor-30m/outputs/BB30027/row-final.fa",
+    "canonical_sha256": "d660dc6cb8a1739d62630575e103eac4e69d9b5c453db3d5ab824f2b9c5f5adb",
+    "kind": "row sweeps",
+    "status": "candidate; pending maintainer review",
+    "source": "research/contributor-30m/REPORT.md"
+  },
+  {
+    "dataset": "BB40010",
+    "value": 1982,
+    "object": "research/contributor-30m/outputs/BB40010/row-final.fa",
+    "canonical_sha256": "7857aa1981062adabe3e7d6170814edcc9b6937ffa4f6c1443851037fe886b22",
+    "kind": "row sweeps",
+    "status": "candidate; pending maintainer review",
+    "source": "research/contributor-30m/REPORT.md"
+  },
+  {
+    "dataset": "BB50013",
+    "value": 61063,
+    "object": "research/contributor-30m/outputs/BB50013/row-final.fa",
+    "canonical_sha256": "0e2b5bbc88f8d6a63f2eb8e4332c726dfcaa5d4d0a982cd8df1ba75908fd2ff3",
+    "kind": "row sweeps",
+    "status": "candidate; pending maintainer review",
+    "source": "research/contributor-30m/REPORT.md"
+  },
+  {
+    "dataset": "BB11029",
+    "value": -203,
+    "object": "research/contributor-30m/convergence/BB11029/final.fa",
+    "canonical_sha256": "50f6bb4947d7d0ab35892bdf57ab7889ffbc9f1715316c29d1a8366ce9a8ca5a",
+    "kind": "verified single-row coordinate optimum",
+    "status": "candidate; pending maintainer review",
+    "source": "research/contributor-30m/REPORT.md"
+  },
+  {
+    "dataset": "BB12040",
+    "value": 826,
+    "object": "research/contributor-30m/additional/BB12040/row-final.fa",
+    "canonical_sha256": "68341d91caf9a40b491ef506fe469d7210a59d430a6eace3bc71dac6b16414e6",
+    "kind": "one row sweep",
+    "status": "candidate; pending maintainer review",
+    "source": "research/contributor-30m/REPORT.md"
+  },
+  {
+    "dataset": "BB20036",
+    "value": 336396,
+    "object": "research/contributor-30m/additional/BB20036/row-final.fa",
+    "canonical_sha256": "3f5842b1b8f779636f13e5cefdff80a2e8df5d431e05f2f7eb93d45a495fbc12",
+    "kind": "three-row scaling attempt",
+    "status": "candidate; pending maintainer review",
+    "source": "research/contributor-30m/REPORT.md"
+  },
+  {
+    "dataset": "BB30017",
+    "value": -4131,
+    "object": "research/contributor-30m/additional/BB30017/row-final.fa",
+    "canonical_sha256": "2ba1e74110c88d1ba963872ce3a2d573a5a34cb75836196abf71d05c43635bb2",
+    "kind": "one row sweep",
+    "status": "candidate; pending maintainer review",
+    "source": "research/contributor-30m/REPORT.md"
+  },
+  {
+    "dataset": "BB50007",
+    "value": -20416,
+    "object": "research/contributor-30m/additional/BB50007/row-final.fa",
+    "canonical_sha256": "916bf9a8dd8ebd63450e59ebc98b1a1b02802307c7568993b7761ad818011ba1",
+    "kind": "one row sweep",
+    "status": "candidate; pending maintainer review",
+    "source": "research/contributor-30m/REPORT.md"
+  }
+]

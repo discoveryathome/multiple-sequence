@@ -1,0 +1,14 @@
+BB11001 DP 95.614 best baseline 100.0 delta pp -4.386
+BB11015 DP 81.65 best baseline 87.879 delta pp -6.229
+BB12021 DP 100.0 best baseline 100.0 delta pp 0.0
+BB20029 DP 84.253 best baseline 86.419 delta pp -2.166
+BB20030 DP 88.168 best baseline 94.025 delta pp -5.857
+BB30027 DP 88.278 best baseline 89.761 delta pp -1.483
+BB40010 DP 84.608 best baseline 87.796 delta pp -3.188
+BB50013 DP 94.818 best baseline 94.864 delta pp -0.046
+BB11029 DP 60.131 best baseline 48.693 delta pp 11.438
+BB12040 DP 95.625 best baseline 97.917 delta pp -2.292
+BB20036 DP 96.596 best baseline 97.441 delta pp -0.845
+BB30017 DP 78.812 best baseline 78.993 delta pp -0.181
+BB50007 DP 82.991 best baseline 80.708 delta pp 2.284
+{'full_cases': 12, 'score_improved': 11, 'accuracy_improved': 3, 'accuracy_worse': 8, 'accuracy_equal': 1, 'pearson_per_pair_gain_vs_recall_delta': 0.10957336511277024, 'spearman': 0.2097902097902098, 'mean_recall_delta': 0.003849968400468954, 'median_recall_delta': -0.010608021544173396, 'note': 'Descriptive selected small sample; no significance or generalization claim. Excludes three-row scaling probe.'}

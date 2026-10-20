@@ -5,6 +5,11 @@ Read `DISCOVERY.md`, then `discover/frontier.json`, `docs/MODEL.md`, and
 This is LOCAL mode. No GitHub repository, remote messages, hub application,
 listing consent or permission to publish is implied.
 
+Read `research/contributor-30m/REPORT.md` and its `candidate-records.json` before
+refinement. Existing cards identify independent family scopes; their initial
+records are historical controls, not the latest unreviewed candidate targets.
+Do not claim discovery for reproducing the already saved row-DP gains.
+
 Use `python3 scripts/pick.py --seed SEED` (32 hexadecimal digits); omit `--seed`
 for OS randomness. Read `discover/claims.json` and handoffs before starting.
 Take one case/operation/seed scope, record it, and write results under a new

@@ -1,0 +1,25 @@
+{
+  "started_at": "2026-10-20T20:14:51.796799+00:00",
+  "ends_not_before": "2026-10-20T20:44:51.796799+00:00",
+  "duration_minutes": 30,
+  "seed": "589bdc016c5273ab83ad9e82c6229c86",
+  "base": "85b8c509647df7fa7b538559dd23b4b0d7fb1a49",
+  "scope": "Fresh-checkout contributor rehearsal; same initiating agent, not a blinded independent person. Improve existing records by algorithmic reasoning, measure score and biological accuracy separately.",
+  "allowed": "local changes and bounded CPU; no publishing",
+  "selected_card": "refine-bb20029",
+  "algorithm_started_at": "2026-10-20T20:16:42.539790+00:00",
+  "first_saved_improvement": {
+    "dataset": "BB20029",
+    "before": 25865,
+    "after": 26243,
+    "observed_at": "2026-10-20T20:17:30.454168+00:00",
+    "elapsed_seconds": 158.657369
+  },
+  "environment": {
+    "machine": "Apple M2 (Mac14,2)",
+    "ram_gib": 24,
+    "python": "3.14.6",
+    "gpu_used": false,
+    "shared_host": true
+  }
+}

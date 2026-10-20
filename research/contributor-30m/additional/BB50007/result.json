@@ -1,0 +1,717 @@
+{
+  "dataset": "BB50007",
+  "role": "unseen-medium",
+  "baselines": [
+    {
+      "method": "mafft-linsi",
+      "score": -30392,
+      "hash": "c9c95790317b3b05b232235fbf7586519cbc067b7965a3022d5721b1f49392c5",
+      "repeat_hashes": [
+        "c9c95790317b3b05b232235fbf7586519cbc067b7965a3022d5721b1f49392c5",
+        "c9c95790317b3b05b232235fbf7586519cbc067b7965a3022d5721b1f49392c5"
+      ],
+      "seconds": [
+        10.545026832958683,
+        8.477383833029307
+      ],
+      "argv": [
+        "/Users/colkitt/discover-work/incubatedPilots/multiple-sequence/setup/local/bin/mafft",
+        "--thread",
+        "1",
+        "--amino",
+        "--localpair",
+        "--maxiterate",
+        "1000",
+        "--inputorder",
+        "/Users/colkitt/discover-work/incubatedPilots/multiple-sequence/contributor-trial/repo/research/contributor-30m/additional/BB50007/input.fa"
+      ]
+    },
+    {
+      "method": "mafft-ginsi",
+      "score": -26440,
+      "hash": "2ee349663e2213f29918d28790488c2e6ddcd9eefd0c37b7da8f63da9fd90c1c",
+      "repeat_hashes": [
+        "2ee349663e2213f29918d28790488c2e6ddcd9eefd0c37b7da8f63da9fd90c1c",
+        "2ee349663e2213f29918d28790488c2e6ddcd9eefd0c37b7da8f63da9fd90c1c"
+      ],
+      "seconds": [
+        9.987015207996592,
+        12.317720708088018
+      ],
+      "argv": [
+        "/Users/colkitt/discover-work/incubatedPilots/multiple-sequence/setup/local/bin/mafft",
+        "--thread",
+        "1",
+        "--amino",
+        "--globalpair",
+        "--maxiterate",
+        "1000",
+        "--inputorder",
+        "/Users/colkitt/discover-work/incubatedPilots/multiple-sequence/contributor-trial/repo/research/contributor-30m/additional/BB50007/input.fa"
+      ]
+    },
+    {
+      "method": "famsa2",
+      "score": -38153,
+      "hash": "2fed2d2a988219fcf8a8f6dd4f40316f340c8b4f111c985c0c8d42bd658ebb71",
+      "repeat_hashes": [
+        "2fed2d2a988219fcf8a8f6dd4f40316f340c8b4f111c985c0c8d42bd658ebb71",
+        "2fed2d2a988219fcf8a8f6dd4f40316f340c8b4f111c985c0c8d42bd658ebb71"
+      ],
+      "seconds": [
+        1.3792744579259306,
+        1.184485667035915
+      ],
+      "argv": [
+        "/Users/colkitt/discover-work/incubatedPilots/multiple-sequence/setup/famsa/famsa",
+        "-t",
+        "1",
+        "/Users/colkitt/discover-work/incubatedPilots/multiple-sequence/contributor-trial/repo/research/contributor-30m/additional/BB50007/input.fa",
+        "/Users/colkitt/discover-work/incubatedPilots/multiple-sequence/contributor-trial/repo/research/contributor-30m/additional/BB50007/famsa2.repeat.fa"
+      ]
+    }
+  ],
+  "legacy": [
+    {
+      "seed": 0,
+      "score": -26440,
+      "trace": [
+        {
+          "round": 0,
+          "operation": "block",
+          "before": -26440,
+          "proposal": -29245,
+          "accepted": false,
+          "proposal_hash": "6d4071a64e9b860134280ecc181d7bb0f559041e7173ed23d8bc79489baba315"
+        },
+        {
+          "round": 0,
+          "operation": "subgroup",
+          "before": -26440,
+          "proposal": -26489,
+          "accepted": false,
+          "proposal_hash": "28542ecdd1d8f49527bdd0db457fc2f8baef1d3de191c64ef578a37106252212"
+        },
+        {
+          "round": 0,
+          "operation": "gap",
+          "before": -26440,
+          "proposal": -26440,
+          "accepted": false,
+          "proposal_hash": "2ee349663e2213f29918d28790488c2e6ddcd9eefd0c37b7da8f63da9fd90c1c"
+        },
+        {
+          "round": 0,
+          "operation": "profile",
+          "before": -26440,
+          "proposal": -26776,
+          "accepted": false,
+          "proposal_hash": "6fa5da644b6dca8b9c95d78d0dead8e8d31eb5f0d100482fa3838e92015404b9"
+        },
+        {
+          "round": 1,
+          "operation": "block",
+          "before": -26440,
+          "proposal": -28580,
+          "accepted": false,
+          "proposal_hash": "6477ad35edaae16f0f4aed950b81b117fd9468014e58e7a8f9fc88f58904cac4"
+        },
+        {
+          "round": 1,
+          "operation": "subgroup",
+          "before": -26440,
+          "proposal": -26538,
+          "accepted": false,
+          "proposal_hash": "57e55e2653181f8c8d65da550836fdec9da1b9ae9c7044821ab11280ede28175"
+        },
+        {
+          "round": 1,
+          "operation": "gap",
+          "before": -26440,
+          "proposal": -26440,
+          "accepted": false,
+          "proposal_hash": "2ee349663e2213f29918d28790488c2e6ddcd9eefd0c37b7da8f63da9fd90c1c"
+        },
+        {
+          "round": 1,
+          "operation": "profile",
+          "before": -26440,
+          "proposal": -27197,
+          "accepted": false,
+          "proposal_hash": "eda469b7309a239489c83a4ad874e76d41c49637cdf08c70d1725da0a85d36aa"
+        },
+        {
+          "round": 2,
+          "operation": "block",
+          "before": -26440,
+          "proposal": -35214,
+          "accepted": false,
+          "proposal_hash": "4ddf78c40e1544d7050d5fcdeef9612ee231c9f096c084cd4dfaa37df642d689"
+        },
+        {
+          "round": 2,
+          "operation": "subgroup",
+          "before": -26440,
+          "proposal": -27830,
+          "accepted": false,
+          "proposal_hash": "4cfd71d66a63d63edc16a647c2e2423715919e80105866acb63a88aa9250a408"
+        },
+        {
+          "round": 2,
+          "operation": "gap",
+          "before": -26440,
+          "proposal": -26440,
+          "accepted": false,
+          "proposal_hash": "2ee349663e2213f29918d28790488c2e6ddcd9eefd0c37b7da8f63da9fd90c1c"
+        },
+        {
+          "round": 2,
+          "operation": "profile",
+          "before": -26440,
+          "proposal": -29377,
+          "accepted": false,
+          "proposal_hash": "02ce07af832211c87bc5301118e7fa45beec68acd999a11ee89183154362cde3"
+        }
+      ],
+      "hash": "2ee349663e2213f29918d28790488c2e6ddcd9eefd0c37b7da8f63da9fd90c1c"
+    },
+    {
+      "seed": 1,
+      "score": -26440,
+      "trace": [
+        {
+          "round": 0,
+          "operation": "block",
+          "before": -26440,
+          "proposal": -27943,
+          "accepted": false,
+          "proposal_hash": "4b7e1708d7c77de135c7dde840bc7944e3ed6df30aa2d830d68c61fe206af6ff"
+        },
+        {
+          "round": 0,
+          "operation": "subgroup",
+          "before": -26440,
+          "proposal": -26918,
+          "accepted": false,
+          "proposal_hash": "ef9dcb0fed83575fafa0e175733f2af54579dcd45d4499159623408c1fd5c6c0"
+        },
+        {
+          "round": 0,
+          "operation": "gap",
+          "before": -26440,
+          "proposal": -26440,
+          "accepted": false,
+          "proposal_hash": "2ee349663e2213f29918d28790488c2e6ddcd9eefd0c37b7da8f63da9fd90c1c"
+        },
+        {
+          "round": 0,
+          "operation": "profile",
+          "before": -26440,
+          "proposal": -27920,
+          "accepted": false,
+          "proposal_hash": "4484842380c0c6141692e41a251fb497773a2f3ad1058e77a3d899bebb986385"
+        },
+        {
+          "round": 1,
+          "operation": "block",
+          "before": -26440,
+          "proposal": -37810,
+          "accepted": false,
+          "proposal_hash": "56d03b16542c6f3bf160c1357c37712eabb3be10f9d5fa4aa177a2907e0cbc6f"
+        },
+        {
+          "round": 1,
+          "operation": "subgroup",
+          "before": -26440,
+          "proposal": -27830,
+          "accepted": false,
+          "proposal_hash": "4cfd71d66a63d63edc16a647c2e2423715919e80105866acb63a88aa9250a408"
+        },
+        {
+          "round": 1,
+          "operation": "gap",
+          "before": -26440,
+          "proposal": -26440,
+          "accepted": false,
+          "proposal_hash": "2ee349663e2213f29918d28790488c2e6ddcd9eefd0c37b7da8f63da9fd90c1c"
+        },
+        {
+          "round": 1,
+          "operation": "profile",
+          "before": -26440,
+          "proposal": -27920,
+          "accepted": false,
+          "proposal_hash": "4484842380c0c6141692e41a251fb497773a2f3ad1058e77a3d899bebb986385"
+        },
+        {
+          "round": 2,
+          "operation": "block",
+          "before": -26440,
+          "proposal": -32198,
+          "accepted": false,
+          "proposal_hash": "f939492361f435ad88d46a9d7ac9ec4c7b68c123e5a4b83b32d2f19642d637cd"
+        },
+        {
+          "round": 2,
+          "operation": "subgroup",
+          "before": -26440,
+          "proposal": -28154,
+          "accepted": false,
+          "proposal_hash": "aa711f8119f4e16f71cf91c30ed7794b43251c79ee9ae476833fc4c463cb1ed4"
+        },
+        {
+          "round": 2,
+          "operation": "gap",
+          "before": -26440,
+          "proposal": -26440,
+          "accepted": false,
+          "proposal_hash": "2ee349663e2213f29918d28790488c2e6ddcd9eefd0c37b7da8f63da9fd90c1c"
+        },
+        {
+          "round": 2,
+          "operation": "profile",
+          "before": -26440,
+          "proposal": -26992,
+          "accepted": false,
+          "proposal_hash": "8f294b9185092164abf6d95924137dfc76bd6580d2e2e155c1e19309aa84ecd4"
+        }
+      ],
+      "hash": "2ee349663e2213f29918d28790488c2e6ddcd9eefd0c37b7da8f63da9fd90c1c"
+    },
+    {
+      "seed": 2,
+      "score": -26440,
+      "trace": [
+        {
+          "round": 0,
+          "operation": "block",
+          "before": -26440,
+          "proposal": -34865,
+          "accepted": false,
+          "proposal_hash": "df9da17da788bafc5bafd3adfa4d04b6f1a9aaf823a14d216fe9aae65b0dc632"
+        },
+        {
+          "round": 0,
+          "operation": "subgroup",
+          "before": -26440,
+          "proposal": -26551,
+          "accepted": false,
+          "proposal_hash": "1d56095d0b9bf4ac53bab372ab1370aec1d17fde8adab36f3ffd564521e533b4"
+        },
+        {
+          "round": 0,
+          "operation": "gap",
+          "before": -26440,
+          "proposal": -26440,
+          "accepted": false,
+          "proposal_hash": "2ee349663e2213f29918d28790488c2e6ddcd9eefd0c37b7da8f63da9fd90c1c"
+        },
+        {
+          "round": 0,
+          "operation": "profile",
+          "before": -26440,
+          "proposal": -27111,
+          "accepted": false,
+          "proposal_hash": "fd8219a0f2f44f5d4ee295604393c8e0b0773c52872796df9b746b406775c878"
+        },
+        {
+          "round": 1,
+          "operation": "block",
+          "before": -26440,
+          "proposal": -34351,
+          "accepted": false,
+          "proposal_hash": "9e33c7e0029dc83ad6b1c070778d37b689b7bb1ba051fba1b8132c493207509a"
+        },
+        {
+          "round": 1,
+          "operation": "subgroup",
+          "before": -26440,
+          "proposal": -26918,
+          "accepted": false,
+          "proposal_hash": "ef9dcb0fed83575fafa0e175733f2af54579dcd45d4499159623408c1fd5c6c0"
+        },
+        {
+          "round": 1,
+          "operation": "gap",
+          "before": -26440,
+          "proposal": -26440,
+          "accepted": false,
+          "proposal_hash": "2ee349663e2213f29918d28790488c2e6ddcd9eefd0c37b7da8f63da9fd90c1c"
+        },
+        {
+          "round": 1,
+          "operation": "profile",
+          "before": -26440,
+          "proposal": -29377,
+          "accepted": false,
+          "proposal_hash": "02ce07af832211c87bc5301118e7fa45beec68acd999a11ee89183154362cde3"
+        },
+        {
+          "round": 2,
+          "operation": "block",
+          "before": -26440,
+          "proposal": -36107,
+          "accepted": false,
+          "proposal_hash": "1c9f128e6d361a07a25041ef518bb3ba182dec3b6f04e881cb5bd29f0a599422"
+        },
+        {
+          "round": 2,
+          "operation": "subgroup",
+          "before": -26440,
+          "proposal": -26573,
+          "accepted": false,
+          "proposal_hash": "b87bc2ecc511225407415e7a75f52eb222e7371a4398f5245b311cc64f1f2271"
+        },
+        {
+          "round": 2,
+          "operation": "gap",
+          "before": -26440,
+          "proposal": -26440,
+          "accepted": false,
+          "proposal_hash": "2ee349663e2213f29918d28790488c2e6ddcd9eefd0c37b7da8f63da9fd90c1c"
+        },
+        {
+          "round": 2,
+          "operation": "profile",
+          "before": -26440,
+          "proposal": -27920,
+          "accepted": false,
+          "proposal_hash": "4484842380c0c6141692e41a251fb497773a2f3ad1058e77a3d899bebb986385"
+        }
+      ],
+      "hash": "2ee349663e2213f29918d28790488c2e6ddcd9eefd0c37b7da8f63da9fd90c1c"
+    }
+  ],
+  "starting_seed": 0,
+  "start_score": -26440,
+  "final_score": -20416,
+  "trace": [
+    {
+      "row": "EXC4_CAEEL",
+      "before": -26440,
+      "after": -25744,
+      "seconds": 25.34379470802378,
+      "elapsed": 25.530706083984114,
+      "cross_score": -4857,
+      "total_score": -25744,
+      "states": 1040992,
+      "visited": 1040992,
+      "max_cell_states": 31,
+      "accepted": true,
+      "artifact": "row-0000.fa"
+    },
+    {
+      "row": "YNCG_ECOLI",
+      "before": -25744,
+      "after": -25329,
+      "seconds": 18.522919249953702,
+      "elapsed": 44.05486658401787,
+      "cross_score": -2776,
+      "total_score": -25329,
+      "states": 834242,
+      "visited": 834242,
+      "max_cell_states": 31,
+      "accepted": true,
+      "artifact": "row-0001.fa"
+    },
+    {
+      "row": "IN21_MAIZE",
+      "before": -25329,
+      "after": -24755,
+      "seconds": 19.422492624958977,
+      "elapsed": 63.47821954195388,
+      "cross_score": -3281,
+      "total_score": -24755,
+      "states": 966914,
+      "visited": 966914,
+      "max_cell_states": 31,
+      "accepted": true,
+      "artifact": "row-0002.fa"
+    },
+    {
+      "row": "1k0m_A",
+      "before": -24755,
+      "after": -24131,
+      "seconds": 26.2165724580409,
+      "elapsed": 89.70593312499113,
+      "cross_score": -3029,
+      "total_score": -24131,
+      "states": 903116,
+      "visited": 903116,
+      "max_cell_states": 31,
+      "accepted": true,
+      "artifact": "row-0003.fa"
+    },
+    {
+      "row": "SC18_OMMSL",
+      "before": -24131,
+      "after": -23863,
+      "seconds": 20.310146540985443,
+      "elapsed": 110.01794116699602,
+      "cross_score": -3735,
+      "total_score": -23863,
+      "states": 983558,
+      "visited": 983558,
+      "max_cell_states": 31,
+      "accepted": true,
+      "artifact": "row-0004.fa"
+    },
+    {
+      "row": "GTH3_SCHPO",
+      "before": -23863,
+      "after": -23696,
+      "seconds": 20.70682933309581,
+      "elapsed": 130.72558458393905,
+      "cross_score": -2519,
+      "total_score": -23696,
+      "states": 1075466,
+      "visited": 1075466,
+      "max_cell_states": 31,
+      "accepted": true,
+      "artifact": "row-0005.fa"
+    },
+    {
+      "row": "1b4p_A",
+      "before": -23696,
+      "after": -23333,
+      "seconds": 21.834404457942583,
+      "elapsed": 152.5608322500484,
+      "cross_score": -1966,
+      "total_score": -23333,
+      "states": 958352,
+      "visited": 958352,
+      "max_cell_states": 29,
+      "accepted": true,
+      "artifact": "row-0006.fa"
+    },
+    {
+      "row": "YGHU_ECOLI",
+      "before": -23333,
+      "after": -23149,
+      "seconds": 39.662908916012384,
+      "elapsed": 192.24251291702967,
+      "cross_score": -2941,
+      "total_score": -23149,
+      "states": 1277777,
+      "visited": 1277777,
+      "max_cell_states": 29,
+      "accepted": true,
+      "artifact": "row-0007.fa"
+    },
+    {
+      "row": "1gwc_A",
+      "before": -23149,
+      "after": -22661,
+      "seconds": 17.33533279201947,
+      "elapsed": 209.59996129199862,
+      "cross_score": -1964,
+      "total_score": -22661,
+      "states": 1003410,
+      "visited": 1003410,
+      "max_cell_states": 27,
+      "accepted": true,
+      "artifact": "row-0008.fa"
+    },
+    {
+      "row": "1m0u_A",
+      "before": -22661,
+      "after": -22594,
+      "seconds": 14.925327291944996,
+      "elapsed": 224.5260941250017,
+      "cross_score": -1960,
+      "total_score": -22594,
+      "states": 938170,
+      "visited": 938170,
+      "max_cell_states": 29,
+      "accepted": true,
+      "artifact": "row-0009.fa"
+    },
+    {
+      "row": "1eem_A",
+      "before": -22594,
+      "after": -22179,
+      "seconds": 16.42401720804628,
+      "elapsed": 240.9509496249957,
+      "cross_score": -1876,
+      "total_score": -22179,
+      "states": 1083366,
+      "visited": 1083366,
+      "max_cell_states": 27,
+      "accepted": true,
+      "artifact": "row-0010.fa"
+    },
+    {
+      "row": "10gs_A",
+      "before": -22179,
+      "after": -21680,
+      "seconds": 13.13184333301615,
+      "elapsed": 254.08401879202574,
+      "cross_score": -1365,
+      "total_score": -21680,
+      "states": 953777,
+      "visited": 953777,
+      "max_cell_states": 27,
+      "accepted": true,
+      "artifact": "row-0011.fa"
+    },
+    {
+      "row": "1ags_A",
+      "before": -21680,
+      "after": -21235,
+      "seconds": 16.211890749982558,
+      "elapsed": 270.2966360000428,
+      "cross_score": -1460,
+      "total_score": -21235,
+      "states": 1025508,
+      "visited": 1025508,
+      "max_cell_states": 27,
+      "accepted": true,
+      "artifact": "row-0012.fa"
+    },
+    {
+      "row": "GTT2_MOUSE",
+      "before": -21235,
+      "after": -20995,
+      "seconds": 14.775060791987926,
+      "elapsed": 285.0726912920363,
+      "cross_score": -1612,
+      "total_score": -20995,
+      "states": 1141886,
+      "visited": 1141886,
+      "max_cell_states": 27,
+      "accepted": true,
+      "artifact": "row-0013.fa"
+    },
+    {
+      "row": "1g6w_A",
+      "before": -20995,
+      "after": -20837,
+      "seconds": 13.89720549993217,
+      "elapsed": 298.9804244999541,
+      "cross_score": -1438,
+      "total_score": -20837,
+      "states": 1048822,
+      "visited": 1048822,
+      "max_cell_states": 25,
+      "accepted": true,
+      "artifact": "row-0014.fa"
+    },
+    {
+      "row": "GTA_PLEPL",
+      "before": -20837,
+      "after": -20794,
+      "seconds": 11.90173041599337,
+      "elapsed": 310.88319712504745,
+      "cross_score": -1264,
+      "total_score": -20794,
+      "states": 1006928,
+      "visited": 1006928,
+      "max_cell_states": 27,
+      "accepted": true,
+      "artifact": "row-0015.fa"
+    },
+    {
+      "row": "GT28_SCHJA",
+      "before": -20794,
+      "after": -20756,
+      "seconds": 11.904843958909623,
+      "elapsed": 322.7887255840469,
+      "cross_score": -946,
+      "total_score": -20756,
+      "states": 939452,
+      "visited": 939452,
+      "max_cell_states": 27,
+      "accepted": true,
+      "artifact": "row-0016.fa"
+    },
+    {
+      "row": "1oe7_A",
+      "before": -20756,
+      "after": -20750,
+      "seconds": 12.138702125055715,
+      "elapsed": 334.92825495894067,
+      "cross_score": -924,
+      "total_score": -20750,
+      "states": 910344,
+      "visited": 910344,
+      "max_cell_states": 25,
+      "accepted": true,
+      "artifact": "row-0017.fa"
+    },
+    {
+      "row": "YFCG_ECOLI",
+      "before": -20750,
+      "after": -20633,
+      "seconds": 12.428019042010419,
+      "elapsed": 347.3598479999928,
+      "cross_score": -1006,
+      "total_score": -20633,
+      "states": 977246,
+      "visited": 977246,
+      "max_cell_states": 27,
+      "accepted": true,
+      "artifact": "row-0018.fa"
+    },
+    {
+      "row": "1jlv_A",
+      "before": -20633,
+      "after": -20487,
+      "seconds": 9.074968707980588,
+      "elapsed": 356.43584508402273,
+      "cross_score": -537,
+      "total_score": -20487,
+      "states": 960570,
+      "visited": 960570,
+      "max_cell_states": 29,
+      "accepted": true,
+      "artifact": "row-0019.fa"
+    },
+    {
+      "row": "GT_PROMI",
+      "before": -20487,
+      "after": -20487,
+      "seconds": 10.868376374943182,
+      "elapsed": 367.3048337500077,
+      "cross_score": -660,
+      "total_score": -20487,
+      "states": 942830,
+      "visited": 942830,
+      "max_cell_states": 29,
+      "accepted": false
+    },
+    {
+      "row": "1aw9_",
+      "before": -20487,
+      "after": -20416,
+      "seconds": 10.750796042033471,
+      "elapsed": 378.05564645898994,
+      "cross_score": -633,
+      "total_score": -20416,
+      "states": 983736,
+      "visited": 983736,
+      "max_cell_states": 27,
+      "accepted": true,
+      "artifact": "row-0021.fa"
+    },
+    {
+      "row": "1a0f_A",
+      "before": -20416,
+      "after": -20416,
+      "seconds": 9.869265457964502,
+      "elapsed": 387.92581420904025,
+      "cross_score": -519,
+      "total_score": -20416,
+      "states": 933546,
+      "visited": 933546,
+      "max_cell_states": 29,
+      "accepted": false
+    }
+  ],
+  "dp_seconds": 387.97549704194535,
+  "total_seconds": 495.76363283302635,
+  "final_hash": "916bf9a8dd8ebd63450e59ebc98b1a1b02802307c7568993b7761ad818011ba1",
+  "finished_at": "2026-10-20T20:34:25.731898+00:00",
+  "peak_rss_native": 319897600,
+  "peak_rss_unit": "bytes",
+  "source_sha256": "62cb48f363d9b8904aa64c0b437b241e272662dcde6b562571391e2c159cee42"
+}

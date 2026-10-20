@@ -1,0 +1,135 @@
+{
+  "dataset": "BB11001",
+  "start_path": "research/contributor-30m/outputs/BB11001/row-final.fa",
+  "start_score": 218,
+  "score": 230,
+  "source_sha256": "62cb48f363d9b8904aa64c0b437b241e272662dcde6b562571391e2c159cee42",
+  "sweeps": [
+    {
+      "sweep": 0,
+      "before": 218,
+      "after": 230,
+      "accepted": 2,
+      "elapsed": 1.951453790999949
+    },
+    {
+      "sweep": 1,
+      "before": 230,
+      "after": 230,
+      "accepted": 0,
+      "elapsed": 3.627796750050038
+    }
+  ],
+  "trace": [
+    {
+      "sweep": 0,
+      "row": "1aab_",
+      "before": 218,
+      "after": 227,
+      "accepted": true,
+      "elapsed": 0.3478505410021171,
+      "cross_score": 49,
+      "total_score": 227,
+      "states": 26406,
+      "visited": 26406,
+      "max_cell_states": 7,
+      "artifact": "row-0000.fa"
+    },
+    {
+      "sweep": 0,
+      "row": "1k99_A",
+      "before": 227,
+      "after": 227,
+      "accepted": false,
+      "elapsed": 0.8935320830205455,
+      "cross_score": 113,
+      "total_score": 227,
+      "states": 29214,
+      "visited": 29214,
+      "max_cell_states": 7
+    },
+    {
+      "sweep": 0,
+      "row": "2lef_A",
+      "before": 227,
+      "after": 230,
+      "accepted": true,
+      "elapsed": 1.3548147500259802,
+      "cross_score": 109,
+      "total_score": 230,
+      "states": 28047,
+      "visited": 28047,
+      "max_cell_states": 5,
+      "artifact": "row-0002.fa"
+    },
+    {
+      "sweep": 0,
+      "row": "1j46_A",
+      "before": 230,
+      "after": 230,
+      "accepted": false,
+      "elapsed": 1.9508263330208138,
+      "cross_score": 188,
+      "total_score": 230,
+      "states": 30870,
+      "visited": 30870,
+      "max_cell_states": 7
+    },
+    {
+      "sweep": 1,
+      "row": "1aab_",
+      "before": 230,
+      "after": 230,
+      "accepted": false,
+      "elapsed": 2.3254106249660254,
+      "cross_score": 49,
+      "total_score": 230,
+      "states": 26406,
+      "visited": 26406,
+      "max_cell_states": 7
+    },
+    {
+      "sweep": 1,
+      "row": "1k99_A",
+      "before": 230,
+      "after": 230,
+      "accepted": false,
+      "elapsed": 2.833250666037202,
+      "cross_score": 114,
+      "total_score": 230,
+      "states": 29214,
+      "visited": 29214,
+      "max_cell_states": 7
+    },
+    {
+      "sweep": 1,
+      "row": "2lef_A",
+      "before": 230,
+      "after": 230,
+      "accepted": false,
+      "elapsed": 3.1281471659895033,
+      "cross_score": 109,
+      "total_score": 230,
+      "states": 28047,
+      "visited": 28047,
+      "max_cell_states": 5
+    },
+    {
+      "sweep": 1,
+      "row": "1j46_A",
+      "before": 230,
+      "after": 230,
+      "accepted": false,
+      "elapsed": 3.6272513329749927,
+      "cross_score": 188,
+      "total_score": 230,
+      "states": 30870,
+      "visited": 30870,
+      "max_cell_states": 7
+    }
+  ],
+  "local_optimum": true,
+  "seconds": 3.6283051250502467,
+  "finished_at": "2026-10-20T20:24:12.777876+00:00",
+  "final_hash": "1d55a7b0d3776a66979f6e27bad815ed15a284e1870ff3383e34879c0c6527b4"
+}

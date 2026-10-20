@@ -1,0 +1,211 @@
+[
+  {
+    "dataset": "BB11001",
+    "score": 230,
+    "checks": [
+      {
+        "row": "1aab_",
+        "optimum": 230,
+        "states": 26406
+      },
+      {
+        "row": "1j46_A",
+        "optimum": 230,
+        "states": 30870
+      },
+      {
+        "row": "1k99_A",
+        "optimum": 230,
+        "states": 29214
+      },
+      {
+        "row": "2lef_A",
+        "optimum": 230,
+        "states": 28047
+      }
+    ],
+    "seconds": 1.3285647500306368,
+    "hash": "1d55a7b0d3776a66979f6e27bad815ed15a284e1870ff3383e34879c0c6527b4"
+  },
+  {
+    "dataset": "BB11029",
+    "score": -203,
+    "checks": [
+      {
+        "row": "1a56_",
+        "optimum": -203,
+        "states": 50128
+      },
+      {
+        "row": "1cno_A",
+        "optimum": -203,
+        "states": 51663
+      },
+      {
+        "row": "1h31_B",
+        "optimum": -203,
+        "states": 58624
+      },
+      {
+        "row": "1ycc_",
+        "optimum": -203,
+        "states": 64522
+      }
+    ],
+    "seconds": 2.3382846659515053,
+    "hash": "50f6bb4947d7d0ab35892bdf57ab7889ffbc9f1715316c29d1a8366ce9a8ca5a"
+  },
+  {
+    "dataset": "BB20029",
+    "score": 28715,
+    "checks": [
+      {
+        "row": "1lt5_D",
+        "optimum": 28715,
+        "states": 208054
+      },
+      {
+        "row": "1prt_F",
+        "optimum": 28715,
+        "states": 205808
+      },
+      {
+        "row": "1sap_",
+        "optimum": 28715,
+        "states": 131148
+      },
+      {
+        "row": "1tvx_A",
+        "optimum": 28715,
+        "states": 125516
+      },
+      {
+        "row": "AMC2_PIG",
+        "optimum": 28715,
+        "states": 242040
+      },
+      {
+        "row": "AMC_RABIT",
+        "optimum": 28715,
+        "states": 160260
+      },
+      {
+        "row": "EMF1_CHICK",
+        "optimum": 28715,
+        "states": 207234
+      },
+      {
+        "row": "GRO1_RABIT",
+        "optimum": 28715,
+        "states": 149872
+      },
+      {
+        "row": "GRO2_RABIT",
+        "optimum": 28715,
+        "states": 219436
+      },
+      {
+        "row": "GRO_CAVPO",
+        "optimum": 28715,
+        "states": 219228
+      },
+      {
+        "row": "GRO_CRIGR",
+        "optimum": 28715,
+        "states": 213112
+      },
+      {
+        "row": "GRO_HUMAN",
+        "optimum": 28715,
+        "states": 225760
+      },
+      {
+        "row": "IL8_BOVIN",
+        "optimum": 28715,
+        "states": 213112
+      },
+      {
+        "row": "IL8_CAVPO",
+        "optimum": 28715,
+        "states": 213112
+      },
+      {
+        "row": "IL8_CERTO",
+        "optimum": 28715,
+        "states": 213112
+      },
+      {
+        "row": "MI2A_RAT",
+        "optimum": 28715,
+        "states": 143548
+      },
+      {
+        "row": "MIP2_MOUSE",
+        "optimum": 28715,
+        "states": 211004
+      },
+      {
+        "row": "PF4V_HUMAN",
+        "optimum": 28715,
+        "states": 218083
+      },
+      {
+        "row": "PLF4_BOVIN",
+        "optimum": 28715,
+        "states": 185708
+      },
+      {
+        "row": "PLF4_MOUSE",
+        "optimum": 28715,
+        "states": 221544
+      },
+      {
+        "row": "PLF4_PIG",
+        "optimum": 28715,
+        "states": 189744
+      },
+      {
+        "row": "SZ05_MOUSE",
+        "optimum": 28715,
+        "states": 277271
+      },
+      {
+        "row": "SZ05_RAT",
+        "optimum": 28715,
+        "states": 273593
+      },
+      {
+        "row": "SZ06_HUMAN",
+        "optimum": 28715,
+        "states": 240516
+      },
+      {
+        "row": "SZ07_PIG",
+        "optimum": 28715,
+        "states": 248912
+      },
+      {
+        "row": "SZ09_HUMAN",
+        "optimum": 28715,
+        "states": 263704
+      },
+      {
+        "row": "SZ09_MOUSE",
+        "optimum": 28715,
+        "states": 265056
+      },
+      {
+        "row": "SZ10_HUMAN",
+        "optimum": 28715,
+        "states": 206297
+      },
+      {
+        "row": "SZ15_MOUSE",
+        "optimum": 28715,
+        "states": 220940
+      }
+    ],
+    "seconds": 67.22156620805617,
+    "hash": "36cd78aacba664145c81d8c289ffbb026530395244adf961fcb5f02d69a91f77"
+  }
+]
