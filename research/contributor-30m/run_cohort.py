@@ -1,3 +1,5 @@
+# Historical session driver; paths assume the original workspace layout.
+# Portable reproduction: run_trial.py --dataset CASE --passes 1 --control-seconds 5
 import subprocess,json,time,datetime
 from pathlib import Path
 root=Path(__file__).resolve().parent

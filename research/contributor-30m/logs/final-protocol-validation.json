@@ -1,0 +1,20 @@
+{
+  "source": "start-multiple-sequence",
+  "conformant": true,
+  "problems": [],
+  "conventions": {
+    "catalog": true,
+    "priority_log": true,
+    "coordination": "manifest has no `coordination` channel",
+    "reproduce": true,
+    "ledger": "manifest has no `ledger`",
+    "packages": true
+  },
+  "warnings": [],
+  "manifest_origin": "discover.json",
+  "table": {
+    "rows": 8,
+    "open": 8
+  },
+  "license": "LICENSE"
+}

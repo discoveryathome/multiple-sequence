@@ -1,6 +1,6 @@
 import sys,json
 from pathlib import Path
-BASE=Path(__file__).resolve().parents[1]/'repo';sys.path.insert(0,str(BASE))
+BASE=Path(__file__).resolve().parents[3];sys.path.insert(0,str(BASE))
 from msa.core import read_fasta,score,accuracy,positions
 H=BASE/'research/contributor-30m';out=[]
 for case,group,label in [('BB11029','additional','Reference accuracy improves'),('BB11015','outputs','Reference accuracy declines')]:

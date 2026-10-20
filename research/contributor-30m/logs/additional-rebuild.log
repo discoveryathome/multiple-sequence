@@ -1,0 +1,77 @@
+[
+  {
+    "id": "BB11029",
+    "category": "RV11",
+    "role": "unseen-small",
+    "n": 4,
+    "max_length": 138,
+    "core_columns": 51,
+    "source_member": "bb3_release/RV11/BB11029.xml",
+    "sha256": {
+      "input.fa": "de58d8d552f00decc43d490bf4684c2318acd12b850d864cfd236d917a3a68c1",
+      "reference.fa": "ceb97f3f1dac692023968eee7a6036c402981df27181ae0a8621cbffdfe95b2b",
+      "reference.xml": "07ce214ee5fcae1e988d220c59468d5e86ea634b12b3c9154bdc2f3eec501bcb",
+      "core.json": "fd81f8f565f10b4d80c77fae9b56e0ce73ec9263491972bbbb6dffbaa51ed44e"
+    }
+  },
+  {
+    "id": "BB12040",
+    "category": "RV12",
+    "role": "unseen-small",
+    "n": 5,
+    "max_length": 153,
+    "core_columns": 96,
+    "source_member": "bb3_release/RV12/BB12040.xml",
+    "sha256": {
+      "input.fa": "15061f4ae6caf98266eb1d7802feed3ad5056eff2e857507c1a210ab8a0e69f3",
+      "reference.fa": "c404da2aab247deab9fc9da61be1a17a4fd37a1b57226261332924e5990314f7",
+      "reference.xml": "bac61a83d78b21d609be94e11b66aa17989c261f50d0f126d5d2c8af4504e6bd",
+      "core.json": "886d3b2ad5789e612c7dd53d762ccccbb6ca13ae532e905bf1618f826d1cb29a"
+    }
+  },
+  {
+    "id": "BB30017",
+    "category": "RV30",
+    "role": "unseen-medium",
+    "n": 15,
+    "max_length": 370,
+    "core_columns": 105,
+    "source_member": "bb3_release/RV30/BB30017.xml",
+    "sha256": {
+      "input.fa": "5bb07ee4f994129a8a22f2fa86a830169c7fddeb2e2dca8deaec9deeba03f2bd",
+      "reference.fa": "6a0d430ca84eeb4b86764682cda1f4a37f236c4ee5a514be09a9b5d1c0c3c7fb",
+      "reference.xml": "38999292e92aa3594947cdf88c6afc19f90b52c133d4752f6eef31f1ac229a39",
+      "core.json": "80b8d332264e895a37ec037c8d15bed41fbe6bbe6d233a4f3d9b8a57a012dd3f"
+    }
+  },
+  {
+    "id": "BB50007",
+    "category": "RV50",
+    "role": "unseen-medium",
+    "n": 23,
+    "max_length": 308,
+    "core_columns": 63,
+    "source_member": "bb3_release/RV50/BB50007.xml",
+    "sha256": {
+      "input.fa": "c8a1ce15d1a2c6262ef92953e66ea5a4f0303a6be66ac1824c47fe5878ce2bf1",
+      "reference.fa": "fda07131bb5695d07e27e1e68a378293ede225cc25fcb38dc0325a1dcc04fbf4",
+      "reference.xml": "9cc0c2ed0b9f14f4b80af023ac8a7b67afb1111beee1805b14a4c3d87c0bcee6",
+      "core.json": "d7291cf7453aa29afba6b4cb1ec43509fc90d7cb343013b3e0e66e62ca45af4d"
+    }
+  },
+  {
+    "id": "BB20036",
+    "category": "RV20",
+    "role": "scaling-probe",
+    "n": 91,
+    "max_length": 335,
+    "core_columns": 18,
+    "source_member": "bb3_release/RV20/BB20036.xml",
+    "sha256": {
+      "input.fa": "504a7941ebc808a2bfdd48a266bd14d841a2332c6f13a7b7ad3e3c955137d031",
+      "reference.fa": "fd9db99d77a1be515864f1bc664d8976c594432ed64cb631e7d13f19066409ba",
+      "reference.xml": "42d094990ab564178c440db920d17fc18ccb807b3d16a5e7d7271a883d018933",
+      "core.json": "87eea05bc37d2d2019bbd2b606f5baf3ee6052c9b7bee21e5837d42fc3fe3623"
+    }
+  }
+]
