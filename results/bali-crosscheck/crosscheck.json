@@ -1,0 +1,917 @@
+{
+  "status": "PASS",
+  "checks": 91,
+  "evaluator": "BAliBASE bali_score 3.01 (Jan 2008), source from pinned original archive",
+  "results": [
+    {
+      "dataset": "BB11001",
+      "method": "reference-self",
+      "seed": null,
+      "legacy_sp_rounded": 1.0,
+      "our_pair_recall": 1.0,
+      "legacy_tc_truncated": 1.0,
+      "our_strict_tc": 1.0,
+      "alignment": "data/references/BB11001.fa"
+    },
+    {
+      "dataset": "BB11001",
+      "method": "mafft-linsi",
+      "seed": null,
+      "legacy_sp_rounded": 0.991,
+      "our_pair_recall": 0.9912280701754386,
+      "legacy_tc_truncated": 0.98,
+      "our_strict_tc": 0.9824561403508771,
+      "alignment": "results/baselines/BB11001.mafft-linsi.fa"
+    },
+    {
+      "dataset": "BB11001",
+      "method": "mafft-ginsi",
+      "seed": null,
+      "legacy_sp_rounded": 0.892,
+      "our_pair_recall": 0.8918128654970761,
+      "legacy_tc_truncated": 0.82,
+      "our_strict_tc": 0.8245614035087719,
+      "alignment": "results/baselines/BB11001.mafft-ginsi.fa"
+    },
+    {
+      "dataset": "BB11001",
+      "method": "famsa2",
+      "seed": null,
+      "legacy_sp_rounded": 1.0,
+      "our_pair_recall": 1.0,
+      "legacy_tc_truncated": 1.0,
+      "our_strict_tc": 1.0,
+      "alignment": "results/baselines/BB11001.famsa2.fa"
+    },
+    {
+      "dataset": "BB11001",
+      "method": "combined",
+      "seed": 0,
+      "legacy_sp_rounded": 0.991,
+      "our_pair_recall": 0.9912280701754386,
+      "legacy_tc_truncated": 0.98,
+      "our_strict_tc": 0.9824561403508771,
+      "alignment": "results/experiments/BB11001.combined.s0.fa"
+    },
+    {
+      "dataset": "BB11001",
+      "method": "combined",
+      "seed": 1,
+      "legacy_sp_rounded": 0.991,
+      "our_pair_recall": 0.9912280701754386,
+      "legacy_tc_truncated": 0.98,
+      "our_strict_tc": 0.9824561403508771,
+      "alignment": "results/experiments/BB11001.combined.s1.fa"
+    },
+    {
+      "dataset": "BB11001",
+      "method": "combined",
+      "seed": 2,
+      "legacy_sp_rounded": 0.991,
+      "our_pair_recall": 0.9912280701754386,
+      "legacy_tc_truncated": 0.98,
+      "our_strict_tc": 0.9824561403508771,
+      "alignment": "results/experiments/BB11001.combined.s2.fa"
+    },
+    {
+      "dataset": "BB11001",
+      "method": "block",
+      "seed": 0,
+      "legacy_sp_rounded": 0.991,
+      "our_pair_recall": 0.9912280701754386,
+      "legacy_tc_truncated": 0.98,
+      "our_strict_tc": 0.9824561403508771,
+      "alignment": "results/experiments/BB11001.block.s0.fa"
+    },
+    {
+      "dataset": "BB11001",
+      "method": "subgroup",
+      "seed": 0,
+      "legacy_sp_rounded": 0.991,
+      "our_pair_recall": 0.9912280701754386,
+      "legacy_tc_truncated": 0.98,
+      "our_strict_tc": 0.9824561403508771,
+      "alignment": "results/experiments/BB11001.subgroup.s0.fa"
+    },
+    {
+      "dataset": "BB11001",
+      "method": "gap",
+      "seed": 0,
+      "legacy_sp_rounded": 0.991,
+      "our_pair_recall": 0.9912280701754386,
+      "legacy_tc_truncated": 0.98,
+      "our_strict_tc": 0.9824561403508771,
+      "alignment": "results/experiments/BB11001.gap.s0.fa"
+    },
+    {
+      "dataset": "BB11001",
+      "method": "profile",
+      "seed": 0,
+      "legacy_sp_rounded": 0.991,
+      "our_pair_recall": 0.9912280701754386,
+      "legacy_tc_truncated": 0.98,
+      "our_strict_tc": 0.9824561403508771,
+      "alignment": "results/experiments/BB11001.profile.s0.fa"
+    },
+    {
+      "dataset": "BB11001",
+      "method": "extended",
+      "seed": 101,
+      "legacy_sp_rounded": 0.991,
+      "our_pair_recall": 0.9912280701754386,
+      "legacy_tc_truncated": 0.98,
+      "our_strict_tc": 0.9824561403508771,
+      "alignment": "results/extended/BB11001.fa"
+    },
+    {
+      "dataset": "BB11015",
+      "method": "reference-self",
+      "seed": null,
+      "legacy_sp_rounded": 1.0,
+      "our_pair_recall": 1.0,
+      "legacy_tc_truncated": 1.0,
+      "our_strict_tc": 1.0,
+      "alignment": "data/references/BB11015.fa"
+    },
+    {
+      "dataset": "BB11015",
+      "method": "mafft-linsi",
+      "seed": null,
+      "legacy_sp_rounded": 0.733,
+      "our_pair_recall": 0.7331649831649831,
+      "legacy_tc_truncated": 0.57,
+      "our_strict_tc": 0.5757575757575758,
+      "alignment": "results/baselines/BB11015.mafft-linsi.fa"
+    },
+    {
+      "dataset": "BB11015",
+      "method": "mafft-ginsi",
+      "seed": null,
+      "legacy_sp_rounded": 0.731,
+      "our_pair_recall": 0.7314814814814815,
+      "legacy_tc_truncated": 0.57,
+      "our_strict_tc": 0.5757575757575758,
+      "alignment": "results/baselines/BB11015.mafft-ginsi.fa"
+    },
+    {
+      "dataset": "BB11015",
+      "method": "famsa2",
+      "seed": null,
+      "legacy_sp_rounded": 0.879,
+      "our_pair_recall": 0.8787878787878788,
+      "legacy_tc_truncated": 0.83,
+      "our_strict_tc": 0.8383838383838383,
+      "alignment": "results/baselines/BB11015.famsa2.fa"
+    },
+    {
+      "dataset": "BB11015",
+      "method": "combined",
+      "seed": 0,
+      "legacy_sp_rounded": 0.879,
+      "our_pair_recall": 0.8787878787878788,
+      "legacy_tc_truncated": 0.83,
+      "our_strict_tc": 0.8383838383838383,
+      "alignment": "results/experiments/BB11015.combined.s0.fa"
+    },
+    {
+      "dataset": "BB11015",
+      "method": "combined",
+      "seed": 1,
+      "legacy_sp_rounded": 0.879,
+      "our_pair_recall": 0.8787878787878788,
+      "legacy_tc_truncated": 0.83,
+      "our_strict_tc": 0.8383838383838383,
+      "alignment": "results/experiments/BB11015.combined.s1.fa"
+    },
+    {
+      "dataset": "BB11015",
+      "method": "combined",
+      "seed": 2,
+      "legacy_sp_rounded": 0.879,
+      "our_pair_recall": 0.8787878787878788,
+      "legacy_tc_truncated": 0.83,
+      "our_strict_tc": 0.8383838383838383,
+      "alignment": "results/experiments/BB11015.combined.s2.fa"
+    },
+    {
+      "dataset": "BB11015",
+      "method": "block",
+      "seed": 0,
+      "legacy_sp_rounded": 0.879,
+      "our_pair_recall": 0.8787878787878788,
+      "legacy_tc_truncated": 0.83,
+      "our_strict_tc": 0.8383838383838383,
+      "alignment": "results/experiments/BB11015.block.s0.fa"
+    },
+    {
+      "dataset": "BB11015",
+      "method": "subgroup",
+      "seed": 0,
+      "legacy_sp_rounded": 0.879,
+      "our_pair_recall": 0.8787878787878788,
+      "legacy_tc_truncated": 0.83,
+      "our_strict_tc": 0.8383838383838383,
+      "alignment": "results/experiments/BB11015.subgroup.s0.fa"
+    },
+    {
+      "dataset": "BB11015",
+      "method": "gap",
+      "seed": 0,
+      "legacy_sp_rounded": 0.884,
+      "our_pair_recall": 0.8838383838383839,
+      "legacy_tc_truncated": 0.84,
+      "our_strict_tc": 0.8484848484848485,
+      "alignment": "results/experiments/BB11015.gap.s0.fa"
+    },
+    {
+      "dataset": "BB11015",
+      "method": "profile",
+      "seed": 0,
+      "legacy_sp_rounded": 0.879,
+      "our_pair_recall": 0.8787878787878788,
+      "legacy_tc_truncated": 0.83,
+      "our_strict_tc": 0.8383838383838383,
+      "alignment": "results/experiments/BB11015.profile.s0.fa"
+    },
+    {
+      "dataset": "BB12021",
+      "method": "reference-self",
+      "seed": null,
+      "legacy_sp_rounded": 1.0,
+      "our_pair_recall": 1.0,
+      "legacy_tc_truncated": 1.0,
+      "our_strict_tc": 1.0,
+      "alignment": "data/references/BB12021.fa"
+    },
+    {
+      "dataset": "BB12021",
+      "method": "mafft-linsi",
+      "seed": null,
+      "legacy_sp_rounded": 0.938,
+      "our_pair_recall": 0.9384615384615385,
+      "legacy_tc_truncated": 0.89,
+      "our_strict_tc": 0.8974358974358975,
+      "alignment": "results/baselines/BB12021.mafft-linsi.fa"
+    },
+    {
+      "dataset": "BB12021",
+      "method": "mafft-ginsi",
+      "seed": null,
+      "legacy_sp_rounded": 1.0,
+      "our_pair_recall": 1.0,
+      "legacy_tc_truncated": 1.0,
+      "our_strict_tc": 1.0,
+      "alignment": "results/baselines/BB12021.mafft-ginsi.fa"
+    },
+    {
+      "dataset": "BB12021",
+      "method": "famsa2",
+      "seed": null,
+      "legacy_sp_rounded": 1.0,
+      "our_pair_recall": 1.0,
+      "legacy_tc_truncated": 1.0,
+      "our_strict_tc": 1.0,
+      "alignment": "results/baselines/BB12021.famsa2.fa"
+    },
+    {
+      "dataset": "BB12021",
+      "method": "combined",
+      "seed": 0,
+      "legacy_sp_rounded": 1.0,
+      "our_pair_recall": 1.0,
+      "legacy_tc_truncated": 1.0,
+      "our_strict_tc": 1.0,
+      "alignment": "results/experiments/BB12021.combined.s0.fa"
+    },
+    {
+      "dataset": "BB12021",
+      "method": "combined",
+      "seed": 1,
+      "legacy_sp_rounded": 1.0,
+      "our_pair_recall": 1.0,
+      "legacy_tc_truncated": 1.0,
+      "our_strict_tc": 1.0,
+      "alignment": "results/experiments/BB12021.combined.s1.fa"
+    },
+    {
+      "dataset": "BB12021",
+      "method": "combined",
+      "seed": 2,
+      "legacy_sp_rounded": 1.0,
+      "our_pair_recall": 1.0,
+      "legacy_tc_truncated": 1.0,
+      "our_strict_tc": 1.0,
+      "alignment": "results/experiments/BB12021.combined.s2.fa"
+    },
+    {
+      "dataset": "BB12021",
+      "method": "block",
+      "seed": 0,
+      "legacy_sp_rounded": 1.0,
+      "our_pair_recall": 1.0,
+      "legacy_tc_truncated": 1.0,
+      "our_strict_tc": 1.0,
+      "alignment": "results/experiments/BB12021.block.s0.fa"
+    },
+    {
+      "dataset": "BB12021",
+      "method": "subgroup",
+      "seed": 0,
+      "legacy_sp_rounded": 1.0,
+      "our_pair_recall": 1.0,
+      "legacy_tc_truncated": 1.0,
+      "our_strict_tc": 1.0,
+      "alignment": "results/experiments/BB12021.subgroup.s0.fa"
+    },
+    {
+      "dataset": "BB12021",
+      "method": "gap",
+      "seed": 0,
+      "legacy_sp_rounded": 1.0,
+      "our_pair_recall": 1.0,
+      "legacy_tc_truncated": 1.0,
+      "our_strict_tc": 1.0,
+      "alignment": "results/experiments/BB12021.gap.s0.fa"
+    },
+    {
+      "dataset": "BB12021",
+      "method": "profile",
+      "seed": 0,
+      "legacy_sp_rounded": 1.0,
+      "our_pair_recall": 1.0,
+      "legacy_tc_truncated": 1.0,
+      "our_strict_tc": 1.0,
+      "alignment": "results/experiments/BB12021.profile.s0.fa"
+    },
+    {
+      "dataset": "BB20029",
+      "method": "reference-self",
+      "seed": null,
+      "legacy_sp_rounded": 1.0,
+      "our_pair_recall": 1.0,
+      "legacy_tc_truncated": 1.0,
+      "our_strict_tc": 1.0,
+      "alignment": "data/references/BB20029.fa"
+    },
+    {
+      "dataset": "BB20029",
+      "method": "mafft-linsi",
+      "seed": null,
+      "legacy_sp_rounded": 0.864,
+      "our_pair_recall": 0.864192288092407,
+      "legacy_tc_truncated": 0.0,
+      "our_strict_tc": 0.0,
+      "alignment": "results/baselines/BB20029.mafft-linsi.fa"
+    },
+    {
+      "dataset": "BB20029",
+      "method": "mafft-ginsi",
+      "seed": null,
+      "legacy_sp_rounded": 0.82,
+      "our_pair_recall": 0.8203669101409886,
+      "legacy_tc_truncated": 0.0,
+      "our_strict_tc": 0.0,
+      "alignment": "results/baselines/BB20029.mafft-ginsi.fa"
+    },
+    {
+      "dataset": "BB20029",
+      "method": "famsa2",
+      "seed": null,
+      "legacy_sp_rounded": 0.85,
+      "our_pair_recall": 0.8495838287752675,
+      "legacy_tc_truncated": 0.0,
+      "our_strict_tc": 0.0,
+      "alignment": "results/baselines/BB20029.famsa2.fa"
+    },
+    {
+      "dataset": "BB20029",
+      "method": "combined",
+      "seed": 0,
+      "legacy_sp_rounded": 0.864,
+      "our_pair_recall": 0.864192288092407,
+      "legacy_tc_truncated": 0.0,
+      "our_strict_tc": 0.0,
+      "alignment": "results/experiments/BB20029.combined.s0.fa"
+    },
+    {
+      "dataset": "BB20029",
+      "method": "combined",
+      "seed": 1,
+      "legacy_sp_rounded": 0.864,
+      "our_pair_recall": 0.864192288092407,
+      "legacy_tc_truncated": 0.0,
+      "our_strict_tc": 0.0,
+      "alignment": "results/experiments/BB20029.combined.s1.fa"
+    },
+    {
+      "dataset": "BB20029",
+      "method": "combined",
+      "seed": 2,
+      "legacy_sp_rounded": 0.864,
+      "our_pair_recall": 0.8641073551894004,
+      "legacy_tc_truncated": 0.0,
+      "our_strict_tc": 0.0,
+      "alignment": "results/experiments/BB20029.combined.s2.fa"
+    },
+    {
+      "dataset": "BB20029",
+      "method": "block",
+      "seed": 0,
+      "legacy_sp_rounded": 0.864,
+      "our_pair_recall": 0.864192288092407,
+      "legacy_tc_truncated": 0.0,
+      "our_strict_tc": 0.0,
+      "alignment": "results/experiments/BB20029.block.s0.fa"
+    },
+    {
+      "dataset": "BB20029",
+      "method": "subgroup",
+      "seed": 0,
+      "legacy_sp_rounded": 0.864,
+      "our_pair_recall": 0.8641073551894004,
+      "legacy_tc_truncated": 0.0,
+      "our_strict_tc": 0.0,
+      "alignment": "results/experiments/BB20029.subgroup.s0.fa"
+    },
+    {
+      "dataset": "BB20029",
+      "method": "gap",
+      "seed": 0,
+      "legacy_sp_rounded": 0.864,
+      "our_pair_recall": 0.864192288092407,
+      "legacy_tc_truncated": 0.0,
+      "our_strict_tc": 0.0,
+      "alignment": "results/experiments/BB20029.gap.s0.fa"
+    },
+    {
+      "dataset": "BB20029",
+      "method": "profile",
+      "seed": 0,
+      "legacy_sp_rounded": 0.864,
+      "our_pair_recall": 0.864192288092407,
+      "legacy_tc_truncated": 0.0,
+      "our_strict_tc": 0.0,
+      "alignment": "results/experiments/BB20029.profile.s0.fa"
+    },
+    {
+      "dataset": "BB20029",
+      "method": "extended",
+      "seed": 101,
+      "legacy_sp_rounded": 0.864,
+      "our_pair_recall": 0.8641073551894004,
+      "legacy_tc_truncated": 0.0,
+      "our_strict_tc": 0.0,
+      "alignment": "results/extended/BB20029.fa"
+    },
+    {
+      "dataset": "BB20030",
+      "method": "reference-self",
+      "seed": null,
+      "legacy_sp_rounded": 1.0,
+      "our_pair_recall": 1.0,
+      "legacy_tc_truncated": 1.0,
+      "our_strict_tc": 1.0,
+      "alignment": "data/references/BB20030.fa"
+    },
+    {
+      "dataset": "BB20030",
+      "method": "mafft-linsi",
+      "seed": null,
+      "legacy_sp_rounded": 0.94,
+      "our_pair_recall": 0.9402462997224792,
+      "legacy_tc_truncated": 0.43,
+      "our_strict_tc": 0.4375,
+      "alignment": "results/baselines/BB20030.mafft-linsi.fa"
+    },
+    {
+      "dataset": "BB20030",
+      "method": "mafft-ginsi",
+      "seed": null,
+      "legacy_sp_rounded": 0.903,
+      "our_pair_recall": 0.902549722479186,
+      "legacy_tc_truncated": 0.0,
+      "our_strict_tc": 0.0,
+      "alignment": "results/baselines/BB20030.mafft-ginsi.fa"
+    },
+    {
+      "dataset": "BB20030",
+      "method": "famsa2",
+      "seed": null,
+      "legacy_sp_rounded": 0.873,
+      "our_pair_recall": 0.8731787696577243,
+      "legacy_tc_truncated": 0.0,
+      "our_strict_tc": 0.0,
+      "alignment": "results/baselines/BB20030.famsa2.fa"
+    },
+    {
+      "dataset": "BB20030",
+      "method": "combined",
+      "seed": 0,
+      "legacy_sp_rounded": 0.903,
+      "our_pair_recall": 0.902549722479186,
+      "legacy_tc_truncated": 0.0,
+      "our_strict_tc": 0.0,
+      "alignment": "results/experiments/BB20030.combined.s0.fa"
+    },
+    {
+      "dataset": "BB20030",
+      "method": "combined",
+      "seed": 1,
+      "legacy_sp_rounded": 0.903,
+      "our_pair_recall": 0.902549722479186,
+      "legacy_tc_truncated": 0.0,
+      "our_strict_tc": 0.0,
+      "alignment": "results/experiments/BB20030.combined.s1.fa"
+    },
+    {
+      "dataset": "BB20030",
+      "method": "combined",
+      "seed": 2,
+      "legacy_sp_rounded": 0.903,
+      "our_pair_recall": 0.902549722479186,
+      "legacy_tc_truncated": 0.0,
+      "our_strict_tc": 0.0,
+      "alignment": "results/experiments/BB20030.combined.s2.fa"
+    },
+    {
+      "dataset": "BB20030",
+      "method": "block",
+      "seed": 0,
+      "legacy_sp_rounded": 0.903,
+      "our_pair_recall": 0.902549722479186,
+      "legacy_tc_truncated": 0.0,
+      "our_strict_tc": 0.0,
+      "alignment": "results/experiments/BB20030.block.s0.fa"
+    },
+    {
+      "dataset": "BB20030",
+      "method": "subgroup",
+      "seed": 0,
+      "legacy_sp_rounded": 0.903,
+      "our_pair_recall": 0.902549722479186,
+      "legacy_tc_truncated": 0.0,
+      "our_strict_tc": 0.0,
+      "alignment": "results/experiments/BB20030.subgroup.s0.fa"
+    },
+    {
+      "dataset": "BB20030",
+      "method": "gap",
+      "seed": 0,
+      "legacy_sp_rounded": 0.903,
+      "our_pair_recall": 0.902549722479186,
+      "legacy_tc_truncated": 0.0,
+      "our_strict_tc": 0.0,
+      "alignment": "results/experiments/BB20030.gap.s0.fa"
+    },
+    {
+      "dataset": "BB20030",
+      "method": "profile",
+      "seed": 0,
+      "legacy_sp_rounded": 0.903,
+      "our_pair_recall": 0.902549722479186,
+      "legacy_tc_truncated": 0.0,
+      "our_strict_tc": 0.0,
+      "alignment": "results/experiments/BB20030.profile.s0.fa"
+    },
+    {
+      "dataset": "BB30027",
+      "method": "reference-self",
+      "seed": null,
+      "legacy_sp_rounded": 1.0,
+      "our_pair_recall": 1.0,
+      "legacy_tc_truncated": 1.0,
+      "our_strict_tc": 1.0,
+      "alignment": "data/references/BB30027.fa"
+    },
+    {
+      "dataset": "BB30027",
+      "method": "mafft-linsi",
+      "seed": null,
+      "legacy_sp_rounded": 0.893,
+      "our_pair_recall": 0.8930622009569378,
+      "legacy_tc_truncated": 0.77,
+      "our_strict_tc": 0.7727272727272727,
+      "alignment": "results/baselines/BB30027.mafft-linsi.fa"
+    },
+    {
+      "dataset": "BB30027",
+      "method": "mafft-ginsi",
+      "seed": null,
+      "legacy_sp_rounded": 0.898,
+      "our_pair_recall": 0.8976076555023923,
+      "legacy_tc_truncated": 0.81,
+      "our_strict_tc": 0.8181818181818182,
+      "alignment": "results/baselines/BB30027.mafft-ginsi.fa"
+    },
+    {
+      "dataset": "BB30027",
+      "method": "famsa2",
+      "seed": null,
+      "legacy_sp_rounded": 0.856,
+      "our_pair_recall": 0.8557416267942584,
+      "legacy_tc_truncated": 0.77,
+      "our_strict_tc": 0.7727272727272727,
+      "alignment": "results/baselines/BB30027.famsa2.fa"
+    },
+    {
+      "dataset": "BB30027",
+      "method": "combined",
+      "seed": 0,
+      "legacy_sp_rounded": 0.893,
+      "our_pair_recall": 0.8930622009569378,
+      "legacy_tc_truncated": 0.77,
+      "our_strict_tc": 0.7727272727272727,
+      "alignment": "results/experiments/BB30027.combined.s0.fa"
+    },
+    {
+      "dataset": "BB30027",
+      "method": "combined",
+      "seed": 1,
+      "legacy_sp_rounded": 0.893,
+      "our_pair_recall": 0.8930622009569378,
+      "legacy_tc_truncated": 0.77,
+      "our_strict_tc": 0.7727272727272727,
+      "alignment": "results/experiments/BB30027.combined.s1.fa"
+    },
+    {
+      "dataset": "BB30027",
+      "method": "combined",
+      "seed": 2,
+      "legacy_sp_rounded": 0.893,
+      "our_pair_recall": 0.8930622009569378,
+      "legacy_tc_truncated": 0.77,
+      "our_strict_tc": 0.7727272727272727,
+      "alignment": "results/experiments/BB30027.combined.s2.fa"
+    },
+    {
+      "dataset": "BB30027",
+      "method": "block",
+      "seed": 0,
+      "legacy_sp_rounded": 0.893,
+      "our_pair_recall": 0.8930622009569378,
+      "legacy_tc_truncated": 0.77,
+      "our_strict_tc": 0.7727272727272727,
+      "alignment": "results/experiments/BB30027.block.s0.fa"
+    },
+    {
+      "dataset": "BB30027",
+      "method": "subgroup",
+      "seed": 0,
+      "legacy_sp_rounded": 0.893,
+      "our_pair_recall": 0.8930622009569378,
+      "legacy_tc_truncated": 0.77,
+      "our_strict_tc": 0.7727272727272727,
+      "alignment": "results/experiments/BB30027.subgroup.s0.fa"
+    },
+    {
+      "dataset": "BB30027",
+      "method": "gap",
+      "seed": 0,
+      "legacy_sp_rounded": 0.893,
+      "our_pair_recall": 0.8930622009569378,
+      "legacy_tc_truncated": 0.77,
+      "our_strict_tc": 0.7727272727272727,
+      "alignment": "results/experiments/BB30027.gap.s0.fa"
+    },
+    {
+      "dataset": "BB30027",
+      "method": "profile",
+      "seed": 0,
+      "legacy_sp_rounded": 0.889,
+      "our_pair_recall": 0.8885167464114833,
+      "legacy_tc_truncated": 0.72,
+      "our_strict_tc": 0.7272727272727273,
+      "alignment": "results/experiments/BB30027.profile.s0.fa"
+    },
+    {
+      "dataset": "BB40010",
+      "method": "reference-self",
+      "seed": null,
+      "legacy_sp_rounded": 1.0,
+      "our_pair_recall": 1.0,
+      "legacy_tc_truncated": 1.0,
+      "our_strict_tc": 1.0,
+      "alignment": "data/references/BB40010.fa"
+    },
+    {
+      "dataset": "BB40010",
+      "method": "mafft-linsi",
+      "seed": null,
+      "legacy_sp_rounded": 0.861,
+      "our_pair_recall": 0.860655737704918,
+      "legacy_tc_truncated": 0.57,
+      "our_strict_tc": 0.5737704918032787,
+      "alignment": "results/baselines/BB40010.mafft-linsi.fa"
+    },
+    {
+      "dataset": "BB40010",
+      "method": "mafft-ginsi",
+      "seed": null,
+      "legacy_sp_rounded": 0.857,
+      "our_pair_recall": 0.8570127504553734,
+      "legacy_tc_truncated": 0.54,
+      "our_strict_tc": 0.5409836065573771,
+      "alignment": "results/baselines/BB40010.mafft-ginsi.fa"
+    },
+    {
+      "dataset": "BB40010",
+      "method": "famsa2",
+      "seed": null,
+      "legacy_sp_rounded": 0.878,
+      "our_pair_recall": 0.8779599271402551,
+      "legacy_tc_truncated": 0.62,
+      "our_strict_tc": 0.6229508196721312,
+      "alignment": "results/baselines/BB40010.famsa2.fa"
+    },
+    {
+      "dataset": "BB40010",
+      "method": "combined",
+      "seed": 0,
+      "legacy_sp_rounded": 0.857,
+      "our_pair_recall": 0.8570127504553734,
+      "legacy_tc_truncated": 0.54,
+      "our_strict_tc": 0.5409836065573771,
+      "alignment": "results/experiments/BB40010.combined.s0.fa"
+    },
+    {
+      "dataset": "BB40010",
+      "method": "combined",
+      "seed": 1,
+      "legacy_sp_rounded": 0.857,
+      "our_pair_recall": 0.8570127504553734,
+      "legacy_tc_truncated": 0.54,
+      "our_strict_tc": 0.5409836065573771,
+      "alignment": "results/experiments/BB40010.combined.s1.fa"
+    },
+    {
+      "dataset": "BB40010",
+      "method": "combined",
+      "seed": 2,
+      "legacy_sp_rounded": 0.857,
+      "our_pair_recall": 0.8570127504553734,
+      "legacy_tc_truncated": 0.54,
+      "our_strict_tc": 0.5409836065573771,
+      "alignment": "results/experiments/BB40010.combined.s2.fa"
+    },
+    {
+      "dataset": "BB40010",
+      "method": "block",
+      "seed": 0,
+      "legacy_sp_rounded": 0.857,
+      "our_pair_recall": 0.8570127504553734,
+      "legacy_tc_truncated": 0.54,
+      "our_strict_tc": 0.5409836065573771,
+      "alignment": "results/experiments/BB40010.block.s0.fa"
+    },
+    {
+      "dataset": "BB40010",
+      "method": "subgroup",
+      "seed": 0,
+      "legacy_sp_rounded": 0.857,
+      "our_pair_recall": 0.8570127504553734,
+      "legacy_tc_truncated": 0.54,
+      "our_strict_tc": 0.5409836065573771,
+      "alignment": "results/experiments/BB40010.subgroup.s0.fa"
+    },
+    {
+      "dataset": "BB40010",
+      "method": "gap",
+      "seed": 0,
+      "legacy_sp_rounded": 0.857,
+      "our_pair_recall": 0.8570127504553734,
+      "legacy_tc_truncated": 0.54,
+      "our_strict_tc": 0.5409836065573771,
+      "alignment": "results/experiments/BB40010.gap.s0.fa"
+    },
+    {
+      "dataset": "BB40010",
+      "method": "profile",
+      "seed": 0,
+      "legacy_sp_rounded": 0.857,
+      "our_pair_recall": 0.8570127504553734,
+      "legacy_tc_truncated": 0.54,
+      "our_strict_tc": 0.5409836065573771,
+      "alignment": "results/experiments/BB40010.profile.s0.fa"
+    },
+    {
+      "dataset": "BB50013",
+      "method": "reference-self",
+      "seed": null,
+      "legacy_sp_rounded": 1.0,
+      "our_pair_recall": 1.0,
+      "legacy_tc_truncated": 1.0,
+      "our_strict_tc": 1.0,
+      "alignment": "data/references/BB50013.fa"
+    },
+    {
+      "dataset": "BB50013",
+      "method": "mafft-linsi",
+      "seed": null,
+      "legacy_sp_rounded": 0.949,
+      "our_pair_recall": 0.9486387730945397,
+      "legacy_tc_truncated": 0.81,
+      "our_strict_tc": 0.8110236220472441,
+      "alignment": "results/baselines/BB50013.mafft-linsi.fa"
+    },
+    {
+      "dataset": "BB50013",
+      "method": "mafft-ginsi",
+      "seed": null,
+      "legacy_sp_rounded": 0.949,
+      "our_pair_recall": 0.9486387730945397,
+      "legacy_tc_truncated": 0.81,
+      "our_strict_tc": 0.8110236220472441,
+      "alignment": "results/baselines/BB50013.mafft-ginsi.fa"
+    },
+    {
+      "dataset": "BB50013",
+      "method": "famsa2",
+      "seed": null,
+      "legacy_sp_rounded": 0.936,
+      "our_pair_recall": 0.9358756626009984,
+      "legacy_tc_truncated": 0.79,
+      "our_strict_tc": 0.7952755905511811,
+      "alignment": "results/baselines/BB50013.famsa2.fa"
+    },
+    {
+      "dataset": "BB50013",
+      "method": "combined",
+      "seed": 0,
+      "legacy_sp_rounded": 0.949,
+      "our_pair_recall": 0.9486387730945397,
+      "legacy_tc_truncated": 0.81,
+      "our_strict_tc": 0.8110236220472441,
+      "alignment": "results/experiments/BB50013.combined.s0.fa"
+    },
+    {
+      "dataset": "BB50013",
+      "method": "combined",
+      "seed": 1,
+      "legacy_sp_rounded": 0.949,
+      "our_pair_recall": 0.9486387730945397,
+      "legacy_tc_truncated": 0.81,
+      "our_strict_tc": 0.8110236220472441,
+      "alignment": "results/experiments/BB50013.combined.s1.fa"
+    },
+    {
+      "dataset": "BB50013",
+      "method": "combined",
+      "seed": 2,
+      "legacy_sp_rounded": 0.949,
+      "our_pair_recall": 0.9486387730945397,
+      "legacy_tc_truncated": 0.81,
+      "our_strict_tc": 0.8110236220472441,
+      "alignment": "results/experiments/BB50013.combined.s2.fa"
+    },
+    {
+      "dataset": "BB50013",
+      "method": "block",
+      "seed": 0,
+      "legacy_sp_rounded": 0.949,
+      "our_pair_recall": 0.9486387730945397,
+      "legacy_tc_truncated": 0.81,
+      "our_strict_tc": 0.8110236220472441,
+      "alignment": "results/experiments/BB50013.block.s0.fa"
+    },
+    {
+      "dataset": "BB50013",
+      "method": "subgroup",
+      "seed": 0,
+      "legacy_sp_rounded": 0.949,
+      "our_pair_recall": 0.9486387730945397,
+      "legacy_tc_truncated": 0.81,
+      "our_strict_tc": 0.8110236220472441,
+      "alignment": "results/experiments/BB50013.subgroup.s0.fa"
+    },
+    {
+      "dataset": "BB50013",
+      "method": "gap",
+      "seed": 0,
+      "legacy_sp_rounded": 0.949,
+      "our_pair_recall": 0.9486387730945397,
+      "legacy_tc_truncated": 0.81,
+      "our_strict_tc": 0.8110236220472441,
+      "alignment": "results/experiments/BB50013.gap.s0.fa"
+    },
+    {
+      "dataset": "BB50013",
+      "method": "profile",
+      "seed": 0,
+      "legacy_sp_rounded": 0.949,
+      "our_pair_recall": 0.9486387730945397,
+      "legacy_tc_truncated": 0.81,
+      "our_strict_tc": 0.8110236220472441,
+      "alignment": "results/experiments/BB50013.profile.s0.fa"
+    },
+    {
+      "dataset": "BB50013",
+      "method": "extended",
+      "seed": 101,
+      "legacy_sp_rounded": 0.949,
+      "our_pair_recall": 0.9486387730945397,
+      "legacy_tc_truncated": 0.81,
+      "our_strict_tc": 0.8110236220472441,
+      "alignment": "results/extended/BB50013.fa"
+    }
+  ]
+}

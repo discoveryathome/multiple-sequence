@@ -1,0 +1,117 @@
+{
+  "dataset": "BB50013",
+  "mode": "gap",
+  "seed": 0,
+  "rounds": 12,
+  "operations": [
+    "gap"
+  ],
+  "baseline": "mafft-ginsi",
+  "baseline_path": "results/baselines/BB50013.mafft-ginsi.fa",
+  "baseline_hash": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49",
+  "baseline_score": 60185,
+  "score": 60185,
+  "alignment": "BB50013.gap.s0.fa",
+  "canonical_sha256": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49",
+  "input_sha256": "964a080537530c074fdb5dcb36988630221de1bb05603875ea01c1e7a25d221f",
+  "trace": [
+    {
+      "round": 0,
+      "operation": "gap",
+      "before": 60185,
+      "proposal": 60185,
+      "accepted": false,
+      "proposal_hash": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49"
+    },
+    {
+      "round": 1,
+      "operation": "gap",
+      "before": 60185,
+      "proposal": 60185,
+      "accepted": false,
+      "proposal_hash": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49"
+    },
+    {
+      "round": 2,
+      "operation": "gap",
+      "before": 60185,
+      "proposal": 60185,
+      "accepted": false,
+      "proposal_hash": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49"
+    },
+    {
+      "round": 3,
+      "operation": "gap",
+      "before": 60185,
+      "proposal": 60185,
+      "accepted": false,
+      "proposal_hash": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49"
+    },
+    {
+      "round": 4,
+      "operation": "gap",
+      "before": 60185,
+      "proposal": 60185,
+      "accepted": false,
+      "proposal_hash": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49"
+    },
+    {
+      "round": 5,
+      "operation": "gap",
+      "before": 60185,
+      "proposal": 60185,
+      "accepted": false,
+      "proposal_hash": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49"
+    },
+    {
+      "round": 6,
+      "operation": "gap",
+      "before": 60185,
+      "proposal": 60185,
+      "accepted": false,
+      "proposal_hash": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49"
+    },
+    {
+      "round": 7,
+      "operation": "gap",
+      "before": 60185,
+      "proposal": 60185,
+      "accepted": false,
+      "proposal_hash": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49"
+    },
+    {
+      "round": 8,
+      "operation": "gap",
+      "before": 60185,
+      "proposal": 60185,
+      "accepted": false,
+      "proposal_hash": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49"
+    },
+    {
+      "round": 9,
+      "operation": "gap",
+      "before": 60185,
+      "proposal": 60185,
+      "accepted": false,
+      "proposal_hash": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49"
+    },
+    {
+      "round": 10,
+      "operation": "gap",
+      "before": 60185,
+      "proposal": 60185,
+      "accepted": false,
+      "proposal_hash": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49"
+    },
+    {
+      "round": 11,
+      "operation": "gap",
+      "before": 60185,
+      "proposal": 60185,
+      "accepted": false,
+      "proposal_hash": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49"
+    }
+  ],
+  "seconds": 3.8774194170255214,
+  "config_sha256": "ca7d2673541c8da52a7a313bf2707ec572cac89916fe43af638c6fb55a882cb2"
+}

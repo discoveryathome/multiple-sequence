@@ -1,0 +1,117 @@
+{
+  "dataset": "BB11015",
+  "mode": "gap",
+  "seed": 0,
+  "rounds": 12,
+  "operations": [
+    "gap"
+  ],
+  "baseline": "famsa2",
+  "baseline_path": "results/baselines/BB11015.famsa2.fa",
+  "baseline_hash": "fe7434e6caed7b7473f2861c4c4ad828fbfdb7e5e74fca3fb57e364339e213d5",
+  "baseline_score": 47,
+  "score": 70,
+  "alignment": "BB11015.gap.s0.fa",
+  "canonical_sha256": "43b482f1d4f60e9d16d629412d5a78e24951a802402db599eaf7742ebfb31784",
+  "input_sha256": "a2f55e09971a308198a21f9b786a3e85c288539289a796668dd69a0aad7abb82",
+  "trace": [
+    {
+      "round": 0,
+      "operation": "gap",
+      "before": 47,
+      "proposal": 47,
+      "accepted": false,
+      "proposal_hash": "fe7434e6caed7b7473f2861c4c4ad828fbfdb7e5e74fca3fb57e364339e213d5"
+    },
+    {
+      "round": 1,
+      "operation": "gap",
+      "before": 47,
+      "proposal": 52,
+      "accepted": true,
+      "proposal_hash": "f99cacbe3fd4093cfdd2d2f39bd8afee501dbeca75b0603ddda8699b887ecce0"
+    },
+    {
+      "round": 2,
+      "operation": "gap",
+      "before": 52,
+      "proposal": 55,
+      "accepted": true,
+      "proposal_hash": "9ddd293799e0b74d925fd3466db81823437199fbc24274738650bfbc6a91d029"
+    },
+    {
+      "round": 3,
+      "operation": "gap",
+      "before": 55,
+      "proposal": 55,
+      "accepted": false,
+      "proposal_hash": "9ddd293799e0b74d925fd3466db81823437199fbc24274738650bfbc6a91d029"
+    },
+    {
+      "round": 4,
+      "operation": "gap",
+      "before": 55,
+      "proposal": 56,
+      "accepted": true,
+      "proposal_hash": "240bcd79e04195c6458ec07e66847baf94a0e347e9a5430cedf8699660882ed5"
+    },
+    {
+      "round": 5,
+      "operation": "gap",
+      "before": 56,
+      "proposal": 62,
+      "accepted": true,
+      "proposal_hash": "1de0e78f75c3f21d84a2e8b6d02889d255ddcd36075e034a3a2728bf327e43bd"
+    },
+    {
+      "round": 6,
+      "operation": "gap",
+      "before": 62,
+      "proposal": 65,
+      "accepted": true,
+      "proposal_hash": "ed2355b3949cbe230ac4332d9f67775d90327ded8a3cdaab479fe4703eb7abb7"
+    },
+    {
+      "round": 7,
+      "operation": "gap",
+      "before": 65,
+      "proposal": 65,
+      "accepted": false,
+      "proposal_hash": "ed2355b3949cbe230ac4332d9f67775d90327ded8a3cdaab479fe4703eb7abb7"
+    },
+    {
+      "round": 8,
+      "operation": "gap",
+      "before": 65,
+      "proposal": 65,
+      "accepted": false,
+      "proposal_hash": "ed2355b3949cbe230ac4332d9f67775d90327ded8a3cdaab479fe4703eb7abb7"
+    },
+    {
+      "round": 9,
+      "operation": "gap",
+      "before": 65,
+      "proposal": 70,
+      "accepted": true,
+      "proposal_hash": "43b482f1d4f60e9d16d629412d5a78e24951a802402db599eaf7742ebfb31784"
+    },
+    {
+      "round": 10,
+      "operation": "gap",
+      "before": 70,
+      "proposal": 70,
+      "accepted": false,
+      "proposal_hash": "43b482f1d4f60e9d16d629412d5a78e24951a802402db599eaf7742ebfb31784"
+    },
+    {
+      "round": 11,
+      "operation": "gap",
+      "before": 70,
+      "proposal": 70,
+      "accepted": false,
+      "proposal_hash": "43b482f1d4f60e9d16d629412d5a78e24951a802402db599eaf7742ebfb31784"
+    }
+  ],
+  "seconds": 0.7089685000246391,
+  "config_sha256": "ca7d2673541c8da52a7a313bf2707ec572cac89916fe43af638c6fb55a882cb2"
+}

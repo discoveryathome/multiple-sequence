@@ -1,0 +1,23 @@
+{
+  "model": "MSA-SP-v1",
+  "baselines": [
+    "mafft-linsi",
+    "mafft-ginsi",
+    "famsa2"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "rounds": 3,
+  "operations": [
+    "block",
+    "subgroup",
+    "gap",
+    "profile"
+  ],
+  "primary_selection": "Largest exact model score among the three baseline methods; ties use ascending method name. Select the best combined-seed candidate by score only.",
+  "ablation_budget": "12 proposals per mode, with 16 internal gap-relocation trials per gap proposal. Proposal counts are equal; CPU budgets are not.",
+  "evaluation": "Freeze this configuration and candidate generation code before opening accuracy results. Evaluate all seeds, ablations and families; no reference accuracy filtering. Three development families, five evaluation families. This is a small exploratory pilot, not a pristine held-out benchmark or preregistered study."
+}

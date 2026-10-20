@@ -1,0 +1,90 @@
+[
+  {
+    "dataset": "BB11001",
+    "value": "188",
+    "object": "results/experiments/BB11001.block.s0.fa",
+    "by": "Local pilot automation (unreviewed)",
+    "source": "results/experiments/BB11001.block.s0.json",
+    "updated": "2026-10-20",
+    "baseline": "mafft-linsi",
+    "baseline_score": "188",
+    "core_pair_recall": 0.9912280701754386
+  },
+  {
+    "dataset": "BB11015",
+    "value": "70",
+    "object": "results/experiments/BB11015.gap.s0.fa",
+    "by": "Local pilot automation (unreviewed)",
+    "source": "results/experiments/BB11015.gap.s0.json",
+    "updated": "2026-10-20",
+    "baseline": "famsa2",
+    "baseline_score": "47",
+    "core_pair_recall": 0.8838383838383839
+  },
+  {
+    "dataset": "BB12021",
+    "value": "1053",
+    "object": "results/experiments/BB12021.block.s0.fa",
+    "by": "Local pilot automation (unreviewed)",
+    "source": "results/experiments/BB12021.block.s0.json",
+    "updated": "2026-10-20",
+    "baseline": "mafft-ginsi",
+    "baseline_score": "1053",
+    "core_pair_recall": 1.0
+  },
+  {
+    "dataset": "BB20029",
+    "value": "25865",
+    "object": "results/experiments/BB20029.gap.s0.fa",
+    "by": "Local pilot automation (unreviewed)",
+    "source": "results/experiments/BB20029.gap.s0.json",
+    "updated": "2026-10-20",
+    "baseline": "mafft-linsi",
+    "baseline_score": "25595",
+    "core_pair_recall": 0.864192288092407
+  },
+  {
+    "dataset": "BB20030",
+    "value": "258628",
+    "object": "results/experiments/BB20030.combined.s2.fa",
+    "by": "Local pilot automation (unreviewed)",
+    "source": "results/experiments/BB20030.combined.s2.json",
+    "updated": "2026-10-20",
+    "baseline": "mafft-ginsi",
+    "baseline_score": "258594",
+    "core_pair_recall": 0.902549722479186
+  },
+  {
+    "dataset": "BB30027",
+    "value": "3498",
+    "object": "results/experiments/BB30027.gap.s0.fa",
+    "by": "Local pilot automation (unreviewed)",
+    "source": "results/experiments/BB30027.gap.s0.json",
+    "updated": "2026-10-20",
+    "baseline": "mafft-linsi",
+    "baseline_score": "3479",
+    "core_pair_recall": 0.8930622009569378
+  },
+  {
+    "dataset": "BB40010",
+    "value": "1897",
+    "object": "results/experiments/BB40010.block.s0.fa",
+    "by": "Local pilot automation (unreviewed)",
+    "source": "results/experiments/BB40010.block.s0.json",
+    "updated": "2026-10-20",
+    "baseline": "mafft-ginsi",
+    "baseline_score": "1897",
+    "core_pair_recall": 0.8570127504553734
+  },
+  {
+    "dataset": "BB50013",
+    "value": "60185",
+    "object": "results/experiments/BB50013.block.s0.fa",
+    "by": "Local pilot automation (unreviewed)",
+    "source": "results/experiments/BB50013.block.s0.json",
+    "updated": "2026-10-20",
+    "baseline": "mafft-ginsi",
+    "baseline_score": "60185",
+    "core_pair_recall": 0.9486387730945397
+  }
+]

@@ -1,0 +1,11 @@
+Using XML format reference alignment
+
+Comparing test alignment in /Users/colkitt/discover-work/incubatedPilots/multiple-sequence/start-multiple-sequence/results/bali-crosscheck/BB20030.subgroup.0.msf
+with reference alignment in /Users/colkitt/discover-work/incubatedPilots/multiple-sequence/start-multiple-sequence/data/source/BB20030.xml
+
+Using core blocks defined in /Users/colkitt/discover-work/incubatedPilots/multiple-sequence/start-multiple-sequence/data/source/BB20030.xml
+
+	SP score= 0.903
+
+	TC score= 0.000
+auto /Users/colkitt/discover-work/incubatedPilots/multiple-sequence/start-multiple-sequence/results/bali-crosscheck/BB20030.subgroup.0.msf 0.903 0.000

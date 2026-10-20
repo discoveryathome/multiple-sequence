@@ -1,0 +1,229 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "records": [
+    {
+      "dataset": "BB11001",
+      "method": "famsa2",
+      "version": [
+        "FAMSA (Fast and Accurate Multiple Sequence Alignment) ",
+        "  version 2.5.2-2598410 (2026-03-23)",
+        "  S. Deorowicz, A. Debudaj-Grabysz, A. Gudys",
+        ""
+      ],
+      "argv": [
+        "famsa",
+        "-t",
+        "1",
+        "data/inputs/BB11001.fa",
+        "OUTPUT"
+      ],
+      "input_sha256": "e9c205db271e7d48098824ead0d8c61dcf081fd000b7562644e0b2468bf518bf",
+      "alignment": "BB11001.famsa2.fa",
+      "canonical_sha256": "2cf0918b091002ac92404689d29387a3802a406c568f359126ec8860c42cdd26",
+      "repeat_hashes": [
+        "2cf0918b091002ac92404689d29387a3802a406c568f359126ec8860c42cdd26",
+        "2cf0918b091002ac92404689d29387a3802a406c568f359126ec8860c42cdd26"
+      ],
+      "seconds": [
+        0.034430791973136365,
+        0.03734112496022135
+      ]
+    },
+    {
+      "dataset": "BB11015",
+      "method": "famsa2",
+      "version": [
+        "FAMSA (Fast and Accurate Multiple Sequence Alignment) ",
+        "  version 2.5.2-2598410 (2026-03-23)",
+        "  S. Deorowicz, A. Debudaj-Grabysz, A. Gudys",
+        ""
+      ],
+      "argv": [
+        "famsa",
+        "-t",
+        "1",
+        "data/inputs/BB11015.fa",
+        "OUTPUT"
+      ],
+      "input_sha256": "a2f55e09971a308198a21f9b786a3e85c288539289a796668dd69a0aad7abb82",
+      "alignment": "BB11015.famsa2.fa",
+      "canonical_sha256": "fe7434e6caed7b7473f2861c4c4ad828fbfdb7e5e74fca3fb57e364339e213d5",
+      "repeat_hashes": [
+        "fe7434e6caed7b7473f2861c4c4ad828fbfdb7e5e74fca3fb57e364339e213d5",
+        "fe7434e6caed7b7473f2861c4c4ad828fbfdb7e5e74fca3fb57e364339e213d5"
+      ],
+      "seconds": [
+        0.0717947919620201,
+        0.05442308296915144
+      ]
+    },
+    {
+      "dataset": "BB12021",
+      "method": "famsa2",
+      "version": [
+        "FAMSA (Fast and Accurate Multiple Sequence Alignment) ",
+        "  version 2.5.2-2598410 (2026-03-23)",
+        "  S. Deorowicz, A. Debudaj-Grabysz, A. Gudys",
+        ""
+      ],
+      "argv": [
+        "famsa",
+        "-t",
+        "1",
+        "data/inputs/BB12021.fa",
+        "OUTPUT"
+      ],
+      "input_sha256": "7b444d6fd5528d59d7d863eec2309e67db658df025f06f5e3029f86a1bbb3532",
+      "alignment": "BB12021.famsa2.fa",
+      "canonical_sha256": "4841269d0218fa8218ffee22924dc6b9ab466e6df1014421202ad5bafd427b87",
+      "repeat_hashes": [
+        "4841269d0218fa8218ffee22924dc6b9ab466e6df1014421202ad5bafd427b87",
+        "4841269d0218fa8218ffee22924dc6b9ab466e6df1014421202ad5bafd427b87"
+      ],
+      "seconds": [
+        0.04917195800226182,
+        0.04785191698465496
+      ]
+    },
+    {
+      "dataset": "BB20029",
+      "method": "famsa2",
+      "version": [
+        "FAMSA (Fast and Accurate Multiple Sequence Alignment) ",
+        "  version 2.5.2-2598410 (2026-03-23)",
+        "  S. Deorowicz, A. Debudaj-Grabysz, A. Gudys",
+        ""
+      ],
+      "argv": [
+        "famsa",
+        "-t",
+        "1",
+        "data/inputs/BB20029.fa",
+        "OUTPUT"
+      ],
+      "input_sha256": "6a2c0ac98ddc984b458d762b77ef866433639eb1d30677d1a6e35b5f59bdce50",
+      "alignment": "BB20029.famsa2.fa",
+      "canonical_sha256": "d2a8ee78702f74accdfed5080310673f1715fbf3b1248d8ad56895b39445af81",
+      "repeat_hashes": [
+        "d2a8ee78702f74accdfed5080310673f1715fbf3b1248d8ad56895b39445af81",
+        "d2a8ee78702f74accdfed5080310673f1715fbf3b1248d8ad56895b39445af81"
+      ],
+      "seconds": [
+        0.08441004098858684,
+        0.08473412494640797
+      ]
+    },
+    {
+      "dataset": "BB20030",
+      "method": "famsa2",
+      "version": [
+        "FAMSA (Fast and Accurate Multiple Sequence Alignment) ",
+        "  version 2.5.2-2598410 (2026-03-23)",
+        "  S. Deorowicz, A. Debudaj-Grabysz, A. Gudys",
+        ""
+      ],
+      "argv": [
+        "famsa",
+        "-t",
+        "1",
+        "data/inputs/BB20030.fa",
+        "OUTPUT"
+      ],
+      "input_sha256": "dc1f6dc867b74cbb069dd2d1282a9f1ac4f25a75deb6134a8f65010e10c7ff5b",
+      "alignment": "BB20030.famsa2.fa",
+      "canonical_sha256": "954e8bd42820d3ffafc3364674d3969dc550a06336b0848f3825dc34cfb54b4a",
+      "repeat_hashes": [
+        "954e8bd42820d3ffafc3364674d3969dc550a06336b0848f3825dc34cfb54b4a",
+        "954e8bd42820d3ffafc3364674d3969dc550a06336b0848f3825dc34cfb54b4a"
+      ],
+      "seconds": [
+        0.08540720900055021,
+        0.08878516696859151
+      ]
+    },
+    {
+      "dataset": "BB30027",
+      "method": "famsa2",
+      "version": [
+        "FAMSA (Fast and Accurate Multiple Sequence Alignment) ",
+        "  version 2.5.2-2598410 (2026-03-23)",
+        "  S. Deorowicz, A. Debudaj-Grabysz, A. Gudys",
+        ""
+      ],
+      "argv": [
+        "famsa",
+        "-t",
+        "1",
+        "data/inputs/BB30027.fa",
+        "OUTPUT"
+      ],
+      "input_sha256": "755c4528d2fb8f1a2d5a95dcd82d9b47eec4772421b02523ca504c056b19efa0",
+      "alignment": "BB30027.famsa2.fa",
+      "canonical_sha256": "da2d969386eb5126812a741d3a79721b8d8e66fd58b2dc231524fd568a8ced62",
+      "repeat_hashes": [
+        "da2d969386eb5126812a741d3a79721b8d8e66fd58b2dc231524fd568a8ced62",
+        "da2d969386eb5126812a741d3a79721b8d8e66fd58b2dc231524fd568a8ced62"
+      ],
+      "seconds": [
+        0.08564549998845905,
+        0.09102837496902794
+      ]
+    },
+    {
+      "dataset": "BB40010",
+      "method": "famsa2",
+      "version": [
+        "FAMSA (Fast and Accurate Multiple Sequence Alignment) ",
+        "  version 2.5.2-2598410 (2026-03-23)",
+        "  S. Deorowicz, A. Debudaj-Grabysz, A. Gudys",
+        ""
+      ],
+      "argv": [
+        "famsa",
+        "-t",
+        "1",
+        "data/inputs/BB40010.fa",
+        "OUTPUT"
+      ],
+      "input_sha256": "057189a874c32433985eee716019e58c49c8596718c394af6f0f673331357f6d",
+      "alignment": "BB40010.famsa2.fa",
+      "canonical_sha256": "661011dfdef24c2caa0f983c716f4969d5396bcef9920404a7e0359c8c638bf8",
+      "repeat_hashes": [
+        "661011dfdef24c2caa0f983c716f4969d5396bcef9920404a7e0359c8c638bf8",
+        "661011dfdef24c2caa0f983c716f4969d5396bcef9920404a7e0359c8c638bf8"
+      ],
+      "seconds": [
+        0.04709916701540351,
+        0.04570675001014024
+      ]
+    },
+    {
+      "dataset": "BB50013",
+      "method": "famsa2",
+      "version": [
+        "FAMSA (Fast and Accurate Multiple Sequence Alignment) ",
+        "  version 2.5.2-2598410 (2026-03-23)",
+        "  S. Deorowicz, A. Debudaj-Grabysz, A. Gudys",
+        ""
+      ],
+      "argv": [
+        "famsa",
+        "-t",
+        "1",
+        "data/inputs/BB50013.fa",
+        "OUTPUT"
+      ],
+      "input_sha256": "964a080537530c074fdb5dcb36988630221de1bb05603875ea01c1e7a25d221f",
+      "alignment": "BB50013.famsa2.fa",
+      "canonical_sha256": "21d0770692e3858ca1c506f303afa8c321fbe68ee7d04ae96dd8628449563c44",
+      "repeat_hashes": [
+        "21d0770692e3858ca1c506f303afa8c321fbe68ee7d04ae96dd8628449563c44",
+        "21d0770692e3858ca1c506f303afa8c321fbe68ee7d04ae96dd8628449563c44"
+      ],
+      "seconds": [
+        0.14129350008442998,
+        0.16547758306842297
+      ]
+    }
+  ]
+}

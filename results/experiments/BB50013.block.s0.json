@@ -1,0 +1,117 @@
+{
+  "dataset": "BB50013",
+  "mode": "block",
+  "seed": 0,
+  "rounds": 12,
+  "operations": [
+    "block"
+  ],
+  "baseline": "mafft-ginsi",
+  "baseline_path": "results/baselines/BB50013.mafft-ginsi.fa",
+  "baseline_hash": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49",
+  "baseline_score": 60185,
+  "score": 60185,
+  "alignment": "BB50013.block.s0.fa",
+  "canonical_sha256": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49",
+  "input_sha256": "964a080537530c074fdb5dcb36988630221de1bb05603875ea01c1e7a25d221f",
+  "trace": [
+    {
+      "round": 0,
+      "operation": "block",
+      "before": 60185,
+      "proposal": 58236,
+      "accepted": false,
+      "proposal_hash": "57ef2c22b908a98bb74d062e078d70d1eea4c307da7b6b4d78db2adc587bbbfa"
+    },
+    {
+      "round": 1,
+      "operation": "block",
+      "before": 60185,
+      "proposal": 59819,
+      "accepted": false,
+      "proposal_hash": "4d9380638a0265f795e660fbcc0cd9cc7f960115389878778308685fd5f1aed8"
+    },
+    {
+      "round": 2,
+      "operation": "block",
+      "before": 60185,
+      "proposal": 58074,
+      "accepted": false,
+      "proposal_hash": "8518fa96e8a6516bb531ccaeae51115d841b09f1c9687f51b91b1d5c91fe8a30"
+    },
+    {
+      "round": 3,
+      "operation": "block",
+      "before": 60185,
+      "proposal": 59677,
+      "accepted": false,
+      "proposal_hash": "17fb0cfe795f9868702876fae56a31427374d6a271450f29cbd48e23dfd152a5"
+    },
+    {
+      "round": 4,
+      "operation": "block",
+      "before": 60185,
+      "proposal": 57877,
+      "accepted": false,
+      "proposal_hash": "8b2d743a5f83bf6f4e274e59e26ec487687a1d10e30e8d079888277d1d7e8fb5"
+    },
+    {
+      "round": 5,
+      "operation": "block",
+      "before": 60185,
+      "proposal": 57030,
+      "accepted": false,
+      "proposal_hash": "7a5b68c49a85a55cd1391c06ee1aa6762de94fa5deadec20dafd142360cdeda7"
+    },
+    {
+      "round": 6,
+      "operation": "block",
+      "before": 60185,
+      "proposal": 57102,
+      "accepted": false,
+      "proposal_hash": "b14b4c9884780924013056ff4a129fdcb151305af0efbbb82df2f2a1ba5fe55b"
+    },
+    {
+      "round": 7,
+      "operation": "block",
+      "before": 60185,
+      "proposal": 58179,
+      "accepted": false,
+      "proposal_hash": "4726178827ad13a201586f7966179c657aa57f21b78fd79c62a854c50b2f6d10"
+    },
+    {
+      "round": 8,
+      "operation": "block",
+      "before": 60185,
+      "proposal": 58257,
+      "accepted": false,
+      "proposal_hash": "6010a7afe237e2dd35b788729bab8bfecc75c1a182859447995a5f4513a65839"
+    },
+    {
+      "round": 9,
+      "operation": "block",
+      "before": 60185,
+      "proposal": 58057,
+      "accepted": false,
+      "proposal_hash": "80fc9498b3afaa332aa5dc86e5b4b91755aa3fec3ee208e69386d9e742c92261"
+    },
+    {
+      "round": 10,
+      "operation": "block",
+      "before": 60185,
+      "proposal": 57750,
+      "accepted": false,
+      "proposal_hash": "6230bc7e2a10a3aaf83457e435141a99a8078c62d429e47c7c026efa1fcf8c5e"
+    },
+    {
+      "round": 11,
+      "operation": "block",
+      "before": 60185,
+      "proposal": 57345,
+      "accepted": false,
+      "proposal_hash": "49aa6e2a74cd12ac027b38ad06e7d88b9efa32e6067c7185c0fa706651dc0e05"
+    }
+  ],
+  "seconds": 1.5181785830063745,
+  "config_sha256": "ca7d2673541c8da52a7a313bf2707ec572cac89916fe43af638c6fb55a882cb2"
+}

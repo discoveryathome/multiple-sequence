@@ -1,0 +1,117 @@
+{
+  "dataset": "BB50013",
+  "mode": "profile",
+  "seed": 0,
+  "rounds": 12,
+  "operations": [
+    "profile"
+  ],
+  "baseline": "mafft-ginsi",
+  "baseline_path": "results/baselines/BB50013.mafft-ginsi.fa",
+  "baseline_hash": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49",
+  "baseline_score": 60185,
+  "score": 60185,
+  "alignment": "BB50013.profile.s0.fa",
+  "canonical_sha256": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49",
+  "input_sha256": "964a080537530c074fdb5dcb36988630221de1bb05603875ea01c1e7a25d221f",
+  "trace": [
+    {
+      "round": 0,
+      "operation": "profile",
+      "before": 60185,
+      "proposal": 60185,
+      "accepted": false,
+      "proposal_hash": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49"
+    },
+    {
+      "round": 1,
+      "operation": "profile",
+      "before": 60185,
+      "proposal": 60185,
+      "accepted": false,
+      "proposal_hash": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49"
+    },
+    {
+      "round": 2,
+      "operation": "profile",
+      "before": 60185,
+      "proposal": 57502,
+      "accepted": false,
+      "proposal_hash": "259893d00b4e773303f4a2ab1932c7c75063bd325f406b21dafc898194b3f418"
+    },
+    {
+      "round": 3,
+      "operation": "profile",
+      "before": 60185,
+      "proposal": 59840,
+      "accepted": false,
+      "proposal_hash": "d72cad4ccd393031168a76fe1089133433a0602804294ab2e972be4a060f48c9"
+    },
+    {
+      "round": 4,
+      "operation": "profile",
+      "before": 60185,
+      "proposal": 59849,
+      "accepted": false,
+      "proposal_hash": "84c97259faa362cad3ae714514142a6f3f3c5b78c0851822e9015fea3e8b9e32"
+    },
+    {
+      "round": 5,
+      "operation": "profile",
+      "before": 60185,
+      "proposal": 60142,
+      "accepted": false,
+      "proposal_hash": "cc1b42ef4162180449350ba8652a02bebd1f735f5a393d79a0ba7a30c11dbabc"
+    },
+    {
+      "round": 6,
+      "operation": "profile",
+      "before": 60185,
+      "proposal": 60185,
+      "accepted": false,
+      "proposal_hash": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49"
+    },
+    {
+      "round": 7,
+      "operation": "profile",
+      "before": 60185,
+      "proposal": 60061,
+      "accepted": false,
+      "proposal_hash": "4acdf5880f629e006f3555c826cf24348e76e53613c9d5f1473f43575c4a87e4"
+    },
+    {
+      "round": 8,
+      "operation": "profile",
+      "before": 60185,
+      "proposal": 60142,
+      "accepted": false,
+      "proposal_hash": "cc1b42ef4162180449350ba8652a02bebd1f735f5a393d79a0ba7a30c11dbabc"
+    },
+    {
+      "round": 9,
+      "operation": "profile",
+      "before": 60185,
+      "proposal": 60119,
+      "accepted": false,
+      "proposal_hash": "566ee75d9eceaecd57c32dc444d390cbc48eb95e350aa46578d68c8d74626fe3"
+    },
+    {
+      "round": 10,
+      "operation": "profile",
+      "before": 60185,
+      "proposal": 58861,
+      "accepted": false,
+      "proposal_hash": "310875ac03637ed6c9906b26a6f2ac61a0040d58dd14697a85222734403715d8"
+    },
+    {
+      "round": 11,
+      "operation": "profile",
+      "before": 60185,
+      "proposal": 59849,
+      "accepted": false,
+      "proposal_hash": "84c97259faa362cad3ae714514142a6f3f3c5b78c0851822e9015fea3e8b9e32"
+    }
+  ],
+  "seconds": 4.108017541002482,
+  "config_sha256": "ca7d2673541c8da52a7a313bf2707ec572cac89916fe43af638c6fb55a882cb2"
+}

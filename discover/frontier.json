@@ -1,0 +1,85 @@
+{
+  "schema": "discover-frontier/v0",
+  "statement": "Best locally observed MSA-SP-v1 integer score for eight pinned BAliBASE protein families among MAFFT L-INS-i, G-INS-i, FAMSA2 and the recorded refinements. Four cases exceed the strongest baseline score. Values certify feasible alignments under the model, not global optima or biological discovery.",
+  "status": "Local pilot; author-checked, pending Douglas Colkitt review; unlisted.",
+  "evidence_level": [
+    "author-checked"
+  ],
+  "claim_kind": [
+    "model",
+    "measured"
+  ],
+  "scope": "Full-length original BAliBASE cases in data/manifest.json; BLOSUM62, pair-projected affine gaps open 11 extension 1, terminals penalized. Separate reference-core evaluation.",
+  "review": "docs/REVIEW.md",
+  "updated_on": "2026-10-20",
+  "table": {
+    "path": "discover/records.json",
+    "format": "json",
+    "key": [
+      "dataset"
+    ],
+    "value": "value",
+    "direction": "higher-is-better",
+    "object": "object",
+    "check_row": [
+      "python3",
+      "-m",
+      "msa",
+      "check",
+      "--dataset",
+      "{dataset}",
+      "--alignment",
+      "{object}",
+      "--claimed-score",
+      "{value}"
+    ],
+    "check_row_minutes": 1,
+    "by": "by",
+    "source": "source",
+    "updated": "updated"
+  },
+  "sources": [
+    "docs/LITERATURE.md",
+    "https://mafft.ddbj.nig.ac.jp/alignment/software/algorithms/",
+    "https://doi.org/10.1038/s41587-026-03095-3",
+    "results/evaluation.json",
+    "results/toolchain.json"
+  ],
+  "assumptions": [
+    {
+      "id": "reference-validity",
+      "statement": "BAliBASE annotated cores provide a useful but imperfect external evaluation target; agreement is not independently verified biological truth.",
+      "status": "partial",
+      "link": "docs/LITERATURE.md"
+    },
+    {
+      "id": "generalization",
+      "statement": "Eight selected protein families and small budgets do not establish broad biological superiority, DNA applicability or sustained large-scale yield.",
+      "status": "open",
+      "link": "docs/ASSESSMENT.md"
+    }
+  ],
+  "reproduce": "python3 scripts/verify.py",
+  "reproduce_full": "python3 scripts/verify.py && python3 scripts/replay.py",
+  "reproduce_minutes": 1,
+  "prerequisites": [
+    "Python 3.9+; standard library only for saved-result checking. External generation instructions in docs/REPRODUCE.md."
+  ],
+  "artifacts": [
+    {
+      "path": "experiment.json",
+      "sha256": "ca7d2673541c8da52a7a313bf2707ec572cac89916fe43af638c6fb55a882cb2",
+      "role": "frozen experiment settings"
+    },
+    {
+      "path": "data/manifest.json",
+      "sha256": "f652c5abcf7740002c22a580c7c6a2ce35f79f9caebd1ca5370bab69b555a21f",
+      "role": "input and reference provenance"
+    },
+    {
+      "path": "results/generation-source.json",
+      "sha256": "8d6fdd11e90d8b42bb92b2ffbcf0f4a22e55ccc91a1f167d7911059b1eacd97d",
+      "role": "generation source hashes"
+    }
+  ]
+}

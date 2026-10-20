@@ -1,0 +1,1 @@
+{"commands":["python3 scripts/verify.py","python3 scripts/replay.py"],"exact_claim":"Feasibility and integer SP of the saved alignments; separately recomputed reference metrics","evidence":"verify.log","limitations":"No optimality proof or independent human review. External original evaluator and baseline runs are separately recorded."}

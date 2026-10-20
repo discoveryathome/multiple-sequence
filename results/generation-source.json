@@ -1,0 +1,8 @@
+{
+  "experiment.json": "ca7d2673541c8da52a7a313bf2707ec572cac89916fe43af638c6fb55a882cb2",
+  "msa/core.py": "3e56cbbe2cfe099d43a5921d495c3610d5a6b1c68d74e9023b5e1592fd409f3f",
+  "msa/refine.py": "7316d0e19b128d4ccf7a5386142d7aa277a2985c0ea261af930eda057b188595",
+  "scripts/run_experiments.py": "008ae60b207c48e5f74dfa93dad02fd15bd5ce47c608e6c87f41b30568d17ab3",
+  "data/matrices/BLOSUM62": "85510d3846ee6d5f4778e425cf8daf6e0dbb889b306f2d13434e1254780efb40",
+  "scripts/extended.py": "46f6243b939e138c4d4f307694170ed25a7cd6303d29ff6d992cb93f5252220f"
+}

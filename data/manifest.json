@@ -1,0 +1,175 @@
+{
+  "source_url": "https://publish.illinois.edu/msaevaluation/files/2017/07/BAliBASE_R1-5.tar_.gz",
+  "archive_sha256": "5378cf4e2e0741f788a0175d4fcb78c54387102b243e8de16c5e2cafed928190",
+  "selection": "Intact full-length families; chosen by category and size before scoring. No sequence subsampling.",
+  "datasets": [
+    {
+      "id": "BB11001",
+      "category": "RV11",
+      "split": "development",
+      "n": 4,
+      "max_length": 91,
+      "reference_columns": 96,
+      "core_columns": 57,
+      "source_member": "bb3_release/RV11/BB11001.xml",
+      "source_alignment_name": "ref1/v1/1aab_ref1",
+      "input": "data/inputs/BB11001.fa",
+      "reference": "data/references/BB11001.fa",
+      "mask": "data/references/BB11001.core.json",
+      "xml": "data/source/BB11001.xml",
+      "sha256": {
+        "input": "e9c205db271e7d48098824ead0d8c61dcf081fd000b7562644e0b2468bf518bf",
+        "reference": "fb122475869d7408aed2db093c309922c8fd284677f1edd5ed9cb0a840b792b0",
+        "mask": "725d9ea25906b70e525b0e7137d7ff8b8a1b8015dcbe56e08b8300bc76b4a9ac",
+        "xml": "6eaf800da741d4b76db2db995346399e4183df05527515152a6fbf5ed3745038"
+      }
+    },
+    {
+      "id": "BB11015",
+      "category": "RV11",
+      "split": "evaluation",
+      "n": 4,
+      "max_length": 327,
+      "reference_columns": 341,
+      "core_columns": 198,
+      "source_member": "bb3_release/RV11/BB11015.xml",
+      "source_alignment_name": "ref1/v1/1ldg_ref1",
+      "input": "data/inputs/BB11015.fa",
+      "reference": "data/references/BB11015.fa",
+      "mask": "data/references/BB11015.core.json",
+      "xml": "data/source/BB11015.xml",
+      "sha256": {
+        "input": "a2f55e09971a308198a21f9b786a3e85c288539289a796668dd69a0aad7abb82",
+        "reference": "329259594077ff9aa5a30b42251cade9288fd9ad2df03d44e40989727ffdb1cd",
+        "mask": "42dcfbc40a90137b06039367fe79c1ca2055f674a029ca6c5ba450912c00be58",
+        "xml": "ae794c82de2a7100d5607d72fd12ad9d9f25a3d092e23aaaece307d03b36b48d"
+      }
+    },
+    {
+      "id": "BB12021",
+      "category": "RV12",
+      "split": "development",
+      "n": 6,
+      "max_length": 85,
+      "reference_columns": 88,
+      "core_columns": 39,
+      "source_member": "bb3_release/RV12/BB12021.xml",
+      "source_alignment_name": "ref1/v2/1hpi_ref1",
+      "input": "data/inputs/BB12021.fa",
+      "reference": "data/references/BB12021.fa",
+      "mask": "data/references/BB12021.core.json",
+      "xml": "data/source/BB12021.xml",
+      "sha256": {
+        "input": "7b444d6fd5528d59d7d863eec2309e67db658df025f06f5e3029f86a1bbb3532",
+        "reference": "90a840bbe3fd42425607164e3cb33eca3ef05a179b27445b2bb638ab29a642fd",
+        "mask": "580bfb015ce2ff0d97c47259d1520358cf88e6d04fa566e9073afa0e7cf51d64",
+        "xml": "e539101d756f1dc5d29ccce0a6d86cca17f1683970f5debd889a15fee931242c"
+      }
+    },
+    {
+      "id": "BB20029",
+      "category": "RV20",
+      "split": "evaluation",
+      "n": 29,
+      "max_length": 167,
+      "reference_columns": 207,
+      "core_columns": 29,
+      "source_member": "bb3_release/RV20/BB20029.xml",
+      "source_alignment_name": "ref2/test/1tvxA_ref2",
+      "input": "data/inputs/BB20029.fa",
+      "reference": "data/references/BB20029.fa",
+      "mask": "data/references/BB20029.core.json",
+      "xml": "data/source/BB20029.xml",
+      "sha256": {
+        "input": "6a2c0ac98ddc984b458d762b77ef866433639eb1d30677d1a6e35b5f59bdce50",
+        "reference": "2ce2114aade5e92451299ae11f55a3a4141f3b33514fc998c75b4acf63a84e2c",
+        "mask": "9299dd2430d7e75af56c4aaaa2a8a8b53da0a50d7443a3dfd5999c6659467e59",
+        "xml": "01aff245cc8b40b49ae8041ae51245e743177f37acc2e1e3020875937e3980de"
+      }
+    },
+    {
+      "id": "BB20030",
+      "category": "RV20",
+      "split": "evaluation",
+      "n": 47,
+      "max_length": 155,
+      "reference_columns": 165,
+      "core_columns": 32,
+      "source_member": "bb3_release/RV20/BB20030.xml",
+      "source_alignment_name": "ref2/test/1ubi_ref2",
+      "input": "data/inputs/BB20030.fa",
+      "reference": "data/references/BB20030.fa",
+      "mask": "data/references/BB20030.core.json",
+      "xml": "data/source/BB20030.xml",
+      "sha256": {
+        "input": "dc1f6dc867b74cbb069dd2d1282a9f1ac4f25a75deb6134a8f65010e10c7ff5b",
+        "reference": "bf4b7f96dee8a750c1d281e69663659f67ae396e36ffa47601cb193f685277c4",
+        "mask": "d8aae91e07eaa15ac4605fae03be78f99805c6bc52626852e14df0303cd1a7dc",
+        "xml": "14c8c030d1b8349f24e9a236766424bee98bf3672017cb869f6575edd9205868"
+      }
+    },
+    {
+      "id": "BB30027",
+      "category": "RV30",
+      "split": "evaluation",
+      "n": 20,
+      "max_length": 172,
+      "reference_columns": 239,
+      "core_columns": 22,
+      "source_member": "bb3_release/RV30/BB30027.xml",
+      "source_alignment_name": "ref3/test/451c_ref3",
+      "input": "data/inputs/BB30027.fa",
+      "reference": "data/references/BB30027.fa",
+      "mask": "data/references/BB30027.core.json",
+      "xml": "data/source/BB30027.xml",
+      "sha256": {
+        "input": "755c4528d2fb8f1a2d5a95dcd82d9b47eec4772421b02523ca504c056b19efa0",
+        "reference": "0665ca6886861988c1a45953e250e75b3b56c179361addeedf72ed49c03484b1",
+        "mask": "4329192a86de8622760912c8462f2720815f20eb0b513dc1761d2a6a23d75d30",
+        "xml": "abb9d99289ef79ed35b382199d01c2a4332f254629d71164164cad07a3ab2bf2"
+      }
+    },
+    {
+      "id": "BB40010",
+      "category": "RV40",
+      "split": "development",
+      "n": 9,
+      "max_length": 214,
+      "reference_columns": 275,
+      "core_columns": 61,
+      "source_member": "bb3_release/RV40/BB40010.xml",
+      "source_alignment_name": "ref4/test/1csp_ref4",
+      "input": "data/inputs/BB40010.fa",
+      "reference": "data/references/BB40010.fa",
+      "mask": "data/references/BB40010.core.json",
+      "xml": "data/source/BB40010.xml",
+      "sha256": {
+        "input": "057189a874c32433985eee716019e58c49c8596718c394af6f0f673331357f6d",
+        "reference": "c940ea0e2845f85bbaf7c060ae5597089bbbbcdea29d16081d0462da524d94d8",
+        "mask": "f82cc794570f3041c2684c99991d7241d6f60c889807330f682e4f28786e4936",
+        "xml": "edbc3349d799afa36f3dee2377845d855bafac4b6f1d94198c5f3b5820ec7e31"
+      }
+    },
+    {
+      "id": "BB50013",
+      "category": "RV50",
+      "split": "evaluation",
+      "n": 18,
+      "max_length": 318,
+      "reference_columns": 386,
+      "core_columns": 127,
+      "source_member": "bb3_release/RV50/BB50013.xml",
+      "source_alignment_name": "1tis_ref5",
+      "input": "data/inputs/BB50013.fa",
+      "reference": "data/references/BB50013.fa",
+      "mask": "data/references/BB50013.core.json",
+      "xml": "data/source/BB50013.xml",
+      "sha256": {
+        "input": "964a080537530c074fdb5dcb36988630221de1bb05603875ea01c1e7a25d221f",
+        "reference": "6bcf57ea52f623d6fbdd54dd720a152693d91aac673e5dd8a15f2d50e0baf596",
+        "mask": "e86df5617e67c5fbaef413afe1f84740d8cd62e73db74f79f8d2943ceda498e3",
+        "xml": "d969e351a7ce0d6ce9ebd5bea0ad4c5742d1786379b02a1ca439af1e7b176242"
+      }
+    }
+  ]
+}

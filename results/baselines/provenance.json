@@ -1,0 +1,437 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "records": [
+    {
+      "dataset": "BB11001",
+      "method": "mafft-linsi",
+      "version": "v7.525 (2024/Mar/13)",
+      "argv": [
+        "mafft",
+        "--thread",
+        "1",
+        "--amino",
+        "--localpair",
+        "--maxiterate",
+        "1000",
+        "--inputorder",
+        "data/inputs/BB11001.fa"
+      ],
+      "input_sha256": "e9c205db271e7d48098824ead0d8c61dcf081fd000b7562644e0b2468bf518bf",
+      "alignment": "BB11001.mafft-linsi.fa",
+      "canonical_sha256": "82da25cc0f07d2a7c0a0f617d1bef2dc5d2579ec7273ee20e10c70ce4bb71bfd",
+      "repeat_hashes": [
+        "82da25cc0f07d2a7c0a0f617d1bef2dc5d2579ec7273ee20e10c70ce4bb71bfd",
+        "82da25cc0f07d2a7c0a0f617d1bef2dc5d2579ec7273ee20e10c70ce4bb71bfd"
+      ],
+      "seconds": [
+        0.2341903749620542,
+        0.22774420899804682
+      ]
+    },
+    {
+      "dataset": "BB11001",
+      "method": "mafft-ginsi",
+      "version": "v7.525 (2024/Mar/13)",
+      "argv": [
+        "mafft",
+        "--thread",
+        "1",
+        "--amino",
+        "--globalpair",
+        "--maxiterate",
+        "1000",
+        "--inputorder",
+        "data/inputs/BB11001.fa"
+      ],
+      "input_sha256": "e9c205db271e7d48098824ead0d8c61dcf081fd000b7562644e0b2468bf518bf",
+      "alignment": "BB11001.mafft-ginsi.fa",
+      "canonical_sha256": "9a3e244c181f4c639107202bca27631cd0770408620bd64f6f0225240a5e3dbc",
+      "repeat_hashes": [
+        "9a3e244c181f4c639107202bca27631cd0770408620bd64f6f0225240a5e3dbc",
+        "9a3e244c181f4c639107202bca27631cd0770408620bd64f6f0225240a5e3dbc"
+      ],
+      "seconds": [
+        0.29467066598590463,
+        0.42086179193574935
+      ]
+    },
+    {
+      "dataset": "BB11015",
+      "method": "mafft-linsi",
+      "version": "v7.525 (2024/Mar/13)",
+      "argv": [
+        "mafft",
+        "--thread",
+        "1",
+        "--amino",
+        "--localpair",
+        "--maxiterate",
+        "1000",
+        "--inputorder",
+        "data/inputs/BB11015.fa"
+      ],
+      "input_sha256": "a2f55e09971a308198a21f9b786a3e85c288539289a796668dd69a0aad7abb82",
+      "alignment": "BB11015.mafft-linsi.fa",
+      "canonical_sha256": "d8964cc55f46d09db96a2be0a3d347e6ffd75ab3d439ae38d94739d43d20a814",
+      "repeat_hashes": [
+        "d8964cc55f46d09db96a2be0a3d347e6ffd75ab3d439ae38d94739d43d20a814",
+        "d8964cc55f46d09db96a2be0a3d347e6ffd75ab3d439ae38d94739d43d20a814"
+      ],
+      "seconds": [
+        0.37073112500365824,
+        0.35559316689614207
+      ]
+    },
+    {
+      "dataset": "BB11015",
+      "method": "mafft-ginsi",
+      "version": "v7.525 (2024/Mar/13)",
+      "argv": [
+        "mafft",
+        "--thread",
+        "1",
+        "--amino",
+        "--globalpair",
+        "--maxiterate",
+        "1000",
+        "--inputorder",
+        "data/inputs/BB11015.fa"
+      ],
+      "input_sha256": "a2f55e09971a308198a21f9b786a3e85c288539289a796668dd69a0aad7abb82",
+      "alignment": "BB11015.mafft-ginsi.fa",
+      "canonical_sha256": "6b6127a2d2ba67cc1e8305ab64f2f1e70b3970e939b8239588097604a114ee39",
+      "repeat_hashes": [
+        "6b6127a2d2ba67cc1e8305ab64f2f1e70b3970e939b8239588097604a114ee39",
+        "6b6127a2d2ba67cc1e8305ab64f2f1e70b3970e939b8239588097604a114ee39"
+      ],
+      "seconds": [
+        0.2752465408993885,
+        0.2672732500359416
+      ]
+    },
+    {
+      "dataset": "BB12021",
+      "method": "mafft-linsi",
+      "version": "v7.525 (2024/Mar/13)",
+      "argv": [
+        "mafft",
+        "--thread",
+        "1",
+        "--amino",
+        "--localpair",
+        "--maxiterate",
+        "1000",
+        "--inputorder",
+        "data/inputs/BB12021.fa"
+      ],
+      "input_sha256": "7b444d6fd5528d59d7d863eec2309e67db658df025f06f5e3029f86a1bbb3532",
+      "alignment": "BB12021.mafft-linsi.fa",
+      "canonical_sha256": "2dd5a7c75c7404bfcf086986dd558b2323dada7b0e2eeb4ca7e2865e761620b4",
+      "repeat_hashes": [
+        "2dd5a7c75c7404bfcf086986dd558b2323dada7b0e2eeb4ca7e2865e761620b4",
+        "2dd5a7c75c7404bfcf086986dd558b2323dada7b0e2eeb4ca7e2865e761620b4"
+      ],
+      "seconds": [
+        0.2478486249456182,
+        0.2518322919495404
+      ]
+    },
+    {
+      "dataset": "BB12021",
+      "method": "mafft-ginsi",
+      "version": "v7.525 (2024/Mar/13)",
+      "argv": [
+        "mafft",
+        "--thread",
+        "1",
+        "--amino",
+        "--globalpair",
+        "--maxiterate",
+        "1000",
+        "--inputorder",
+        "data/inputs/BB12021.fa"
+      ],
+      "input_sha256": "7b444d6fd5528d59d7d863eec2309e67db658df025f06f5e3029f86a1bbb3532",
+      "alignment": "BB12021.mafft-ginsi.fa",
+      "canonical_sha256": "cd6928fdbc0ace2e6b87f1245e917f5279b9827e568c15a4d8cd9eb4a6d01141",
+      "repeat_hashes": [
+        "cd6928fdbc0ace2e6b87f1245e917f5279b9827e568c15a4d8cd9eb4a6d01141",
+        "cd6928fdbc0ace2e6b87f1245e917f5279b9827e568c15a4d8cd9eb4a6d01141"
+      ],
+      "seconds": [
+        0.23370766697917134,
+        0.2269573750672862
+      ]
+    },
+    {
+      "dataset": "BB20029",
+      "method": "mafft-linsi",
+      "version": "v7.525 (2024/Mar/13)",
+      "argv": [
+        "mafft",
+        "--thread",
+        "1",
+        "--amino",
+        "--localpair",
+        "--maxiterate",
+        "1000",
+        "--inputorder",
+        "data/inputs/BB20029.fa"
+      ],
+      "input_sha256": "6a2c0ac98ddc984b458d762b77ef866433639eb1d30677d1a6e35b5f59bdce50",
+      "alignment": "BB20029.mafft-linsi.fa",
+      "canonical_sha256": "807dd8207b6037c636b64fe7b64c987ffda412f57a0ced68803603f554e28fba",
+      "repeat_hashes": [
+        "807dd8207b6037c636b64fe7b64c987ffda412f57a0ced68803603f554e28fba",
+        "807dd8207b6037c636b64fe7b64c987ffda412f57a0ced68803603f554e28fba"
+      ],
+      "seconds": [
+        0.45989237492904067,
+        0.4276839999947697
+      ]
+    },
+    {
+      "dataset": "BB20029",
+      "method": "mafft-ginsi",
+      "version": "v7.525 (2024/Mar/13)",
+      "argv": [
+        "mafft",
+        "--thread",
+        "1",
+        "--amino",
+        "--globalpair",
+        "--maxiterate",
+        "1000",
+        "--inputorder",
+        "data/inputs/BB20029.fa"
+      ],
+      "input_sha256": "6a2c0ac98ddc984b458d762b77ef866433639eb1d30677d1a6e35b5f59bdce50",
+      "alignment": "BB20029.mafft-ginsi.fa",
+      "canonical_sha256": "c9299a333fd9539b9a69dfc3146a9c34af17b9e4de6b28fa1c36f733bb7c326e",
+      "repeat_hashes": [
+        "c9299a333fd9539b9a69dfc3146a9c34af17b9e4de6b28fa1c36f733bb7c326e",
+        "c9299a333fd9539b9a69dfc3146a9c34af17b9e4de6b28fa1c36f733bb7c326e"
+      ],
+      "seconds": [
+        0.4066037080483511,
+        0.42623958305921406
+      ]
+    },
+    {
+      "dataset": "BB20030",
+      "method": "mafft-linsi",
+      "version": "v7.525 (2024/Mar/13)",
+      "argv": [
+        "mafft",
+        "--thread",
+        "1",
+        "--amino",
+        "--localpair",
+        "--maxiterate",
+        "1000",
+        "--inputorder",
+        "data/inputs/BB20030.fa"
+      ],
+      "input_sha256": "dc1f6dc867b74cbb069dd2d1282a9f1ac4f25a75deb6134a8f65010e10c7ff5b",
+      "alignment": "BB20030.mafft-linsi.fa",
+      "canonical_sha256": "159de38af7eacf64c20dfef279827235c651649afe2dec90d389429dede292b3",
+      "repeat_hashes": [
+        "159de38af7eacf64c20dfef279827235c651649afe2dec90d389429dede292b3",
+        "159de38af7eacf64c20dfef279827235c651649afe2dec90d389429dede292b3"
+      ],
+      "seconds": [
+        0.5212849590461701,
+        0.5692647909745574
+      ]
+    },
+    {
+      "dataset": "BB20030",
+      "method": "mafft-ginsi",
+      "version": "v7.525 (2024/Mar/13)",
+      "argv": [
+        "mafft",
+        "--thread",
+        "1",
+        "--amino",
+        "--globalpair",
+        "--maxiterate",
+        "1000",
+        "--inputorder",
+        "data/inputs/BB20030.fa"
+      ],
+      "input_sha256": "dc1f6dc867b74cbb069dd2d1282a9f1ac4f25a75deb6134a8f65010e10c7ff5b",
+      "alignment": "BB20030.mafft-ginsi.fa",
+      "canonical_sha256": "1dd40370051f37a552695c0e4f7790264c7ff91ab98b5216cd719b715b854e4b",
+      "repeat_hashes": [
+        "1dd40370051f37a552695c0e4f7790264c7ff91ab98b5216cd719b715b854e4b",
+        "1dd40370051f37a552695c0e4f7790264c7ff91ab98b5216cd719b715b854e4b"
+      ],
+      "seconds": [
+        0.5422623750055209,
+        0.5301932910224423
+      ]
+    },
+    {
+      "dataset": "BB30027",
+      "method": "mafft-linsi",
+      "version": "v7.525 (2024/Mar/13)",
+      "argv": [
+        "mafft",
+        "--thread",
+        "1",
+        "--amino",
+        "--localpair",
+        "--maxiterate",
+        "1000",
+        "--inputorder",
+        "data/inputs/BB30027.fa"
+      ],
+      "input_sha256": "755c4528d2fb8f1a2d5a95dcd82d9b47eec4772421b02523ca504c056b19efa0",
+      "alignment": "BB30027.mafft-linsi.fa",
+      "canonical_sha256": "a24b49fd6818d97bee899c2bab0a2fdf50bd6a1926fba89e28d3eec82ec78bad",
+      "repeat_hashes": [
+        "a24b49fd6818d97bee899c2bab0a2fdf50bd6a1926fba89e28d3eec82ec78bad",
+        "a24b49fd6818d97bee899c2bab0a2fdf50bd6a1926fba89e28d3eec82ec78bad"
+      ],
+      "seconds": [
+        0.3196112080477178,
+        0.3768770000897348
+      ]
+    },
+    {
+      "dataset": "BB30027",
+      "method": "mafft-ginsi",
+      "version": "v7.525 (2024/Mar/13)",
+      "argv": [
+        "mafft",
+        "--thread",
+        "1",
+        "--amino",
+        "--globalpair",
+        "--maxiterate",
+        "1000",
+        "--inputorder",
+        "data/inputs/BB30027.fa"
+      ],
+      "input_sha256": "755c4528d2fb8f1a2d5a95dcd82d9b47eec4772421b02523ca504c056b19efa0",
+      "alignment": "BB30027.mafft-ginsi.fa",
+      "canonical_sha256": "51cd1684ed68cf9fd7854e8af381d89a8a1d872134cf95698dbd2433b85a7eb3",
+      "repeat_hashes": [
+        "51cd1684ed68cf9fd7854e8af381d89a8a1d872134cf95698dbd2433b85a7eb3",
+        "51cd1684ed68cf9fd7854e8af381d89a8a1d872134cf95698dbd2433b85a7eb3"
+      ],
+      "seconds": [
+        0.3447067909874022,
+        0.35384658409748226
+      ]
+    },
+    {
+      "dataset": "BB40010",
+      "method": "mafft-linsi",
+      "version": "v7.525 (2024/Mar/13)",
+      "argv": [
+        "mafft",
+        "--thread",
+        "1",
+        "--amino",
+        "--localpair",
+        "--maxiterate",
+        "1000",
+        "--inputorder",
+        "data/inputs/BB40010.fa"
+      ],
+      "input_sha256": "057189a874c32433985eee716019e58c49c8596718c394af6f0f673331357f6d",
+      "alignment": "BB40010.mafft-linsi.fa",
+      "canonical_sha256": "2f387d184bb80b3d3e58185e027d17ff39ddb122f029aa311a9f74b4c004fd47",
+      "repeat_hashes": [
+        "2f387d184bb80b3d3e58185e027d17ff39ddb122f029aa311a9f74b4c004fd47",
+        "2f387d184bb80b3d3e58185e027d17ff39ddb122f029aa311a9f74b4c004fd47"
+      ],
+      "seconds": [
+        0.2738817910430953,
+        0.25603304198011756
+      ]
+    },
+    {
+      "dataset": "BB40010",
+      "method": "mafft-ginsi",
+      "version": "v7.525 (2024/Mar/13)",
+      "argv": [
+        "mafft",
+        "--thread",
+        "1",
+        "--amino",
+        "--globalpair",
+        "--maxiterate",
+        "1000",
+        "--inputorder",
+        "data/inputs/BB40010.fa"
+      ],
+      "input_sha256": "057189a874c32433985eee716019e58c49c8596718c394af6f0f673331357f6d",
+      "alignment": "BB40010.mafft-ginsi.fa",
+      "canonical_sha256": "c762a212c2bbd73ef775fdd5a1557216991ff89fdfba805cd1c6672c12cc3c7e",
+      "repeat_hashes": [
+        "c762a212c2bbd73ef775fdd5a1557216991ff89fdfba805cd1c6672c12cc3c7e",
+        "c762a212c2bbd73ef775fdd5a1557216991ff89fdfba805cd1c6672c12cc3c7e"
+      ],
+      "seconds": [
+        0.2475554159609601,
+        0.2769389159511775
+      ]
+    },
+    {
+      "dataset": "BB50013",
+      "method": "mafft-linsi",
+      "version": "v7.525 (2024/Mar/13)",
+      "argv": [
+        "mafft",
+        "--thread",
+        "1",
+        "--amino",
+        "--localpair",
+        "--maxiterate",
+        "1000",
+        "--inputorder",
+        "data/inputs/BB50013.fa"
+      ],
+      "input_sha256": "964a080537530c074fdb5dcb36988630221de1bb05603875ea01c1e7a25d221f",
+      "alignment": "BB50013.mafft-linsi.fa",
+      "canonical_sha256": "855d805d1732b28ebdc906a0b77f254325afad72ad2e369d57dc3a99c59aabf6",
+      "repeat_hashes": [
+        "855d805d1732b28ebdc906a0b77f254325afad72ad2e369d57dc3a99c59aabf6",
+        "855d805d1732b28ebdc906a0b77f254325afad72ad2e369d57dc3a99c59aabf6"
+      ],
+      "seconds": [
+        0.5161660000449046,
+        0.5327514999080449
+      ]
+    },
+    {
+      "dataset": "BB50013",
+      "method": "mafft-ginsi",
+      "version": "v7.525 (2024/Mar/13)",
+      "argv": [
+        "mafft",
+        "--thread",
+        "1",
+        "--amino",
+        "--globalpair",
+        "--maxiterate",
+        "1000",
+        "--inputorder",
+        "data/inputs/BB50013.fa"
+      ],
+      "input_sha256": "964a080537530c074fdb5dcb36988630221de1bb05603875ea01c1e7a25d221f",
+      "alignment": "BB50013.mafft-ginsi.fa",
+      "canonical_sha256": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49",
+      "repeat_hashes": [
+        "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49",
+        "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49"
+      ],
+      "seconds": [
+        0.4980200409190729,
+        0.5490610420238227
+      ]
+    }
+  ]
+}

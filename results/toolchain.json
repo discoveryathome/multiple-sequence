@@ -1,0 +1,45 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "python": "3.14.6",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
+  "mafft": {
+    "version": "7.525",
+    "url": "https://mafft.cbrc.jp/alignment/software/mafft-7.525-without-extensions-src.tgz",
+    "archive_sha256": "edb34ae9b26d6b55328c18fa060ed741bca8cd599c2f4f8fad0e0871c8082265",
+    "build": "make -j2 PREFIX=SESSION/setup/local; make install PREFIX=SESSION/setup/local; source unmodified; network denied sandbox"
+  },
+  "famsa": {
+    "version": "2.5.2-2598410",
+    "url": "https://github.com/refresh-bio/FAMSA/releases/download/v2.5.2/famsa-v2.5.2-arm64_mac.tar.gz",
+    "archive_sha256": "2e5e284e8328f447c0cd9bbaa2d36485fb6fddc6ef064db81c05f304ce07b29a",
+    "binary_sha256": "7e889a8950eee2530e9283911decce61fa04af70bcbd981cc0118ac493c7af8d",
+    "kind": "official release executable, not vendored; system libSystem only; sandboxed"
+  },
+  "muscle_attempt": {
+    "version": "v5.3",
+    "url": "https://github.com/rcedgar/muscle/releases/download/v5.3/muscle-osx-arm64.v5.3",
+    "binary_sha256": "18ad328595ffa878c9d87bd9cb007e13c4ade81d9daec656a36d3ae244cb09f1",
+    "status": "NOT RUN: loader requires missing /opt/homebrew/opt/gcc@11/lib/gcc/11/libgomp.1.dylib"
+  },
+  "bali_score": {
+    "version": "3.01 (Jan 2008)",
+    "archive_sha256": "5378cf4e2e0741f788a0175d4fcb78c54387102b243e8de16c5e2cafed928190",
+    "source_hashes": {
+      "readxml.c": "c685516cebc7d6f045bd4e6df90b3fd26437305797bd0d5b98d802dfff46fd8e",
+      "bali_score.c": "0fa180b07aa70fe125ea45c8c0e2916219a9add7f9f211b57b2fb647272ffa6e",
+      "util.c": "694a8750005a7a679ae152f39ab6f02bf5635b0360064461b997ed63688b9c83",
+      "score.h": "c8cb906d63469e6886e14a59b4a913845e77df970e5c409d3c786c5a6526ddd2",
+      "clustalw.h": "c8cb906d63469e6886e14a59b4a913845e77df970e5c409d3c786c5a6526ddd2",
+      "init.c": "7876ed58f3d35e3617f613175f18b11f4d25ba1994b98995dc52e604fc6e238c",
+      "general.h": "4e1599e642e2037ee5835317f3441c26cf905655fef328919359ec6474104b2b"
+    },
+    "build": "cc -std=gnu89 -Wno-implicit-function-declaration -g -O0 -fsanitize=address readxml.c init.c util.c bali_score.c -lexpat -lm -o bali_score",
+    "note": "Unmodified original sources. Non-ASan builds trapped on this macOS host; sanitizer build used for recorded cross-check. No biological output from failed runs retained."
+  },
+  "discovery_helper": {
+    "url": "https://discoveryathome.org/cli/discover-f46742aaf83e.pyz",
+    "sha256": "f46742aaf83e7907e6391e749dc554b37154079e1b1d5d7e6b9d24acc8656062"
+  },
+  "generation_sandbox": "Network denied; file writes restricted to session/temp; home reads denied except session and parent metadata; reference and XML reads explicitly denied for refinement.",
+  "timing": "Descriptive wall times only. Shared host; no controlled speed claim."
+}
