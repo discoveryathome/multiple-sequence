@@ -1,0 +1,10 @@
+
+test_forged_residue_rejected (test_readiness.PreparationTests.test_forged_residue_rejected) ... ok
+test_interface_and_claims (test_readiness.PreparationTests.test_interface_and_claims) ... ok
+test_reference_free_check_and_postgeneration_diagnostic (test_readiness.PreparationTests.test_reference_free_check_and_postgeneration_diagnostic) ... ok
+test_reserve_sequence_overlap_and_input_contract (test_readiness.PreparationTests.test_reserve_sequence_overlap_and_input_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.047s
+
+OK

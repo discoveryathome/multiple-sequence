@@ -1,0 +1,24 @@
+test_accuracy_residue_coordinates (test_core.ExactTests.test_accuracy_residue_coordinates) ... ok
+test_exhaustive_two_sequence (test_core.ExactTests.test_exhaustive_two_sequence) ... ok
+test_hand_scores (test_core.ExactTests.test_hand_scores) ... ok
+test_profile_surrogate_global_optimum (test_core.ExactTests.test_profile_surrogate_global_optimum) ... ok
+test_refinement_deterministic_valid_monotonic (test_core.ExactTests.test_refinement_deterministic_valid_monotonic) ... ok
+test_validation_negative (test_core.ExactTests.test_validation_negative) ... ok
+test_different_dataset_rejected (test_integration.CandidateTests.test_different_dataset_rejected) ... ok
+test_wrong_claim_rejected (test_integration.CandidateTests.test_wrong_claim_rejected) ... ok
+test_double_gaps_with_third_row (test_properties.PropertyTests.test_double_gaps_with_third_row) ... ok
+test_empty_profile_window (test_properties.PropertyTests.test_empty_profile_window) ... ok
+test_generated_valid_msas (test_properties.PropertyTests.test_generated_valid_msas) ... ok
+test_matrix_contract (test_properties.PropertyTests.test_matrix_contract) ... ok
+test_forged_residue_rejected (test_readiness.PreparationTests.test_forged_residue_rejected) ... ok
+test_interface_and_claims (test_readiness.PreparationTests.test_interface_and_claims) ... ok
+test_reference_free_check_and_postgeneration_diagnostic (test_readiness.PreparationTests.test_reference_free_check_and_postgeneration_diagnostic) ... ok
+test_reserve_sequence_overlap_and_input_contract (test_readiness.PreparationTests.test_reserve_sequence_overlap_and_input_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.660s
+
+OK
+EVALUATION RECOMPUTATION PASS
+{"status": "PASS", "alignment_checks": 83, "dataset": "all", "coverage": "Exact objective and saved accuracy; proposal replay is a separate command."}
+OFFLINE VERIFY PASS; external baseline/evaluator execution and full proposal replay are separate checks.

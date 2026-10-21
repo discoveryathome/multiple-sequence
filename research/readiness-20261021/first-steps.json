@@ -1,0 +1,247 @@
+[
+  {
+    "project": "msa",
+    "task": "refine-bb11015",
+    "command": [
+      "python3",
+      "scripts/readiness.py",
+      "check",
+      "--dataset",
+      "BB11015"
+    ],
+    "returncode": 0,
+    "seconds": 0.14559225004632026,
+    "log": "research/readiness-20261021/first-steps/refine-bb11015.log",
+    "sha256": "eb486d21fe6b68aeff75a87c541eeeb53c6f54d12d5f3f653604f3083a4d9265"
+  },
+  {
+    "project": "msa",
+    "task": "refine-bb12021",
+    "command": [
+      "python3",
+      "scripts/readiness.py",
+      "check",
+      "--dataset",
+      "BB12021"
+    ],
+    "returncode": 0,
+    "seconds": 0.14182391704525799,
+    "log": "research/readiness-20261021/first-steps/refine-bb12021.log",
+    "sha256": "fc19614908e78f8c21f38547ea67a7ec6a3a115d9a336fa9253e2e37cbfbff13"
+  },
+  {
+    "project": "msa",
+    "task": "refine-bb20030",
+    "command": [
+      "python3",
+      "scripts/readiness.py",
+      "check",
+      "--dataset",
+      "BB20030"
+    ],
+    "returncode": 0,
+    "seconds": 0.34180166700389236,
+    "log": "research/readiness-20261021/first-steps/refine-bb20030.log",
+    "sha256": "ae79ac6290a4375641b0a7823461459d465e7ec89f5ce970ffe518b5a69aecae"
+  },
+  {
+    "project": "msa",
+    "task": "refine-bb30027",
+    "command": [
+      "python3",
+      "scripts/readiness.py",
+      "check",
+      "--dataset",
+      "BB30027"
+    ],
+    "returncode": 0,
+    "seconds": 0.18507774989120662,
+    "log": "research/readiness-20261021/first-steps/refine-bb30027.log",
+    "sha256": "38e23d97437d2152beb9534ba1edb4b511974c6661a55d723d58c36fad3d479c"
+  },
+  {
+    "project": "msa",
+    "task": "refine-bb40010",
+    "command": [
+      "python3",
+      "scripts/readiness.py",
+      "check",
+      "--dataset",
+      "BB40010"
+    ],
+    "returncode": 0,
+    "seconds": 0.13192829198669642,
+    "log": "research/readiness-20261021/first-steps/refine-bb40010.log",
+    "sha256": "7904c0a85fb27f71c051492b25c5d6f3a30bdda606562cb590193760e3806094"
+  },
+  {
+    "project": "msa",
+    "task": "refine-bb50013",
+    "command": [
+      "python3",
+      "scripts/readiness.py",
+      "check",
+      "--dataset",
+      "BB50013"
+    ],
+    "returncode": 0,
+    "seconds": 0.24238229205366224,
+    "log": "research/readiness-20261021/first-steps/refine-bb50013.log",
+    "sha256": "915896fc82f4e4780949f92cf328713478d4ab83137d72821eabf704be590b3c"
+  },
+  {
+    "project": "msa",
+    "task": "refine-bb12040",
+    "command": [
+      "python3",
+      "scripts/readiness.py",
+      "check",
+      "--dataset",
+      "BB12040"
+    ],
+    "returncode": 0,
+    "seconds": 0.16970562504138798,
+    "log": "research/readiness-20261021/first-steps/refine-bb12040.log",
+    "sha256": "10ccdb827f0ef702eda5ec20699917f4ee0086334812ca94513471097834c2cc"
+  },
+  {
+    "project": "msa",
+    "task": "refine-bb30017",
+    "command": [
+      "python3",
+      "scripts/readiness.py",
+      "check",
+      "--dataset",
+      "BB30017"
+    ],
+    "returncode": 0,
+    "seconds": 0.20799899997655302,
+    "log": "research/readiness-20261021/first-steps/refine-bb30017.log",
+    "sha256": "e3ed13fd4bb8ff9ddf045d437782c155592d5c03353ebc4ae226804ad08901e2"
+  },
+  {
+    "project": "msa",
+    "task": "refine-bb50007",
+    "command": [
+      "python3",
+      "scripts/readiness.py",
+      "check",
+      "--dataset",
+      "BB50007"
+    ],
+    "returncode": 0,
+    "seconds": 0.2431207080371678,
+    "log": "research/readiness-20261021/first-steps/refine-bb50007.log",
+    "sha256": "c418e713cacfeb983c6cbb6536541cfe26e746c37d44619bd074a21a7b659538"
+  },
+  {
+    "project": "msa",
+    "task": "affine-boundaries",
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "returncode": 0,
+    "seconds": 0.727062291931361,
+    "log": "research/readiness-20261021/first-steps/affine-boundaries.log",
+    "sha256": "0397ca6e8042d161c0570e68973457f53e2012e660eb7ec85e7aa73c8a538917"
+  },
+  {
+    "project": "msa",
+    "task": "candidate-contract",
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_readiness.py",
+      "-v"
+    ],
+    "returncode": 0,
+    "seconds": 0.27912529197055846,
+    "log": "research/readiness-20261021/first-steps/candidate-contract.log",
+    "sha256": "d355d90ac27c1b577e37c40d5b3b80154872b749a2b1c3b3fe416fd950bf786c"
+  },
+  {
+    "project": "msa",
+    "task": "saturated-escape-review",
+    "command": [
+      "python3",
+      "scripts/readiness.py",
+      "check",
+      "--dataset",
+      "BB20029"
+    ],
+    "returncode": 0,
+    "seconds": 0.2393390410579741,
+    "log": "research/readiness-20261021/first-steps/saturated-escape-review.log",
+    "sha256": "8a68b34a0a88a48db4f27b8302778090df48b1cd90fe3637399d4742d21ae8b0"
+  },
+  {
+    "project": "msa",
+    "task": "score-accuracy-failure",
+    "command": [
+      "python3",
+      "scripts/readiness.py",
+      "evaluate",
+      "--dataset",
+      "BB11015"
+    ],
+    "returncode": 0,
+    "seconds": 0.2834251669701189,
+    "log": "research/readiness-20261021/first-steps/score-accuracy-failure.log",
+    "sha256": "b31638e0990357e255d4af63d997268feefb028dc61ec2d91976a4d13fd9cc70"
+  },
+  {
+    "project": "msa",
+    "task": "reserve-family-audit",
+    "command": [
+      "python3",
+      "scripts/reserve_families.py",
+      "--check"
+    ],
+    "returncode": 0,
+    "seconds": 0.15661850001197308,
+    "log": "research/readiness-20261021/first-steps/reserve-family-audit.log",
+    "sha256": "109a3084f3be059c3434a680f473febdd423a9d205f52008f0c9f7eac175bc37"
+  },
+  {
+    "project": "msa",
+    "task": "muscle5-reproduction",
+    "command": [
+      "python3",
+      "-m",
+      "msa",
+      "verify",
+      "--dataset",
+      "BB11015"
+    ],
+    "returncode": 0,
+    "seconds": 0.32215945806819946,
+    "log": "research/readiness-20261021/first-steps/muscle5-reproduction.log",
+    "sha256": "c4760d0c24694779582916d602a9f014a55b602348940c77e19635429bdbad0c"
+  },
+  {
+    "project": "msa",
+    "task": "scaling-budget",
+    "command": [
+      "python3",
+      "scripts/readiness.py",
+      "check",
+      "--dataset",
+      "BB20036"
+    ],
+    "returncode": 0,
+    "seconds": 1.9521794589236379,
+    "log": "research/readiness-20261021/first-steps/scaling-budget.log",
+    "sha256": "6d0de5ab0e33b8b8f87c0f98da9a83af3b4b1b79aae36f05654236df5113c5f2"
+  }
+]

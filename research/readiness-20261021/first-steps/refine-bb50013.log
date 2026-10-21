@@ -1,0 +1,11 @@
+{
+  "dataset": "BB50013",
+  "valid": true,
+  "score": 61063,
+  "delta_from_inherited": 0,
+  "optimization_improvement": false,
+  "canonical_sha256": "0e2b5bbc88f8d6a63f2eb8e4332c726dfcaa5d4d0a982cd8df1ba75908fd2ff3",
+  "interpretation": "Feasible optimization artifact; no biological improvement or acceptance follows.",
+  "seconds": 0.08773341705091298
+}
+

@@ -49,3 +49,10 @@ capacity is unspecified. The pilot is hosted privately at
 No hub PR has been submitted; public donation intake remains paused.
 Code is MIT; third-party data retain their own terms. Verifier/frontier changes deserve the most care, and review capacity will
 set the pace of sustained donations.
+
+## Preparation for scoped contributor trials — 2026-10-21
+
+Start with [the preparation package](research/readiness-20261021/README.md) and
+`discover/readiness.json`. The refreshed catalogue uses checked inherited starts
+and explicitly separates exploratory work from future confirmation. Historical
+results remain reproducible; scientific review and public intake are pending.

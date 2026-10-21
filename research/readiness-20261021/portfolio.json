@@ -1,0 +1,1000 @@
+{
+  "version": "msa-preparation-v1",
+  "model": "MSA-SP-v1 unchanged",
+  "shared_bindings": {
+    "msa/core.py": "3e56cbbe2cfe099d43a5921d495c3610d5a6b1c68d74e9023b5e1592fd409f3f",
+    "data/matrices/BLOSUM62": "85510d3846ee6d5f4778e425cf8daf6e0dbb889b306f2d13434e1254780efb40",
+    "docs/MODEL.md": "76a0ef10d0e77a6e9abbf53285f8ce6cbea38786194b594d1c5e435f60ea0827"
+  },
+  "cases": [
+    {
+      "dataset": "BB11001",
+      "input": "data/inputs/BB11001.fa",
+      "reference": "data/references/BB11001.fa",
+      "mask": "data/references/BB11001.core.json",
+      "incumbent": "research/contributor-30m/convergence/BB11001/final.fa",
+      "sha256": {
+        "input": "e9c205db271e7d48098824ead0d8c61dcf081fd000b7562644e0b2468bf518bf",
+        "reference": "fb122475869d7408aed2db093c309922c8fd284677f1edd5ed9cb0a840b792b0",
+        "mask": "725d9ea25906b70e525b0e7137d7ff8b8a1b8015dcbe56e08b8300bc76b4a9ac",
+        "incumbent": "1d55a7b0d3776a66979f6e27bad815ed15a284e1870ff3383e34879c0c6527b4"
+      },
+      "score": 230,
+      "n": 4,
+      "max_ungapped_length": 91,
+      "reference_metrics": {
+        "pair_hits": 327,
+        "reference_pairs": 342,
+        "candidate_core_pairs": 333,
+        "core_columns": 57,
+        "column_hits": 52,
+        "core_pair_recall": 0.956140350877193,
+        "core_pair_precision": 0.9819819819819819,
+        "core_column_recall": 0.9122807017543859
+      },
+      "baselines": [
+        {
+          "object": "results/baselines/BB11001.famsa2.fa",
+          "sha256": "2cf0918b091002ac92404689d29387a3802a406c568f359126ec8860c42cdd26",
+          "score": 158,
+          "reference_metrics": {
+            "pair_hits": 342,
+            "reference_pairs": 342,
+            "candidate_core_pairs": 342,
+            "core_columns": 57,
+            "column_hits": 57,
+            "core_pair_recall": 1.0,
+            "core_pair_precision": 1.0,
+            "core_column_recall": 1.0
+          }
+        },
+        {
+          "object": "results/baselines/BB11001.mafft-ginsi.fa",
+          "sha256": "9a3e244c181f4c639107202bca27631cd0770408620bd64f6f0225240a5e3dbc",
+          "score": 169,
+          "reference_metrics": {
+            "pair_hits": 305,
+            "reference_pairs": 342,
+            "candidate_core_pairs": 311,
+            "core_columns": 57,
+            "column_hits": 47,
+            "core_pair_recall": 0.8918128654970761,
+            "core_pair_precision": 0.9807073954983923,
+            "core_column_recall": 0.8245614035087719
+          }
+        },
+        {
+          "object": "results/baselines/BB11001.mafft-linsi.fa",
+          "sha256": "82da25cc0f07d2a7c0a0f617d1bef2dc5d2579ec7273ee20e10c70ce4bb71bfd",
+          "score": 188,
+          "reference_metrics": {
+            "pair_hits": 339,
+            "reference_pairs": 342,
+            "candidate_core_pairs": 339,
+            "core_columns": 57,
+            "column_hits": 56,
+            "core_pair_recall": 0.9912280701754386,
+            "core_pair_precision": 1.0,
+            "core_column_recall": 0.9824561403508771
+          }
+        }
+      ],
+      "single_row_saturated": true,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending"
+    },
+    {
+      "dataset": "BB11015",
+      "input": "data/inputs/BB11015.fa",
+      "reference": "data/references/BB11015.fa",
+      "mask": "data/references/BB11015.core.json",
+      "incumbent": "research/contributor-30m/outputs/BB11015/row-final.fa",
+      "sha256": {
+        "input": "a2f55e09971a308198a21f9b786a3e85c288539289a796668dd69a0aad7abb82",
+        "reference": "329259594077ff9aa5a30b42251cade9288fd9ad2df03d44e40989727ffdb1cd",
+        "mask": "42dcfbc40a90137b06039367fe79c1ca2055f674a029ca6c5ba450912c00be58",
+        "incumbent": "3bd5bacf9629291c252146831d6dba5e0d452edebf63386eac9313bf93877ad5"
+      },
+      "score": 149,
+      "n": 4,
+      "max_ungapped_length": 327,
+      "reference_metrics": {
+        "pair_hits": 970,
+        "reference_pairs": 1188,
+        "candidate_core_pairs": 1082,
+        "core_columns": 198,
+        "column_hits": 140,
+        "core_pair_recall": 0.8164983164983165,
+        "core_pair_precision": 0.8964879852125693,
+        "core_column_recall": 0.7070707070707071
+      },
+      "baselines": [
+        {
+          "object": "results/baselines/BB11015.famsa2.fa",
+          "sha256": "fe7434e6caed7b7473f2861c4c4ad828fbfdb7e5e74fca3fb57e364339e213d5",
+          "score": 47,
+          "reference_metrics": {
+            "pair_hits": 1044,
+            "reference_pairs": 1188,
+            "candidate_core_pairs": 1110,
+            "core_columns": 198,
+            "column_hits": 166,
+            "core_pair_recall": 0.8787878787878788,
+            "core_pair_precision": 0.9405405405405406,
+            "core_column_recall": 0.8383838383838383
+          }
+        },
+        {
+          "object": "results/baselines/BB11015.mafft-ginsi.fa",
+          "sha256": "6b6127a2d2ba67cc1e8305ab64f2f1e70b3970e939b8239588097604a114ee39",
+          "score": 20,
+          "reference_metrics": {
+            "pair_hits": 869,
+            "reference_pairs": 1188,
+            "candidate_core_pairs": 1038,
+            "core_columns": 198,
+            "column_hits": 114,
+            "core_pair_recall": 0.7314814814814815,
+            "core_pair_precision": 0.8371868978805395,
+            "core_column_recall": 0.5757575757575758
+          }
+        },
+        {
+          "object": "results/baselines/BB11015.mafft-linsi.fa",
+          "sha256": "d8964cc55f46d09db96a2be0a3d347e6ffd75ab3d439ae38d94739d43d20a814",
+          "score": 11,
+          "reference_metrics": {
+            "pair_hits": 871,
+            "reference_pairs": 1188,
+            "candidate_core_pairs": 1041,
+            "core_columns": 198,
+            "column_hits": 114,
+            "core_pair_recall": 0.7331649831649831,
+            "core_pair_precision": 0.8366954851104706,
+            "core_column_recall": 0.5757575757575758
+          }
+        }
+      ],
+      "single_row_saturated": false,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending"
+    },
+    {
+      "dataset": "BB12021",
+      "input": "data/inputs/BB12021.fa",
+      "reference": "data/references/BB12021.fa",
+      "mask": "data/references/BB12021.core.json",
+      "incumbent": "research/contributor-30m/outputs/BB12021/row-final.fa",
+      "sha256": {
+        "input": "7b444d6fd5528d59d7d863eec2309e67db658df025f06f5e3029f86a1bbb3532",
+        "reference": "90a840bbe3fd42425607164e3cb33eca3ef05a179b27445b2bb638ab29a642fd",
+        "mask": "580bfb015ce2ff0d97c47259d1520358cf88e6d04fa566e9073afa0e7cf51d64",
+        "incumbent": "cd6928fdbc0ace2e6b87f1245e917f5279b9827e568c15a4d8cd9eb4a6d01141"
+      },
+      "score": 1053,
+      "n": 6,
+      "max_ungapped_length": 85,
+      "reference_metrics": {
+        "pair_hits": 585,
+        "reference_pairs": 585,
+        "candidate_core_pairs": 585,
+        "core_columns": 39,
+        "column_hits": 39,
+        "core_pair_recall": 1.0,
+        "core_pair_precision": 1.0,
+        "core_column_recall": 1.0
+      },
+      "baselines": [
+        {
+          "object": "results/baselines/BB12021.famsa2.fa",
+          "sha256": "4841269d0218fa8218ffee22924dc6b9ab466e6df1014421202ad5bafd427b87",
+          "score": 992,
+          "reference_metrics": {
+            "pair_hits": 585,
+            "reference_pairs": 585,
+            "candidate_core_pairs": 585,
+            "core_columns": 39,
+            "column_hits": 39,
+            "core_pair_recall": 1.0,
+            "core_pair_precision": 1.0,
+            "core_column_recall": 1.0
+          }
+        },
+        {
+          "object": "results/baselines/BB12021.mafft-ginsi.fa",
+          "sha256": "cd6928fdbc0ace2e6b87f1245e917f5279b9827e568c15a4d8cd9eb4a6d01141",
+          "score": 1053,
+          "reference_metrics": {
+            "pair_hits": 585,
+            "reference_pairs": 585,
+            "candidate_core_pairs": 585,
+            "core_columns": 39,
+            "column_hits": 39,
+            "core_pair_recall": 1.0,
+            "core_pair_precision": 1.0,
+            "core_column_recall": 1.0
+          }
+        },
+        {
+          "object": "results/baselines/BB12021.mafft-linsi.fa",
+          "sha256": "2dd5a7c75c7404bfcf086986dd558b2323dada7b0e2eeb4ca7e2865e761620b4",
+          "score": 957,
+          "reference_metrics": {
+            "pair_hits": 549,
+            "reference_pairs": 585,
+            "candidate_core_pairs": 570,
+            "core_columns": 39,
+            "column_hits": 35,
+            "core_pair_recall": 0.9384615384615385,
+            "core_pair_precision": 0.9631578947368421,
+            "core_column_recall": 0.8974358974358975
+          }
+        }
+      ],
+      "single_row_saturated": false,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending"
+    },
+    {
+      "dataset": "BB20029",
+      "input": "data/inputs/BB20029.fa",
+      "reference": "data/references/BB20029.fa",
+      "mask": "data/references/BB20029.core.json",
+      "incumbent": "research/contributor-30m/convergence/BB20029/final.fa",
+      "sha256": {
+        "input": "6a2c0ac98ddc984b458d762b77ef866433639eb1d30677d1a6e35b5f59bdce50",
+        "reference": "2ce2114aade5e92451299ae11f55a3a4141f3b33514fc998c75b4acf63a84e2c",
+        "mask": "9299dd2430d7e75af56c4aaaa2a8a8b53da0a50d7443a3dfd5999c6659467e59",
+        "incumbent": "36cd78aacba664145c81d8c289ffbb026530395244adf961fcb5f02d69a91f77"
+      },
+      "score": 28715,
+      "n": 29,
+      "max_ungapped_length": 167,
+      "reference_metrics": {
+        "pair_hits": 9920,
+        "reference_pairs": 11774,
+        "candidate_core_pairs": 10814,
+        "core_columns": 29,
+        "column_hits": 0,
+        "core_pair_recall": 0.8425343978257177,
+        "core_pair_precision": 0.9173293878305899,
+        "core_column_recall": 0.0
+      },
+      "baselines": [
+        {
+          "object": "results/baselines/BB20029.famsa2.fa",
+          "sha256": "d2a8ee78702f74accdfed5080310673f1715fbf3b1248d8ad56895b39445af81",
+          "score": 25524,
+          "reference_metrics": {
+            "pair_hits": 10003,
+            "reference_pairs": 11774,
+            "candidate_core_pairs": 10784,
+            "core_columns": 29,
+            "column_hits": 0,
+            "core_pair_recall": 0.8495838287752675,
+            "core_pair_precision": 0.9275778931750742,
+            "core_column_recall": 0.0
+          }
+        },
+        {
+          "object": "results/baselines/BB20029.mafft-ginsi.fa",
+          "sha256": "c9299a333fd9539b9a69dfc3146a9c34af17b9e4de6b28fa1c36f733bb7c326e",
+          "score": 25421,
+          "reference_metrics": {
+            "pair_hits": 9659,
+            "reference_pairs": 11774,
+            "candidate_core_pairs": 10682,
+            "core_columns": 29,
+            "column_hits": 0,
+            "core_pair_recall": 0.8203669101409886,
+            "core_pair_precision": 0.9042314173375773,
+            "core_column_recall": 0.0
+          }
+        },
+        {
+          "object": "results/baselines/BB20029.mafft-linsi.fa",
+          "sha256": "807dd8207b6037c636b64fe7b64c987ffda412f57a0ced68803603f554e28fba",
+          "score": 25595,
+          "reference_metrics": {
+            "pair_hits": 10175,
+            "reference_pairs": 11774,
+            "candidate_core_pairs": 11237,
+            "core_columns": 29,
+            "column_hits": 0,
+            "core_pair_recall": 0.864192288092407,
+            "core_pair_precision": 0.9054907893565899,
+            "core_column_recall": 0.0
+          }
+        }
+      ],
+      "single_row_saturated": true,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending"
+    },
+    {
+      "dataset": "BB20030",
+      "input": "data/inputs/BB20030.fa",
+      "reference": "data/references/BB20030.fa",
+      "mask": "data/references/BB20030.core.json",
+      "incumbent": "research/contributor-30m/outputs/BB20030/row-final.fa",
+      "sha256": {
+        "input": "dc1f6dc867b74cbb069dd2d1282a9f1ac4f25a75deb6134a8f65010e10c7ff5b",
+        "reference": "bf4b7f96dee8a750c1d281e69663659f67ae396e36ffa47601cb193f685277c4",
+        "mask": "d8aae91e07eaa15ac4605fae03be78f99805c6bc52626852e14df0303cd1a7dc",
+        "incumbent": "bbdaac867c7ea9eb8ae521d5e2e316f3f55c53ce3a3273ef183e94488bc75c43"
+      },
+      "score": 261151,
+      "n": 47,
+      "max_ungapped_length": 155,
+      "reference_metrics": {
+        "pair_hits": 30499,
+        "reference_pairs": 34592,
+        "candidate_core_pairs": 32011,
+        "core_columns": 32,
+        "column_hits": 0,
+        "core_pair_recall": 0.8816778445883441,
+        "core_pair_precision": 0.9527662366061667,
+        "core_column_recall": 0.0
+      },
+      "baselines": [
+        {
+          "object": "results/baselines/BB20030.famsa2.fa",
+          "sha256": "954e8bd42820d3ffafc3364674d3969dc550a06336b0848f3825dc34cfb54b4a",
+          "score": 253271,
+          "reference_metrics": {
+            "pair_hits": 30205,
+            "reference_pairs": 34592,
+            "candidate_core_pairs": 31675,
+            "core_columns": 32,
+            "column_hits": 0,
+            "core_pair_recall": 0.8731787696577243,
+            "core_pair_precision": 0.9535911602209944,
+            "core_column_recall": 0.0
+          }
+        },
+        {
+          "object": "results/baselines/BB20030.mafft-ginsi.fa",
+          "sha256": "1dd40370051f37a552695c0e4f7790264c7ff91ab98b5216cd719b715b854e4b",
+          "score": 258594,
+          "reference_metrics": {
+            "pair_hits": 31221,
+            "reference_pairs": 34592,
+            "candidate_core_pairs": 32608,
+            "core_columns": 32,
+            "column_hits": 0,
+            "core_pair_recall": 0.902549722479186,
+            "core_pair_precision": 0.9574644259077527,
+            "core_column_recall": 0.0
+          }
+        },
+        {
+          "object": "results/baselines/BB20030.mafft-linsi.fa",
+          "sha256": "159de38af7eacf64c20dfef279827235c651649afe2dec90d389429dede292b3",
+          "score": 257816,
+          "reference_metrics": {
+            "pair_hits": 32525,
+            "reference_pairs": 34592,
+            "candidate_core_pairs": 33332,
+            "core_columns": 32,
+            "column_hits": 14,
+            "core_pair_recall": 0.9402462997224792,
+            "core_pair_precision": 0.9757890315612624,
+            "core_column_recall": 0.4375
+          }
+        }
+      ],
+      "single_row_saturated": false,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending"
+    },
+    {
+      "dataset": "BB30027",
+      "input": "data/inputs/BB30027.fa",
+      "reference": "data/references/BB30027.fa",
+      "mask": "data/references/BB30027.core.json",
+      "incumbent": "research/contributor-30m/outputs/BB30027/row-final.fa",
+      "sha256": {
+        "input": "755c4528d2fb8f1a2d5a95dcd82d9b47eec4772421b02523ca504c056b19efa0",
+        "reference": "0665ca6886861988c1a45953e250e75b3b56c179361addeedf72ed49c03484b1",
+        "mask": "4329192a86de8622760912c8462f2720815f20eb0b513dc1761d2a6a23d75d30",
+        "incumbent": "d660dc6cb8a1739d62630575e103eac4e69d9b5c453db3d5ab824f2b9c5f5adb"
+      },
+      "score": 3719,
+      "n": 20,
+      "max_ungapped_length": 172,
+      "reference_metrics": {
+        "pair_hits": 3690,
+        "reference_pairs": 4180,
+        "candidate_core_pairs": 3801,
+        "core_columns": 22,
+        "column_hits": 16,
+        "core_pair_recall": 0.8827751196172249,
+        "core_pair_precision": 0.9707971586424625,
+        "core_column_recall": 0.7272727272727273
+      },
+      "baselines": [
+        {
+          "object": "results/baselines/BB30027.famsa2.fa",
+          "sha256": "da2d969386eb5126812a741d3a79721b8d8e66fd58b2dc231524fd568a8ced62",
+          "score": 1001,
+          "reference_metrics": {
+            "pair_hits": 3577,
+            "reference_pairs": 4180,
+            "candidate_core_pairs": 3778,
+            "core_columns": 22,
+            "column_hits": 17,
+            "core_pair_recall": 0.8557416267942584,
+            "core_pair_precision": 0.9467972472207518,
+            "core_column_recall": 0.7727272727272727
+          }
+        },
+        {
+          "object": "results/baselines/BB30027.mafft-ginsi.fa",
+          "sha256": "51cd1684ed68cf9fd7854e8af381d89a8a1d872134cf95698dbd2433b85a7eb3",
+          "score": 1642,
+          "reference_metrics": {
+            "pair_hits": 3752,
+            "reference_pairs": 4180,
+            "candidate_core_pairs": 3840,
+            "core_columns": 22,
+            "column_hits": 18,
+            "core_pair_recall": 0.8976076555023923,
+            "core_pair_precision": 0.9770833333333333,
+            "core_column_recall": 0.8181818181818182
+          }
+        },
+        {
+          "object": "results/baselines/BB30027.mafft-linsi.fa",
+          "sha256": "a24b49fd6818d97bee899c2bab0a2fdf50bd6a1926fba89e28d3eec82ec78bad",
+          "score": 3479,
+          "reference_metrics": {
+            "pair_hits": 3733,
+            "reference_pairs": 4180,
+            "candidate_core_pairs": 3821,
+            "core_columns": 22,
+            "column_hits": 17,
+            "core_pair_recall": 0.8930622009569378,
+            "core_pair_precision": 0.9769693797435226,
+            "core_column_recall": 0.7727272727272727
+          }
+        }
+      ],
+      "single_row_saturated": false,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending"
+    },
+    {
+      "dataset": "BB40010",
+      "input": "data/inputs/BB40010.fa",
+      "reference": "data/references/BB40010.fa",
+      "mask": "data/references/BB40010.core.json",
+      "incumbent": "research/contributor-30m/outputs/BB40010/row-final.fa",
+      "sha256": {
+        "input": "057189a874c32433985eee716019e58c49c8596718c394af6f0f673331357f6d",
+        "reference": "c940ea0e2845f85bbaf7c060ae5597089bbbbcdea29d16081d0462da524d94d8",
+        "mask": "f82cc794570f3041c2684c99991d7241d6f60c889807330f682e4f28786e4936",
+        "incumbent": "7857aa1981062adabe3e7d6170814edcc9b6937ffa4f6c1443851037fe886b22"
+      },
+      "score": 1982,
+      "n": 9,
+      "max_ungapped_length": 214,
+      "reference_metrics": {
+        "pair_hits": 1858,
+        "reference_pairs": 2196,
+        "candidate_core_pairs": 2094,
+        "core_columns": 61,
+        "column_hits": 30,
+        "core_pair_recall": 0.8460837887067395,
+        "core_pair_precision": 0.8872970391595033,
+        "core_column_recall": 0.4918032786885246
+      },
+      "baselines": [
+        {
+          "object": "results/baselines/BB40010.famsa2.fa",
+          "sha256": "661011dfdef24c2caa0f983c716f4969d5396bcef9920404a7e0359c8c638bf8",
+          "score": 1645,
+          "reference_metrics": {
+            "pair_hits": 1928,
+            "reference_pairs": 2196,
+            "candidate_core_pairs": 2134,
+            "core_columns": 61,
+            "column_hits": 38,
+            "core_pair_recall": 0.8779599271402551,
+            "core_pair_precision": 0.9034676663542643,
+            "core_column_recall": 0.6229508196721312
+          }
+        },
+        {
+          "object": "results/baselines/BB40010.mafft-ginsi.fa",
+          "sha256": "c762a212c2bbd73ef775fdd5a1557216991ff89fdfba805cd1c6672c12cc3c7e",
+          "score": 1897,
+          "reference_metrics": {
+            "pair_hits": 1882,
+            "reference_pairs": 2196,
+            "candidate_core_pairs": 2094,
+            "core_columns": 61,
+            "column_hits": 33,
+            "core_pair_recall": 0.8570127504553734,
+            "core_pair_precision": 0.8987583572110793,
+            "core_column_recall": 0.5409836065573771
+          }
+        },
+        {
+          "object": "results/baselines/BB40010.mafft-linsi.fa",
+          "sha256": "2f387d184bb80b3d3e58185e027d17ff39ddb122f029aa311a9f74b4c004fd47",
+          "score": 1643,
+          "reference_metrics": {
+            "pair_hits": 1890,
+            "reference_pairs": 2196,
+            "candidate_core_pairs": 2123,
+            "core_columns": 61,
+            "column_hits": 35,
+            "core_pair_recall": 0.860655737704918,
+            "core_pair_precision": 0.8902496467263307,
+            "core_column_recall": 0.5737704918032787
+          }
+        }
+      ],
+      "single_row_saturated": false,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending"
+    },
+    {
+      "dataset": "BB50013",
+      "input": "data/inputs/BB50013.fa",
+      "reference": "data/references/BB50013.fa",
+      "mask": "data/references/BB50013.core.json",
+      "incumbent": "research/contributor-30m/outputs/BB50013/row-final.fa",
+      "sha256": {
+        "input": "964a080537530c074fdb5dcb36988630221de1bb05603875ea01c1e7a25d221f",
+        "reference": "6bcf57ea52f623d6fbdd54dd720a152693d91aac673e5dd8a15f2d50e0baf596",
+        "mask": "e86df5617e67c5fbaef413afe1f84740d8cd62e73db74f79f8d2943ceda498e3",
+        "incumbent": "0e2b5bbc88f8d6a63f2eb8e4332c726dfcaa5d4d0a982cd8df1ba75908fd2ff3"
+      },
+      "score": 61063,
+      "n": 18,
+      "max_ungapped_length": 318,
+      "reference_metrics": {
+        "pair_hits": 18424,
+        "reference_pairs": 19431,
+        "candidate_core_pairs": 18960,
+        "core_columns": 127,
+        "column_hits": 102,
+        "core_pair_recall": 0.9481755956975966,
+        "core_pair_precision": 0.9717299578059072,
+        "core_column_recall": 0.8031496062992126
+      },
+      "baselines": [
+        {
+          "object": "results/baselines/BB50013.famsa2.fa",
+          "sha256": "21d0770692e3858ca1c506f303afa8c321fbe68ee7d04ae96dd8628449563c44",
+          "score": 58651,
+          "reference_metrics": {
+            "pair_hits": 18185,
+            "reference_pairs": 19431,
+            "candidate_core_pairs": 18974,
+            "core_columns": 127,
+            "column_hits": 101,
+            "core_pair_recall": 0.9358756626009984,
+            "core_pair_precision": 0.9584167808580162,
+            "core_column_recall": 0.7952755905511811
+          }
+        },
+        {
+          "object": "results/baselines/BB50013.mafft-ginsi.fa",
+          "sha256": "535653159d3e311e645548c4aabbd2f0263c19dc94634918bc60f591d26d4a49",
+          "score": 60185,
+          "reference_metrics": {
+            "pair_hits": 18433,
+            "reference_pairs": 19431,
+            "candidate_core_pairs": 18986,
+            "core_columns": 127,
+            "column_hits": 103,
+            "core_pair_recall": 0.9486387730945397,
+            "core_pair_precision": 0.9708732750447698,
+            "core_column_recall": 0.8110236220472441
+          }
+        },
+        {
+          "object": "results/baselines/BB50013.mafft-linsi.fa",
+          "sha256": "855d805d1732b28ebdc906a0b77f254325afad72ad2e369d57dc3a99c59aabf6",
+          "score": 59720,
+          "reference_metrics": {
+            "pair_hits": 18433,
+            "reference_pairs": 19431,
+            "candidate_core_pairs": 18986,
+            "core_columns": 127,
+            "column_hits": 103,
+            "core_pair_recall": 0.9486387730945397,
+            "core_pair_precision": 0.9708732750447698,
+            "core_column_recall": 0.8110236220472441
+          }
+        }
+      ],
+      "single_row_saturated": false,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending"
+    },
+    {
+      "dataset": "BB11029",
+      "input": "research/contributor-30m/additional/BB11029/input.fa",
+      "reference": "research/contributor-30m/additional/BB11029/reference.fa",
+      "mask": "research/contributor-30m/additional/BB11029/core.json",
+      "incumbent": "research/contributor-30m/convergence/BB11029/final.fa",
+      "sha256": {
+        "input": "de58d8d552f00decc43d490bf4684c2318acd12b850d864cfd236d917a3a68c1",
+        "reference": "ceb97f3f1dac692023968eee7a6036c402981df27181ae0a8621cbffdfe95b2b",
+        "mask": "fd81f8f565f10b4d80c77fae9b56e0ce73ec9263491972bbbb6dffbaa51ed44e",
+        "incumbent": "50f6bb4947d7d0ab35892bdf57ab7889ffbc9f1715316c29d1a8366ce9a8ca5a"
+      },
+      "score": -203,
+      "n": 4,
+      "max_ungapped_length": 138,
+      "reference_metrics": {
+        "pair_hits": 172,
+        "reference_pairs": 306,
+        "candidate_core_pairs": 231,
+        "core_columns": 51,
+        "column_hits": 25,
+        "core_pair_recall": 0.5620915032679739,
+        "core_pair_precision": 0.7445887445887446,
+        "core_column_recall": 0.49019607843137253
+      },
+      "baselines": [
+        {
+          "object": "research/contributor-30m/additional/BB11029/mafft-linsi.fa",
+          "sha256": "1b71e305925aa1a22a2bf2583bc62d2c9fbeaa66001351604911e932e480fa06",
+          "score": -281,
+          "reference_metrics": {
+            "pair_hits": 122,
+            "reference_pairs": 306,
+            "candidate_core_pairs": 187,
+            "core_columns": 51,
+            "column_hits": 15,
+            "core_pair_recall": 0.39869281045751637,
+            "core_pair_precision": 0.6524064171122995,
+            "core_column_recall": 0.29411764705882354
+          }
+        },
+        {
+          "object": "research/contributor-30m/additional/BB11029/mafft-ginsi.fa",
+          "sha256": "964576c94922d3e26ce080f8ad04f75f5690e1908bda163e4b646cd0642b054e",
+          "score": -297,
+          "reference_metrics": {
+            "pair_hits": 104,
+            "reference_pairs": 306,
+            "candidate_core_pairs": 154,
+            "core_columns": 51,
+            "column_hits": 12,
+            "core_pair_recall": 0.33986928104575165,
+            "core_pair_precision": 0.6753246753246753,
+            "core_column_recall": 0.23529411764705882
+          }
+        },
+        {
+          "object": "research/contributor-30m/additional/BB11029/famsa2.fa",
+          "sha256": "2c2e8a65918e797a23250a50c1f33dcd776d66f94461d21085694ecd2cd9bbbb",
+          "score": -287,
+          "reference_metrics": {
+            "pair_hits": 149,
+            "reference_pairs": 306,
+            "candidate_core_pairs": 216,
+            "core_columns": 51,
+            "column_hits": 23,
+            "core_pair_recall": 0.4869281045751634,
+            "core_pair_precision": 0.6898148148148148,
+            "core_column_recall": 0.45098039215686275
+          }
+        }
+      ],
+      "single_row_saturated": true,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending"
+    },
+    {
+      "dataset": "BB12040",
+      "input": "research/contributor-30m/additional/BB12040/input.fa",
+      "reference": "research/contributor-30m/additional/BB12040/reference.fa",
+      "mask": "research/contributor-30m/additional/BB12040/core.json",
+      "incumbent": "research/contributor-30m/additional/BB12040/row-final.fa",
+      "sha256": {
+        "input": "15061f4ae6caf98266eb1d7802feed3ad5056eff2e857507c1a210ab8a0e69f3",
+        "reference": "c404da2aab247deab9fc9da61be1a17a4fd37a1b57226261332924e5990314f7",
+        "mask": "886d3b2ad5789e612c7dd53d762ccccbb6ca13ae532e905bf1618f826d1cb29a",
+        "incumbent": "68341d91caf9a40b491ef506fe469d7210a59d430a6eace3bc71dac6b16414e6"
+      },
+      "score": 826,
+      "n": 5,
+      "max_ungapped_length": 153,
+      "reference_metrics": {
+        "pair_hits": 918,
+        "reference_pairs": 960,
+        "candidate_core_pairs": 934,
+        "core_columns": 96,
+        "column_hits": 88,
+        "core_pair_recall": 0.95625,
+        "core_pair_precision": 0.9828693790149893,
+        "core_column_recall": 0.9166666666666666
+      },
+      "baselines": [
+        {
+          "object": "research/contributor-30m/additional/BB12040/mafft-linsi.fa",
+          "sha256": "52d2ca24fcc7a368466f0f16247346861fb0da4b9a3b6a83407008f2b998fad7",
+          "score": 791,
+          "reference_metrics": {
+            "pair_hits": 940,
+            "reference_pairs": 960,
+            "candidate_core_pairs": 940,
+            "core_columns": 96,
+            "column_hits": 93,
+            "core_pair_recall": 0.9791666666666666,
+            "core_pair_precision": 1.0,
+            "core_column_recall": 0.96875
+          }
+        },
+        {
+          "object": "research/contributor-30m/additional/BB12040/mafft-ginsi.fa",
+          "sha256": "2513fff40c9583ad0170cebf3937f748ad081f61e4b7d6df07c3e243e2319705",
+          "score": 750,
+          "reference_metrics": {
+            "pair_hits": 929,
+            "reference_pairs": 960,
+            "candidate_core_pairs": 930,
+            "core_columns": 96,
+            "column_hits": 91,
+            "core_pair_recall": 0.9677083333333333,
+            "core_pair_precision": 0.9989247311827957,
+            "core_column_recall": 0.9479166666666666
+          }
+        },
+        {
+          "object": "research/contributor-30m/additional/BB12040/famsa2.fa",
+          "sha256": "76d496c4fd59a080c81c4cb204b26d7c74d96a77a24c05a2a9d819882cc43e95",
+          "score": 745,
+          "reference_metrics": {
+            "pair_hits": 932,
+            "reference_pairs": 960,
+            "candidate_core_pairs": 948,
+            "core_columns": 96,
+            "column_hits": 91,
+            "core_pair_recall": 0.9708333333333333,
+            "core_pair_precision": 0.9831223628691983,
+            "core_column_recall": 0.9479166666666666
+          }
+        }
+      ],
+      "single_row_saturated": false,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending"
+    },
+    {
+      "dataset": "BB20036",
+      "input": "research/contributor-30m/additional/BB20036/input.fa",
+      "reference": "research/contributor-30m/additional/BB20036/reference.fa",
+      "mask": "research/contributor-30m/additional/BB20036/core.json",
+      "incumbent": "research/contributor-30m/additional/BB20036/row-final.fa",
+      "sha256": {
+        "input": "504a7941ebc808a2bfdd48a266bd14d841a2332c6f13a7b7ad3e3c955137d031",
+        "reference": "fd9db99d77a1be515864f1bc664d8976c594432ed64cb631e7d13f19066409ba",
+        "mask": "87eea05bc37d2d2019bbd2b606f5baf3ee6052c9b7bee21e5837d42fc3fe3623",
+        "incumbent": "3f5842b1b8f779636f13e5cefdff80a2e8df5d431e05f2f7eb93d45a495fbc12"
+      },
+      "score": 336396,
+      "n": 91,
+      "max_ungapped_length": 335,
+      "reference_metrics": {
+        "pair_hits": 71201,
+        "reference_pairs": 73710,
+        "candidate_core_pairs": 72634,
+        "core_columns": 18,
+        "column_hits": 0,
+        "core_pair_recall": 0.9659611992945326,
+        "core_pair_precision": 0.9802709474901561,
+        "core_column_recall": 0.0
+      },
+      "baselines": [
+        {
+          "object": "research/contributor-30m/additional/BB20036/mafft-linsi.fa",
+          "sha256": "306d487abcf2f4de56beea33085b49a23a5068ecc0fdb046be2d6166c6052a85",
+          "score": 314309,
+          "reference_metrics": {
+            "pair_hits": 70137,
+            "reference_pairs": 73710,
+            "candidate_core_pairs": 71291,
+            "core_columns": 18,
+            "column_hits": 0,
+            "core_pair_recall": 0.9515262515262515,
+            "core_pair_precision": 0.9838128234980572,
+            "core_column_recall": 0.0
+          }
+        },
+        {
+          "object": "research/contributor-30m/additional/BB20036/mafft-ginsi.fa",
+          "sha256": "29faf3db0d5a3adb815831ec1c2e482c56139ae4d6a433a665e13822a441c51e",
+          "score": 332755,
+          "reference_metrics": {
+            "pair_hits": 71824,
+            "reference_pairs": 73710,
+            "candidate_core_pairs": 72992,
+            "core_columns": 18,
+            "column_hits": 0,
+            "core_pair_recall": 0.9744132410799078,
+            "core_pair_precision": 0.9839982463831652,
+            "core_column_recall": 0.0
+          }
+        },
+        {
+          "object": "research/contributor-30m/additional/BB20036/famsa2.fa",
+          "sha256": "1761d5254205c551497129667e8d7bf98d07649c46d309d0392eec0b6579c598",
+          "score": 277803,
+          "reference_metrics": {
+            "pair_hits": 68474,
+            "reference_pairs": 73710,
+            "candidate_core_pairs": 69700,
+            "core_columns": 18,
+            "column_hits": 0,
+            "core_pair_recall": 0.9289648622981956,
+            "core_pair_precision": 0.9824103299856528,
+            "core_column_recall": 0.0
+          }
+        }
+      ],
+      "single_row_saturated": false,
+      "role": "scaling-only",
+      "status": "Inherited author-checked candidate; scientific review pending"
+    },
+    {
+      "dataset": "BB30017",
+      "input": "research/contributor-30m/additional/BB30017/input.fa",
+      "reference": "research/contributor-30m/additional/BB30017/reference.fa",
+      "mask": "research/contributor-30m/additional/BB30017/core.json",
+      "incumbent": "research/contributor-30m/additional/BB30017/row-final.fa",
+      "sha256": {
+        "input": "5bb07ee4f994129a8a22f2fa86a830169c7fddeb2e2dca8deaec9deeba03f2bd",
+        "reference": "6a0d430ca84eeb4b86764682cda1f4a37f236c4ee5a514be09a9b5d1c0c3c7fb",
+        "mask": "80b8d332264e895a37ec037c8d15bed41fbe6bbe6d233a4f3d9b8a57a012dd3f",
+        "incumbent": "2ba1e74110c88d1ba963872ce3a2d573a5a34cb75836196abf71d05c43635bb2"
+      },
+      "score": -4131,
+      "n": 15,
+      "max_ungapped_length": 370,
+      "reference_metrics": {
+        "pair_hits": 8689,
+        "reference_pairs": 11025,
+        "candidate_core_pairs": 9900,
+        "core_columns": 105,
+        "column_hits": 49,
+        "core_pair_recall": 0.7881179138321995,
+        "core_pair_precision": 0.8776767676767677,
+        "core_column_recall": 0.4666666666666667
+      },
+      "baselines": [
+        {
+          "object": "research/contributor-30m/additional/BB30017/mafft-linsi.fa",
+          "sha256": "7c5f82b1a281bcab9d0655358df3f0cc258b997d67b2f930f5c8e9a498ec35f3",
+          "score": -6325,
+          "reference_metrics": {
+            "pair_hits": 8709,
+            "reference_pairs": 11025,
+            "candidate_core_pairs": 9732,
+            "core_columns": 105,
+            "column_hits": 56,
+            "core_pair_recall": 0.7899319727891156,
+            "core_pair_precision": 0.8948828606658447,
+            "core_column_recall": 0.5333333333333333
+          }
+        },
+        {
+          "object": "research/contributor-30m/additional/BB30017/mafft-ginsi.fa",
+          "sha256": "f128e1e2edc42278f3a3e5aaab32dba950aeddfdbcb522e2386fcf1b4a7f206c",
+          "score": -5646,
+          "reference_metrics": {
+            "pair_hits": 8639,
+            "reference_pairs": 11025,
+            "candidate_core_pairs": 9726,
+            "core_columns": 105,
+            "column_hits": 50,
+            "core_pair_recall": 0.7835827664399093,
+            "core_pair_precision": 0.8882377133456714,
+            "core_column_recall": 0.47619047619047616
+          }
+        },
+        {
+          "object": "research/contributor-30m/additional/BB30017/famsa2.fa",
+          "sha256": "c7053e830e06af09d21ff41e26b7e5d06ca22a1e04711f174dab260c945017f9",
+          "score": -8690,
+          "reference_metrics": {
+            "pair_hits": 7701,
+            "reference_pairs": 11025,
+            "candidate_core_pairs": 9470,
+            "core_columns": 105,
+            "column_hits": 41,
+            "core_pair_recall": 0.6985034013605442,
+            "core_pair_precision": 0.8131995776135164,
+            "core_column_recall": 0.3904761904761905
+          }
+        }
+      ],
+      "single_row_saturated": false,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending"
+    },
+    {
+      "dataset": "BB50007",
+      "input": "research/contributor-30m/additional/BB50007/input.fa",
+      "reference": "research/contributor-30m/additional/BB50007/reference.fa",
+      "mask": "research/contributor-30m/additional/BB50007/core.json",
+      "incumbent": "research/contributor-30m/additional/BB50007/row-final.fa",
+      "sha256": {
+        "input": "c8a1ce15d1a2c6262ef92953e66ea5a4f0303a6be66ac1824c47fe5878ce2bf1",
+        "reference": "fda07131bb5695d07e27e1e68a378293ede225cc25fcb38dc0325a1dcc04fbf4",
+        "mask": "d7291cf7453aa29afba6b4cb1ec43509fc90d7cb343013b3e0e66e62ca45af4d",
+        "incumbent": "916bf9a8dd8ebd63450e59ebc98b1a1b02802307c7568993b7761ad818011ba1"
+      },
+      "score": -20416,
+      "n": 23,
+      "max_ungapped_length": 308,
+      "reference_metrics": {
+        "pair_hits": 13228,
+        "reference_pairs": 15939,
+        "candidate_core_pairs": 14931,
+        "core_columns": 63,
+        "column_hits": 12,
+        "core_pair_recall": 0.8299140473053517,
+        "core_pair_precision": 0.8859419998660505,
+        "core_column_recall": 0.19047619047619047
+      },
+      "baselines": [
+        {
+          "object": "research/contributor-30m/additional/BB50007/mafft-linsi.fa",
+          "sha256": "c9c95790317b3b05b232235fbf7586519cbc067b7965a3022d5721b1f49392c5",
+          "score": -30392,
+          "reference_metrics": {
+            "pair_hits": 12864,
+            "reference_pairs": 15939,
+            "candidate_core_pairs": 14652,
+            "core_columns": 63,
+            "column_hits": 7,
+            "core_pair_recall": 0.8070769809900245,
+            "core_pair_precision": 0.877968877968878,
+            "core_column_recall": 0.1111111111111111
+          }
+        },
+        {
+          "object": "research/contributor-30m/additional/BB50007/mafft-ginsi.fa",
+          "sha256": "2ee349663e2213f29918d28790488c2e6ddcd9eefd0c37b7da8f63da9fd90c1c",
+          "score": -26440,
+          "reference_metrics": {
+            "pair_hits": 12720,
+            "reference_pairs": 15939,
+            "candidate_core_pairs": 14748,
+            "core_columns": 63,
+            "column_hits": 0,
+            "core_pair_recall": 0.7980425371729719,
+            "core_pair_precision": 0.8624898291293734,
+            "core_column_recall": 0.0
+          }
+        },
+        {
+          "object": "research/contributor-30m/additional/BB50007/famsa2.fa",
+          "sha256": "2fed2d2a988219fcf8a8f6dd4f40316f340c8b4f111c985c0c8d42bd658ebb71",
+          "score": -38153,
+          "reference_metrics": {
+            "pair_hits": 11185,
+            "reference_pairs": 15939,
+            "candidate_core_pairs": 13761,
+            "core_columns": 63,
+            "column_hits": 5,
+            "core_pair_recall": 0.7017378756509192,
+            "core_pair_precision": 0.8128043020129351,
+            "core_column_recall": 0.07936507936507936
+          }
+        }
+      ],
+      "single_row_saturated": false,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending"
+    }
+  ],
+  "policy": "Search uses sequences and integer objective only. Reference diagnostics run after outputs are frozen. No reference-guided acceptance in the original model."
+}

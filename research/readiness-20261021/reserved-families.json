@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "seed": "20261021-bio-reserve-v1",
+  "source_url": "https://publish.illinois.edu/msaevaluation/files/2017/07/BAliBASE_R1-5.tar_.gz",
+  "archive_sha256": "5378cf4e2e0741f788a0175d4fcb78c54387102b243e8de16c5e2cafed928190",
+  "cases": [
+    {
+      "dataset": "BB20005",
+      "category": "RV20",
+      "source_member": "bb3_release/RV20/BB20005.tfa",
+      "n": 42,
+      "max_length": 474,
+      "unaligned_member_sha256": "b31b7e0c05342dff352debf9409eba8f8c320567562ad8b07d6dae74a5d39a7d",
+      "canonical_input_sha256": "8a116cee6d9cadccf2883959fdd694550f99f6c8b6f2813dbdb430def11a5ea0"
+    },
+    {
+      "dataset": "BB50004",
+      "category": "RV50",
+      "source_member": "bb3_release/RV50/BB50004.tfa",
+      "n": 9,
+      "max_length": 505,
+      "unaligned_member_sha256": "c69b40993656e740d3da7161fd3b16da3e9251f106f96dad2efdde2a03664802",
+      "canonical_input_sha256": "467a320616d0a0708c16437b8353d9de4cf7a5330625ec10e464440a8141376b"
+    },
+    {
+      "dataset": "BB11024",
+      "category": "RV11",
+      "source_member": "bb3_release/RV11/BB11024.tfa",
+      "n": 4,
+      "max_length": 465,
+      "unaligned_member_sha256": "31968f41121e11c1f6c630305126abb027ca6e2e0323f681e4a22cbd24bd9ae1",
+      "canonical_input_sha256": "958f063c836b6c198a3b8b1e4654ef21dae8361c52f002803e924a15c2d9d842"
+    },
+    {
+      "dataset": "BB20009",
+      "category": "RV20",
+      "source_member": "bb3_release/RV20/BB20009.tfa",
+      "n": 29,
+      "max_length": 415,
+      "unaligned_member_sha256": "468eab6136ed91b25c7b07455b47f5c6c7ed4f706f91f189fe8213f7f706be5d",
+      "canonical_input_sha256": "f15cb0fd7d427dff330b4835dfa3a0c0425f0dbef110ec7fd4993c76a0f3ea2c"
+    },
+    {
+      "dataset": "BB12029",
+      "category": "RV12",
+      "source_member": "bb3_release/RV12/BB12029.tfa",
+      "n": 12,
+      "max_length": 502,
+      "unaligned_member_sha256": "ba4b4ad07f4ac8f43df09b70c3487b0e7401dd325a3eb95d5c2ccf1df6bd0e7b",
+      "canonical_input_sha256": "fbbf2b3648d308be19bc17a9010783c75537ef24817a325e04246dae3a424a75"
+    },
+    {
+      "dataset": "BB11019",
+      "category": "RV11",
+      "source_member": "bb3_release/RV11/BB11019.tfa",
+      "n": 10,
+      "max_length": 396,
+      "unaligned_member_sha256": "f8b54a4068a0c5b29d295feb548ec359745f28e732f5ec11b1e59f4981662920",
+      "canonical_input_sha256": "b0d619c5d746603c21760b6f3b01d2219407a59dcfaab4f995772665491ad7d2"
+    },
+    {
+      "dataset": "BB12015",
+      "category": "RV12",
+      "source_member": "bb3_release/RV12/BB12015.tfa",
+      "n": 12,
+      "max_length": 392,
+      "unaligned_member_sha256": "49c9b01b6ccac0ffb10d13060b7586c94895f5e12c0c1c80d726ae94ca5d8162",
+      "canonical_input_sha256": "aed5f4084931b3160c2c57b7f3f3860ae250589dc490d301c0fb75a3c30bab29"
+    },
+    {
+      "dataset": "BB40045",
+      "category": "RV40",
+      "source_member": "bb3_release/RV40/BB40045.tfa",
+      "n": 11,
+      "max_length": 596,
+      "unaligned_member_sha256": "22a4490234ec7d1cd43e0c9682f95c661d53656a742638497a35356f84b4dddd",
+      "canonical_input_sha256": "dfb06ecba461ece38eda7a42cdd874c0c73bcf4459056512a44a14adb622c043"
+    },
+    {
+      "dataset": "BB40025",
+      "category": "RV40",
+      "source_member": "bb3_release/RV40/BB40025.tfa",
+      "n": 14,
+      "max_length": 527,
+      "unaligned_member_sha256": "7160ab933efe73ef6e715a1a6553f9ab7fe6c51b06932511c223d7237698a50b",
+      "canonical_input_sha256": "080151f45bb42a6a157b7a625ff86e4b0979786090cf29ea672806ca2f52f96a"
+    },
+    {
+      "dataset": "BB30009",
+      "category": "RV30",
+      "source_member": "bb3_release/RV30/BB30009.tfa",
+      "n": 38,
+      "max_length": 256,
+      "unaligned_member_sha256": "7844475034269f0ce5e6709b571f06d67807c0e6192d4deb7fc8b9d0dc64a4f6",
+      "canonical_input_sha256": "a530e25f4b15d619ff05c5f9b169fc19da91524567e2d091b3f3e6a8933bc0c2"
+    }
+  ],
+  "category_counts": {
+    "RV20": 2,
+    "RV50": 1,
+    "RV11": 2,
+    "RV12": 2,
+    "RV40": 2,
+    "RV30": 1
+  },
+  "exclusions": {
+    "sequence_overlap_screen": 8
+  },
+  "status": "Proposed reserve only; reference outcomes unopened; independent curator and redistribution decisions pending.",
+  "selection": "Full-length unaligned .tfa inputs only. Deterministic hash order, up to two per category, 4\u201350 sequences, maximum length 60\u2013600; exclude all exposed cases and exact/6-mer-Jaccard>=0.2 sequence overlap.",
+  "limitations": "The overlap screen is heuristic and does not prove homology-disjoint families. Inputs are public, so this is not a private or independently selected test set. No quality results have been measured."
+}

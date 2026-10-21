@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "seed": "20261021-bio-reserve-v1",
+  "source_url": "https://publish.illinois.edu/msaevaluation/files/2017/07/BAliBASE_R1-5.tar_.gz",
+  "archive_sha256": "5378cf4e2e0741f788a0175d4fcb78c54387102b243e8de16c5e2cafed928190",
+  "cases": [
+    {
+      "dataset": "BB11019",
+      "category": "RV11",
+      "source_member": "bb3_release/RV11/BB11019.tfa",
+      "n": 10,
+      "max_length": 396,
+      "unaligned_member_sha256": "f8b54a4068a0c5b29d295feb548ec359745f28e732f5ec11b1e59f4981662920",
+      "canonical_input_sha256": "b0d619c5d746603c21760b6f3b01d2219407a59dcfaab4f995772665491ad7d2"
+    },
+    {
+      "dataset": "BB11021",
+      "category": "RV11",
+      "source_member": "bb3_release/RV11/BB11021.tfa",
+      "n": 4,
+      "max_length": 139,
+      "unaligned_member_sha256": "a4e14d1bfa9f972960997b40bfaeb4619aca65158e82ba3b6cf7016f61e8843e",
+      "canonical_input_sha256": "9dc019dda904c2e543b0106f8d8836a3192aa66cb39f68a24ac877ad71d47a3e"
+    },
+    {
+      "dataset": "BB12015",
+      "category": "RV12",
+      "source_member": "bb3_release/RV12/BB12015.tfa",
+      "n": 12,
+      "max_length": 392,
+      "unaligned_member_sha256": "49c9b01b6ccac0ffb10d13060b7586c94895f5e12c0c1c80d726ae94ca5d8162",
+      "canonical_input_sha256": "aed5f4084931b3160c2c57b7f3f3860ae250589dc490d301c0fb75a3c30bab29"
+    },
+    {
+      "dataset": "BB12036",
+      "category": "RV12",
+      "source_member": "bb3_release/RV12/BB12036.tfa",
+      "n": 7,
+      "max_length": 226,
+      "unaligned_member_sha256": "df46b054b3266a92a8640947935728fb30b78bdb0139a6d9be8c231eb3808c94",
+      "canonical_input_sha256": "601f7ff0eb567d7b2b0f8871704a8edce71caa87c3b7f74a5e6e81a805079dbc"
+    }
+  ],
+  "category_counts": {
+    "RV11": 2,
+    "RV12": 2
+  },
+  "exclusions": {
+    "sequence_overlap_screen": 3
+  },
+  "status": "Proposed reserve only; reference outcomes unopened; independent curator and redistribution decisions pending.",
+  "selection": "Full-length unaligned .tfa inputs only. Deterministic hash order, up to two per category, 4\u201325 sequences, maximum length 60\u2013400; exclude all exposed cases and exact/6-mer-Jaccard>=0.2 sequence overlap.",
+  "limitations": "The overlap screen is heuristic and does not prove homology-disjoint families. Inputs are public, so this is not a private or independently selected test set. No quality results have been measured."
+}
