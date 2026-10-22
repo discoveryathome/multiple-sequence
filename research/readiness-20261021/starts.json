@@ -1,0 +1,206 @@
+{
+  "version": "msa-preparation-v1",
+  "model": "MSA-SP-v1 unchanged",
+  "shared_bindings": {
+    "msa/core.py": "3e56cbbe2cfe099d43a5921d495c3610d5a6b1c68d74e9023b5e1592fd409f3f",
+    "data/matrices/BLOSUM62": "85510d3846ee6d5f4778e425cf8daf6e0dbb889b306f2d13434e1254780efb40",
+    "docs/MODEL.md": "76a0ef10d0e77a6e9abbf53285f8ce6cbea38786194b594d1c5e435f60ea0827"
+  },
+  "cases": [
+    {
+      "dataset": "BB11001",
+      "input": "data/inputs/BB11001.fa",
+      "incumbent": "research/contributor-30m/convergence/BB11001/final.fa",
+      "score": 230,
+      "n": 4,
+      "max_ungapped_length": 91,
+      "single_row_saturated": true,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending",
+      "sha256": {
+        "input": "e9c205db271e7d48098824ead0d8c61dcf081fd000b7562644e0b2468bf518bf",
+        "incumbent": "1d55a7b0d3776a66979f6e27bad815ed15a284e1870ff3383e34879c0c6527b4"
+      }
+    },
+    {
+      "dataset": "BB11015",
+      "input": "data/inputs/BB11015.fa",
+      "incumbent": "research/contributor-30m/outputs/BB11015/row-final.fa",
+      "score": 149,
+      "n": 4,
+      "max_ungapped_length": 327,
+      "single_row_saturated": false,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending",
+      "sha256": {
+        "input": "a2f55e09971a308198a21f9b786a3e85c288539289a796668dd69a0aad7abb82",
+        "incumbent": "3bd5bacf9629291c252146831d6dba5e0d452edebf63386eac9313bf93877ad5"
+      }
+    },
+    {
+      "dataset": "BB12021",
+      "input": "data/inputs/BB12021.fa",
+      "incumbent": "research/contributor-30m/outputs/BB12021/row-final.fa",
+      "score": 1053,
+      "n": 6,
+      "max_ungapped_length": 85,
+      "single_row_saturated": false,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending",
+      "sha256": {
+        "input": "7b444d6fd5528d59d7d863eec2309e67db658df025f06f5e3029f86a1bbb3532",
+        "incumbent": "cd6928fdbc0ace2e6b87f1245e917f5279b9827e568c15a4d8cd9eb4a6d01141"
+      }
+    },
+    {
+      "dataset": "BB20029",
+      "input": "data/inputs/BB20029.fa",
+      "incumbent": "research/contributor-30m/convergence/BB20029/final.fa",
+      "score": 28715,
+      "n": 29,
+      "max_ungapped_length": 167,
+      "single_row_saturated": true,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending",
+      "sha256": {
+        "input": "6a2c0ac98ddc984b458d762b77ef866433639eb1d30677d1a6e35b5f59bdce50",
+        "incumbent": "36cd78aacba664145c81d8c289ffbb026530395244adf961fcb5f02d69a91f77"
+      }
+    },
+    {
+      "dataset": "BB20030",
+      "input": "data/inputs/BB20030.fa",
+      "incumbent": "research/contributor-30m/outputs/BB20030/row-final.fa",
+      "score": 261151,
+      "n": 47,
+      "max_ungapped_length": 155,
+      "single_row_saturated": false,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending",
+      "sha256": {
+        "input": "dc1f6dc867b74cbb069dd2d1282a9f1ac4f25a75deb6134a8f65010e10c7ff5b",
+        "incumbent": "bbdaac867c7ea9eb8ae521d5e2e316f3f55c53ce3a3273ef183e94488bc75c43"
+      }
+    },
+    {
+      "dataset": "BB30027",
+      "input": "data/inputs/BB30027.fa",
+      "incumbent": "research/contributor-30m/outputs/BB30027/row-final.fa",
+      "score": 3719,
+      "n": 20,
+      "max_ungapped_length": 172,
+      "single_row_saturated": false,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending",
+      "sha256": {
+        "input": "755c4528d2fb8f1a2d5a95dcd82d9b47eec4772421b02523ca504c056b19efa0",
+        "incumbent": "d660dc6cb8a1739d62630575e103eac4e69d9b5c453db3d5ab824f2b9c5f5adb"
+      }
+    },
+    {
+      "dataset": "BB40010",
+      "input": "data/inputs/BB40010.fa",
+      "incumbent": "research/contributor-30m/outputs/BB40010/row-final.fa",
+      "score": 1982,
+      "n": 9,
+      "max_ungapped_length": 214,
+      "single_row_saturated": false,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending",
+      "sha256": {
+        "input": "057189a874c32433985eee716019e58c49c8596718c394af6f0f673331357f6d",
+        "incumbent": "7857aa1981062adabe3e7d6170814edcc9b6937ffa4f6c1443851037fe886b22"
+      }
+    },
+    {
+      "dataset": "BB50013",
+      "input": "data/inputs/BB50013.fa",
+      "incumbent": "research/contributor-30m/outputs/BB50013/row-final.fa",
+      "score": 61063,
+      "n": 18,
+      "max_ungapped_length": 318,
+      "single_row_saturated": false,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending",
+      "sha256": {
+        "input": "964a080537530c074fdb5dcb36988630221de1bb05603875ea01c1e7a25d221f",
+        "incumbent": "0e2b5bbc88f8d6a63f2eb8e4332c726dfcaa5d4d0a982cd8df1ba75908fd2ff3"
+      }
+    },
+    {
+      "dataset": "BB11029",
+      "input": "research/contributor-30m/additional/BB11029/input.fa",
+      "incumbent": "research/contributor-30m/convergence/BB11029/final.fa",
+      "score": -203,
+      "n": 4,
+      "max_ungapped_length": 138,
+      "single_row_saturated": true,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending",
+      "sha256": {
+        "input": "de58d8d552f00decc43d490bf4684c2318acd12b850d864cfd236d917a3a68c1",
+        "incumbent": "50f6bb4947d7d0ab35892bdf57ab7889ffbc9f1715316c29d1a8366ce9a8ca5a"
+      }
+    },
+    {
+      "dataset": "BB12040",
+      "input": "research/contributor-30m/additional/BB12040/input.fa",
+      "incumbent": "research/contributor-30m/additional/BB12040/row-final.fa",
+      "score": 826,
+      "n": 5,
+      "max_ungapped_length": 153,
+      "single_row_saturated": false,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending",
+      "sha256": {
+        "input": "15061f4ae6caf98266eb1d7802feed3ad5056eff2e857507c1a210ab8a0e69f3",
+        "incumbent": "68341d91caf9a40b491ef506fe469d7210a59d430a6eace3bc71dac6b16414e6"
+      }
+    },
+    {
+      "dataset": "BB20036",
+      "input": "research/contributor-30m/additional/BB20036/input.fa",
+      "incumbent": "research/contributor-30m/additional/BB20036/row-final.fa",
+      "score": 336396,
+      "n": 91,
+      "max_ungapped_length": 335,
+      "single_row_saturated": false,
+      "role": "scaling-only",
+      "status": "Inherited author-checked candidate; scientific review pending",
+      "sha256": {
+        "input": "504a7941ebc808a2bfdd48a266bd14d841a2332c6f13a7b7ad3e3c955137d031",
+        "incumbent": "3f5842b1b8f779636f13e5cefdff80a2e8df5d431e05f2f7eb93d45a495fbc12"
+      }
+    },
+    {
+      "dataset": "BB30017",
+      "input": "research/contributor-30m/additional/BB30017/input.fa",
+      "incumbent": "research/contributor-30m/additional/BB30017/row-final.fa",
+      "score": -4131,
+      "n": 15,
+      "max_ungapped_length": 370,
+      "single_row_saturated": false,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending",
+      "sha256": {
+        "input": "5bb07ee4f994129a8a22f2fa86a830169c7fddeb2e2dca8deaec9deeba03f2bd",
+        "incumbent": "2ba1e74110c88d1ba963872ce3a2d573a5a34cb75836196abf71d05c43635bb2"
+      }
+    },
+    {
+      "dataset": "BB50007",
+      "input": "research/contributor-30m/additional/BB50007/input.fa",
+      "incumbent": "research/contributor-30m/additional/BB50007/row-final.fa",
+      "score": -20416,
+      "n": 23,
+      "max_ungapped_length": 308,
+      "single_row_saturated": false,
+      "role": "exposed-development",
+      "status": "Inherited author-checked candidate; scientific review pending",
+      "sha256": {
+        "input": "c8a1ce15d1a2c6262ef92953e66ea5a4f0303a6be66ac1824c47fe5878ce2bf1",
+        "incumbent": "916bf9a8dd8ebd63450e59ebc98b1a1b02802307c7568993b7761ad818011ba1"
+      }
+    }
+  ]
+}

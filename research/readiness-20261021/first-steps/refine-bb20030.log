@@ -1,0 +1,11 @@
+{
+  "dataset": "BB20030",
+  "valid": true,
+  "score": 261151,
+  "delta_from_inherited": 0,
+  "optimization_improvement": false,
+  "canonical_sha256": "bbdaac867c7ea9eb8ae521d5e2e316f3f55c53ce3a3273ef183e94488bc75c43",
+  "interpretation": "Feasible optimization artifact; no biological improvement or acceptance follows.",
+  "seconds": 0.2060469170100987
+}
+

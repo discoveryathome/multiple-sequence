@@ -1,0 +1,23 @@
+{
+  "dataset": "BB11015",
+  "valid": true,
+  "score": 149,
+  "delta_from_inherited": 0,
+  "optimization_improvement": false,
+  "canonical_sha256": "3bd5bacf9629291c252146831d6dba5e0d452edebf63386eac9313bf93877ad5",
+  "interpretation": "Post-generation diagnostic on exposed development references; no fresh confirmation or biological acceptance.",
+  "seconds": 0.005860916920937598,
+  "reference_metrics": {
+    "pair_hits": 970,
+    "reference_pairs": 1188,
+    "candidate_core_pairs": 1082,
+    "core_columns": 198,
+    "column_hits": 140,
+    "core_pair_recall": 0.8164983164983165,
+    "core_pair_precision": 0.8964879852125693,
+    "core_column_recall": 0.7070707070707071
+  },
+  "pair_recall_delta_from_inherited": 0.0,
+  "pair_recall_delta_from_best_baseline": -0.062289562289562284
+}
+

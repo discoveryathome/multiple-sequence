@@ -1,339 +1,371 @@
 {
   "schema": "discover-catalog/v0",
-  "priority_revision": 1,
-  "assessed_on": "2026-10-20",
+  "priority_revision": 2,
+  "assessed_on": "2026-10-21",
   "priority_log": "discover/priority-log.md",
-  "status": "Local pilot, not open to public donors",
+  "status": "Local preparation for scoped trials; public intake and independent scientific review pending",
   "tracks": [
     {
       "id": "refinement",
-      "weight": 35,
+      "weight": 25,
       "useful_outcome": "Independent higher-score candidates and informative failed proposals on different family sizes.",
       "tasks": [
         {
-          "id": "refine-bb11001",
-          "question": "Can stronger block/subgroup/profile or gap search improve BB11001 beyond the recorded best?",
-          "starting_points": [
-            "msa/refine.py",
-            "docs/MODEL.md",
-            "discover/records.json"
-          ],
-          "methods": [
-            "Reference-blind local refinement with exact full-score acceptance"
-          ],
-          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
-          "first_step": {
-            "command": [
-              "python3",
-              "-m",
-              "msa",
-              "verify",
-              "--dataset",
-              "BB11001"
-            ],
-            "expected": "PASS with 10 or 11 saved alignments checked",
-            "scope": "BB11001"
-          },
-          "bottleneck_link": "DISCOVERY.md#bottleneck",
-          "claim_kind": [
-            "model",
-            "measured"
-          ],
-          "overlap_terms": [
-            "BB11001"
-          ],
-          "existing_checks": [
-            {
-              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
-              "evidence": "docs/ASSESSMENT.md",
-              "remaining": "Stronger proposals, wider independent evaluation and review.",
-              "status": "author-checked"
-            }
-          ]
-        },
-        {
           "id": "refine-bb11015",
-          "question": "Can stronger block/subgroup/profile or gap search improve BB11015 beyond the recorded best?",
+          "question": "Can a bounded reference-blind proposal improve BB11015 from the inherited candidate?",
           "starting_points": [
-            "msa/refine.py",
-            "docs/MODEL.md",
-            "discover/records.json"
+            "scripts/readiness.py",
+            "research/contributor-30m/outputs/BB11015/row-final.fa",
+            "research/contributor-30m/row_dp.py",
+            "research/readiness-20261021/TRIAL.md"
           ],
           "methods": [
-            "Reference-blind local refinement with exact full-score acceptance"
+            "Bounded reproducible contribution under the preparation protocol"
           ],
-          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "acceptance_gate": "Validate inputs and exact score against inherited start; freeze output before reference evaluation; report all accuracy changes, failures and resource use. Score gain alone is a technical result.",
           "first_step": {
             "command": [
               "python3",
-              "-m",
-              "msa",
-              "verify",
+              "scripts/readiness.py",
+              "check",
               "--dataset",
               "BB11015"
             ],
-            "expected": "PASS with 10 or 11 saved alignments checked",
-            "scope": "BB11015"
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck",
           "claim_kind": [
-            "model",
             "measured"
           ],
           "overlap_terms": [
-            "BB11015"
+            "BB11015",
+            "reference-blind search"
           ],
           "existing_checks": [
             {
-              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
-              "evidence": "docs/ASSESSMENT.md",
-              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
               "status": "author-checked"
             }
           ]
         },
         {
           "id": "refine-bb12021",
-          "question": "Can stronger block/subgroup/profile or gap search improve BB12021 beyond the recorded best?",
+          "question": "Can a bounded reference-blind proposal improve BB12021 from the inherited candidate?",
           "starting_points": [
-            "msa/refine.py",
-            "docs/MODEL.md",
-            "discover/records.json"
+            "scripts/readiness.py",
+            "research/contributor-30m/outputs/BB12021/row-final.fa",
+            "research/contributor-30m/row_dp.py",
+            "research/readiness-20261021/TRIAL.md"
           ],
           "methods": [
-            "Reference-blind local refinement with exact full-score acceptance"
+            "Bounded reproducible contribution under the preparation protocol"
           ],
-          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "acceptance_gate": "Validate inputs and exact score against inherited start; freeze output before reference evaluation; report all accuracy changes, failures and resource use. Score gain alone is a technical result.",
           "first_step": {
             "command": [
               "python3",
-              "-m",
-              "msa",
-              "verify",
+              "scripts/readiness.py",
+              "check",
               "--dataset",
               "BB12021"
             ],
-            "expected": "PASS with 10 or 11 saved alignments checked",
-            "scope": "BB12021"
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck",
           "claim_kind": [
-            "model",
             "measured"
           ],
           "overlap_terms": [
-            "BB12021"
+            "BB12021",
+            "reference-blind search"
           ],
           "existing_checks": [
             {
-              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
-              "evidence": "docs/ASSESSMENT.md",
-              "remaining": "Stronger proposals, wider independent evaluation and review.",
-              "status": "author-checked"
-            }
-          ]
-        },
-        {
-          "id": "refine-bb20029",
-          "question": "Can stronger block/subgroup/profile or gap search improve BB20029 beyond the recorded best?",
-          "starting_points": [
-            "msa/refine.py",
-            "docs/MODEL.md",
-            "discover/records.json"
-          ],
-          "methods": [
-            "Reference-blind local refinement with exact full-score acceptance"
-          ],
-          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
-          "first_step": {
-            "command": [
-              "python3",
-              "-m",
-              "msa",
-              "verify",
-              "--dataset",
-              "BB20029"
-            ],
-            "expected": "PASS with 10 or 11 saved alignments checked",
-            "scope": "BB20029"
-          },
-          "bottleneck_link": "DISCOVERY.md#bottleneck",
-          "claim_kind": [
-            "model",
-            "measured"
-          ],
-          "overlap_terms": [
-            "BB20029"
-          ],
-          "existing_checks": [
-            {
-              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
-              "evidence": "docs/ASSESSMENT.md",
-              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
               "status": "author-checked"
             }
           ]
         },
         {
           "id": "refine-bb20030",
-          "question": "Can stronger block/subgroup/profile or gap search improve BB20030 beyond the recorded best?",
+          "question": "Can a bounded reference-blind proposal improve BB20030 from the inherited candidate?",
           "starting_points": [
-            "msa/refine.py",
-            "docs/MODEL.md",
-            "discover/records.json"
+            "scripts/readiness.py",
+            "research/contributor-30m/outputs/BB20030/row-final.fa",
+            "research/contributor-30m/row_dp.py",
+            "research/readiness-20261021/TRIAL.md"
           ],
           "methods": [
-            "Reference-blind local refinement with exact full-score acceptance"
+            "Bounded reproducible contribution under the preparation protocol"
           ],
-          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "acceptance_gate": "Validate inputs and exact score against inherited start; freeze output before reference evaluation; report all accuracy changes, failures and resource use. Score gain alone is a technical result.",
           "first_step": {
             "command": [
               "python3",
-              "-m",
-              "msa",
-              "verify",
+              "scripts/readiness.py",
+              "check",
               "--dataset",
               "BB20030"
             ],
-            "expected": "PASS with 10 or 11 saved alignments checked",
-            "scope": "BB20030"
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck",
           "claim_kind": [
-            "model",
             "measured"
           ],
           "overlap_terms": [
-            "BB20030"
+            "BB20030",
+            "reference-blind search"
           ],
           "existing_checks": [
             {
-              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
-              "evidence": "docs/ASSESSMENT.md",
-              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
               "status": "author-checked"
             }
           ]
         },
         {
           "id": "refine-bb30027",
-          "question": "Can stronger block/subgroup/profile or gap search improve BB30027 beyond the recorded best?",
+          "question": "Can a bounded reference-blind proposal improve BB30027 from the inherited candidate?",
           "starting_points": [
-            "msa/refine.py",
-            "docs/MODEL.md",
-            "discover/records.json"
+            "scripts/readiness.py",
+            "research/contributor-30m/outputs/BB30027/row-final.fa",
+            "research/contributor-30m/row_dp.py",
+            "research/readiness-20261021/TRIAL.md"
           ],
           "methods": [
-            "Reference-blind local refinement with exact full-score acceptance"
+            "Bounded reproducible contribution under the preparation protocol"
           ],
-          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "acceptance_gate": "Validate inputs and exact score against inherited start; freeze output before reference evaluation; report all accuracy changes, failures and resource use. Score gain alone is a technical result.",
           "first_step": {
             "command": [
               "python3",
-              "-m",
-              "msa",
-              "verify",
+              "scripts/readiness.py",
+              "check",
               "--dataset",
               "BB30027"
             ],
-            "expected": "PASS with 10 or 11 saved alignments checked",
-            "scope": "BB30027"
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck",
           "claim_kind": [
-            "model",
             "measured"
           ],
           "overlap_terms": [
-            "BB30027"
+            "BB30027",
+            "reference-blind search"
           ],
           "existing_checks": [
             {
-              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
-              "evidence": "docs/ASSESSMENT.md",
-              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
               "status": "author-checked"
             }
           ]
         },
         {
           "id": "refine-bb40010",
-          "question": "Can stronger block/subgroup/profile or gap search improve BB40010 beyond the recorded best?",
+          "question": "Can a bounded reference-blind proposal improve BB40010 from the inherited candidate?",
           "starting_points": [
-            "msa/refine.py",
-            "docs/MODEL.md",
-            "discover/records.json"
+            "scripts/readiness.py",
+            "research/contributor-30m/outputs/BB40010/row-final.fa",
+            "research/contributor-30m/row_dp.py",
+            "research/readiness-20261021/TRIAL.md"
           ],
           "methods": [
-            "Reference-blind local refinement with exact full-score acceptance"
+            "Bounded reproducible contribution under the preparation protocol"
           ],
-          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "acceptance_gate": "Validate inputs and exact score against inherited start; freeze output before reference evaluation; report all accuracy changes, failures and resource use. Score gain alone is a technical result.",
           "first_step": {
             "command": [
               "python3",
-              "-m",
-              "msa",
-              "verify",
+              "scripts/readiness.py",
+              "check",
               "--dataset",
               "BB40010"
             ],
-            "expected": "PASS with 10 or 11 saved alignments checked",
-            "scope": "BB40010"
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck",
           "claim_kind": [
-            "model",
             "measured"
           ],
           "overlap_terms": [
-            "BB40010"
+            "BB40010",
+            "reference-blind search"
           ],
           "existing_checks": [
             {
-              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
-              "evidence": "docs/ASSESSMENT.md",
-              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
               "status": "author-checked"
             }
           ]
         },
         {
           "id": "refine-bb50013",
-          "question": "Can stronger block/subgroup/profile or gap search improve BB50013 beyond the recorded best?",
+          "question": "Can a bounded reference-blind proposal improve BB50013 from the inherited candidate?",
           "starting_points": [
-            "msa/refine.py",
-            "docs/MODEL.md",
-            "discover/records.json"
+            "scripts/readiness.py",
+            "research/contributor-30m/outputs/BB50013/row-final.fa",
+            "research/contributor-30m/row_dp.py",
+            "research/readiness-20261021/TRIAL.md"
           ],
           "methods": [
-            "Reference-blind local refinement with exact full-score acceptance"
+            "Bounded reproducible contribution under the preparation protocol"
           ],
-          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "acceptance_gate": "Validate inputs and exact score against inherited start; freeze output before reference evaluation; report all accuracy changes, failures and resource use. Score gain alone is a technical result.",
           "first_step": {
             "command": [
               "python3",
-              "-m",
-              "msa",
-              "verify",
+              "scripts/readiness.py",
+              "check",
               "--dataset",
               "BB50013"
             ],
-            "expected": "PASS with 10 or 11 saved alignments checked",
-            "scope": "BB50013"
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck",
           "claim_kind": [
-            "model",
             "measured"
           ],
           "overlap_terms": [
-            "BB50013"
+            "BB50013",
+            "reference-blind search"
           ],
           "existing_checks": [
             {
-              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
-              "evidence": "docs/ASSESSMENT.md",
-              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "refine-bb12040",
+          "question": "Can a bounded reference-blind proposal improve BB12040 from the inherited candidate?",
+          "starting_points": [
+            "scripts/readiness.py",
+            "research/contributor-30m/additional/BB12040/row-final.fa",
+            "research/contributor-30m/row_dp.py",
+            "research/readiness-20261021/TRIAL.md"
+          ],
+          "methods": [
+            "Bounded reproducible contribution under the preparation protocol"
+          ],
+          "acceptance_gate": "Validate inputs and exact score against inherited start; freeze output before reference evaluation; report all accuracy changes, failures and resource use. Score gain alone is a technical result.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/readiness.py",
+              "check",
+              "--dataset",
+              "BB12040"
+            ],
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "measured"
+          ],
+          "overlap_terms": [
+            "BB12040",
+            "reference-blind search"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "refine-bb30017",
+          "question": "Can a bounded reference-blind proposal improve BB30017 from the inherited candidate?",
+          "starting_points": [
+            "scripts/readiness.py",
+            "research/contributor-30m/additional/BB30017/row-final.fa",
+            "research/contributor-30m/row_dp.py",
+            "research/readiness-20261021/TRIAL.md"
+          ],
+          "methods": [
+            "Bounded reproducible contribution under the preparation protocol"
+          ],
+          "acceptance_gate": "Validate inputs and exact score against inherited start; freeze output before reference evaluation; report all accuracy changes, failures and resource use. Score gain alone is a technical result.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/readiness.py",
+              "check",
+              "--dataset",
+              "BB30017"
+            ],
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "measured"
+          ],
+          "overlap_terms": [
+            "BB30017",
+            "reference-blind search"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "refine-bb50007",
+          "question": "Can a bounded reference-blind proposal improve BB50007 from the inherited candidate?",
+          "starting_points": [
+            "scripts/readiness.py",
+            "research/contributor-30m/additional/BB50007/row-final.fa",
+            "research/contributor-30m/row_dp.py",
+            "research/readiness-20261021/TRIAL.md"
+          ],
+          "methods": [
+            "Bounded reproducible contribution under the preparation protocol"
+          ],
+          "acceptance_gate": "Validate inputs and exact score against inherited start; freeze output before reference evaluation; report all accuracy changes, failures and resource use. Score gain alone is a technical result.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/readiness.py",
+              "check",
+              "--dataset",
+              "BB50007"
+            ],
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "measured"
+          ],
+          "overlap_terms": [
+            "BB50007",
+            "reference-blind search"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
               "status": "author-checked"
             }
           ]
@@ -342,7 +374,7 @@
     },
     {
       "id": "verification",
-      "weight": 25,
+      "weight": 30,
       "useful_outcome": "Find real model or evaluator bugs before accepting new records.",
       "tasks": [
         {
@@ -387,79 +419,81 @@
           ]
         },
         {
-          "id": "profile-affine",
-          "question": "Can an exact affine-aware profile proposal outperform the linear surrogate without false optimality claims?",
+          "id": "candidate-contract",
+          "question": "Can malformed or mis-scoped candidates evade the new per-case entry check?",
           "starting_points": [
-            "msa/refine.py",
-            "docs/MODEL.md"
+            "scripts/readiness.py",
+            "tests/test_readiness.py"
           ],
           "methods": [
-            "Small exhaustive search and explicit boundary-state reasoning"
+            "Bounded reproducible contribution under the preparation protocol"
           ],
-          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "acceptance_gate": "A reproducible counterexample or independently replayed rejection control. Do not change the model to accept an invalid alignment.",
           "first_step": {
             "command": [
               "python3",
-              "scripts/replay.py",
-              "--dataset",
-              "BB11001"
+              "-m",
+              "unittest",
+              "discover",
+              "-s",
+              "tests",
+              "-p",
+              "test_readiness.py",
+              "-v"
             ],
-            "expected": "REPLAY PASS for BB11001",
-            "scope": "profile proposal correctness"
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck",
           "claim_kind": [
-            "model",
             "measured"
           ],
           "overlap_terms": [
-            "profile proposal correctness"
+            "checker",
+            "preparation-interface"
           ],
           "existing_checks": [
             {
-              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
-              "evidence": "docs/ASSESSMENT.md",
-              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
               "status": "author-checked"
             }
           ]
         },
         {
-          "id": "reference-evaluator",
-          "question": "Can a second residue-index evaluator falsify our exact pair/column counts?",
+          "id": "saturated-escape-review",
+          "question": "What distinct multi-row move or exactness argument could escape an inherited single-row optimum?",
           "starting_points": [
-            "scripts/crosscheck_bali.py",
-            "results/bali-crosscheck/crosscheck.json"
+            "research/contributor-30m/convergence",
+            "research/contributor-30m/REASONING.md"
           ],
           "methods": [
-            "Independent coordinate mapping and original BAliBASE cross-check"
+            "Bounded reproducible contribution under the preparation protocol"
           ],
-          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "acceptance_gate": "Do not repeat single-row sweeps on the three certified endpoints. Provide a bounded distinct move, proof obligation, or informative failure.",
           "first_step": {
             "command": [
               "python3",
-              "-m",
-              "msa",
-              "verify",
+              "scripts/readiness.py",
+              "check",
               "--dataset",
               "BB20029"
             ],
-            "expected": "PASS",
-            "scope": "core mask and evaluation arithmetic"
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck",
           "claim_kind": [
-            "model",
             "measured"
           ],
           "overlap_terms": [
-            "core mask and evaluation arithmetic"
+            "coordinate-optima",
+            "multi-row"
           ],
           "existing_checks": [
             {
-              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
-              "evidence": "docs/ASSESSMENT.md",
-              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
               "status": "author-checked"
             }
           ]
@@ -468,80 +502,81 @@
     },
     {
       "id": "biology",
-      "weight": 25,
+      "weight": 35,
       "useful_outcome": "Determine where objective gains align with independent biological reference agreement.",
       "tasks": [
         {
-          "id": "accuracy-association",
-          "question": "Do within-family score changes predict accuracy on a larger, predeclared evaluation set?",
+          "id": "score-accuracy-failure",
+          "question": "Can the score/accuracy disagreement be explained reproducibly without selecting on reserved references?",
           "starting_points": [
-            "results/evaluation.json",
-            "docs/ASSESSMENT.md"
+            "research/readiness-20261021/portfolio.json",
+            "research/readiness-20261021/EVALUATION.md"
           ],
           "methods": [
-            "Family-level paired analysis; avoid pseudoreplication of seeds"
+            "Bounded reproducible contribution under the preparation protocol"
           ],
-          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "acceptance_gate": "Report every prespecified case and comparator; explanatory work on exposed data is exploratory. Freeze any new scoring model as a separate formulation.",
           "first_step": {
             "command": [
               "python3",
-              "scripts/evaluate.py",
-              "--check"
+              "scripts/readiness.py",
+              "evaluate",
+              "--dataset",
+              "BB11015"
             ],
-            "expected": "EVALUATION RECOMPUTATION PASS",
-            "scope": "score versus accuracy"
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck",
           "claim_kind": [
-            "model",
             "measured"
           ],
           "overlap_terms": [
-            "score versus accuracy"
+            "objective-validity",
+            "exposed-references"
           ],
           "existing_checks": [
             {
-              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
-              "evidence": "docs/ASSESSMENT.md",
-              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
               "status": "author-checked"
             }
           ]
         },
         {
-          "id": "independent-families",
-          "question": "Do effects survive homolog-disjoint families and a second reference collection?",
+          "id": "reserve-family-audit",
+          "question": "Does the sequence-only reserve provide useful coverage and adequate separation?",
           "starting_points": [
-            "docs/LITERATURE.md",
-            "data/manifest.json"
+            "scripts/reserve_families.py",
+            "research/readiness-20261021/reserved-families.json",
+            "research/readiness-20261021/EVALUATION.md"
           ],
           "methods": [
-            "Audit overlap and provenance before running new methods"
+            "Bounded reproducible contribution under the preparation protocol"
           ],
-          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "acceptance_gate": "Audit source membership, homology overlap and data terms without opening reference outcomes. Curator approval remains required.",
           "first_step": {
             "command": [
               "python3",
-              "-m",
-              "msa",
-              "datasets"
+              "scripts/reserve_families.py",
+              "--check"
             ],
-            "expected": "Eight immutable dataset records",
-            "scope": "independent benchmark expansion"
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck",
           "claim_kind": [
-            "model",
             "measured"
           ],
           "overlap_terms": [
-            "independent benchmark expansion"
+            "reserve",
+            "homology",
+            "data-terms"
           ],
           "existing_checks": [
             {
-              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
-              "evidence": "docs/ASSESSMENT.md",
-              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
               "status": "author-checked"
             }
           ]
@@ -550,7 +585,7 @@
     },
     {
       "id": "baselines",
-      "weight": 15,
+      "weight": 10,
       "useful_outcome": "Strengthen comparator coverage and reproducibility without weakening the starting point.",
       "tasks": [
         {
@@ -594,42 +629,39 @@
           ]
         },
         {
-          "id": "larger-families",
-          "question": "Where does exact rescoring or profile search become the scaling bottleneck?",
+          "id": "scaling-budget",
+          "question": "Can the 91-sequence scaling case be verified and searched within an explicit state/memory budget?",
           "starting_points": [
-            "data/manifest.json",
-            "msa/core.py",
-            "msa/refine.py"
+            "research/contributor-30m/additional/BB20036",
+            "research/contributor-30m/REASONING.md"
           ],
           "methods": [
-            "Add larger intact BAliBASE families; measure resource costs separately from biological accuracy"
+            "Bounded reproducible contribution under the preparation protocol"
           ],
-          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "acceptance_gate": "Retain budget failures; distinguish partial-row probes from full-family results. Compare the inherited score and all three baseline methods.",
           "first_step": {
             "command": [
               "python3",
-              "-m",
-              "msa",
-              "verify",
+              "scripts/readiness.py",
+              "check",
               "--dataset",
-              "BB20030"
+              "BB20036"
             ],
-            "expected": "PASS",
-            "scope": "larger-family scaling"
+            "expected": "PASS with the pinned positive control; scientific review remains pending."
           },
           "bottleneck_link": "DISCOVERY.md#bottleneck",
           "claim_kind": [
-            "model",
             "measured"
           ],
           "overlap_terms": [
-            "larger-family scaling"
+            "BB20036",
+            "scaling"
           ],
           "existing_checks": [
             {
-              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
-              "evidence": "docs/ASSESSMENT.md",
-              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "scope": "Preparation positive control and inherited evidence",
+              "evidence": "research/readiness-20261021/README.md",
+              "remaining": "Independent reproduction and scoped scientific review",
               "status": "author-checked"
             }
           ]

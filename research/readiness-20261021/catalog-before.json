@@ -1,0 +1,640 @@
+{
+  "schema": "discover-catalog/v0",
+  "priority_revision": 1,
+  "assessed_on": "2026-10-20",
+  "priority_log": "discover/priority-log.md",
+  "status": "Local pilot, not open to public donors",
+  "tracks": [
+    {
+      "id": "refinement",
+      "weight": 35,
+      "useful_outcome": "Independent higher-score candidates and informative failed proposals on different family sizes.",
+      "tasks": [
+        {
+          "id": "refine-bb11001",
+          "question": "Can stronger block/subgroup/profile or gap search improve BB11001 beyond the recorded best?",
+          "starting_points": [
+            "msa/refine.py",
+            "docs/MODEL.md",
+            "discover/records.json"
+          ],
+          "methods": [
+            "Reference-blind local refinement with exact full-score acceptance"
+          ],
+          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-m",
+              "msa",
+              "verify",
+              "--dataset",
+              "BB11001"
+            ],
+            "expected": "PASS with 10 or 11 saved alignments checked",
+            "scope": "BB11001"
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "overlap_terms": [
+            "BB11001"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
+              "evidence": "docs/ASSESSMENT.md",
+              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "refine-bb11015",
+          "question": "Can stronger block/subgroup/profile or gap search improve BB11015 beyond the recorded best?",
+          "starting_points": [
+            "msa/refine.py",
+            "docs/MODEL.md",
+            "discover/records.json"
+          ],
+          "methods": [
+            "Reference-blind local refinement with exact full-score acceptance"
+          ],
+          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-m",
+              "msa",
+              "verify",
+              "--dataset",
+              "BB11015"
+            ],
+            "expected": "PASS with 10 or 11 saved alignments checked",
+            "scope": "BB11015"
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "overlap_terms": [
+            "BB11015"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
+              "evidence": "docs/ASSESSMENT.md",
+              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "refine-bb12021",
+          "question": "Can stronger block/subgroup/profile or gap search improve BB12021 beyond the recorded best?",
+          "starting_points": [
+            "msa/refine.py",
+            "docs/MODEL.md",
+            "discover/records.json"
+          ],
+          "methods": [
+            "Reference-blind local refinement with exact full-score acceptance"
+          ],
+          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-m",
+              "msa",
+              "verify",
+              "--dataset",
+              "BB12021"
+            ],
+            "expected": "PASS with 10 or 11 saved alignments checked",
+            "scope": "BB12021"
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "overlap_terms": [
+            "BB12021"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
+              "evidence": "docs/ASSESSMENT.md",
+              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "refine-bb20029",
+          "question": "Can stronger block/subgroup/profile or gap search improve BB20029 beyond the recorded best?",
+          "starting_points": [
+            "msa/refine.py",
+            "docs/MODEL.md",
+            "discover/records.json"
+          ],
+          "methods": [
+            "Reference-blind local refinement with exact full-score acceptance"
+          ],
+          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-m",
+              "msa",
+              "verify",
+              "--dataset",
+              "BB20029"
+            ],
+            "expected": "PASS with 10 or 11 saved alignments checked",
+            "scope": "BB20029"
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "overlap_terms": [
+            "BB20029"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
+              "evidence": "docs/ASSESSMENT.md",
+              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "refine-bb20030",
+          "question": "Can stronger block/subgroup/profile or gap search improve BB20030 beyond the recorded best?",
+          "starting_points": [
+            "msa/refine.py",
+            "docs/MODEL.md",
+            "discover/records.json"
+          ],
+          "methods": [
+            "Reference-blind local refinement with exact full-score acceptance"
+          ],
+          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-m",
+              "msa",
+              "verify",
+              "--dataset",
+              "BB20030"
+            ],
+            "expected": "PASS with 10 or 11 saved alignments checked",
+            "scope": "BB20030"
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "overlap_terms": [
+            "BB20030"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
+              "evidence": "docs/ASSESSMENT.md",
+              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "refine-bb30027",
+          "question": "Can stronger block/subgroup/profile or gap search improve BB30027 beyond the recorded best?",
+          "starting_points": [
+            "msa/refine.py",
+            "docs/MODEL.md",
+            "discover/records.json"
+          ],
+          "methods": [
+            "Reference-blind local refinement with exact full-score acceptance"
+          ],
+          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-m",
+              "msa",
+              "verify",
+              "--dataset",
+              "BB30027"
+            ],
+            "expected": "PASS with 10 or 11 saved alignments checked",
+            "scope": "BB30027"
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "overlap_terms": [
+            "BB30027"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
+              "evidence": "docs/ASSESSMENT.md",
+              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "refine-bb40010",
+          "question": "Can stronger block/subgroup/profile or gap search improve BB40010 beyond the recorded best?",
+          "starting_points": [
+            "msa/refine.py",
+            "docs/MODEL.md",
+            "discover/records.json"
+          ],
+          "methods": [
+            "Reference-blind local refinement with exact full-score acceptance"
+          ],
+          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-m",
+              "msa",
+              "verify",
+              "--dataset",
+              "BB40010"
+            ],
+            "expected": "PASS with 10 or 11 saved alignments checked",
+            "scope": "BB40010"
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "overlap_terms": [
+            "BB40010"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
+              "evidence": "docs/ASSESSMENT.md",
+              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "refine-bb50013",
+          "question": "Can stronger block/subgroup/profile or gap search improve BB50013 beyond the recorded best?",
+          "starting_points": [
+            "msa/refine.py",
+            "docs/MODEL.md",
+            "discover/records.json"
+          ],
+          "methods": [
+            "Reference-blind local refinement with exact full-score acceptance"
+          ],
+          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-m",
+              "msa",
+              "verify",
+              "--dataset",
+              "BB50013"
+            ],
+            "expected": "PASS with 10 or 11 saved alignments checked",
+            "scope": "BB50013"
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "overlap_terms": [
+            "BB50013"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
+              "evidence": "docs/ASSESSMENT.md",
+              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "status": "author-checked"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "weight": 25,
+      "useful_outcome": "Find real model or evaluator bugs before accepting new records.",
+      "tasks": [
+        {
+          "id": "affine-boundaries",
+          "question": "Can an independent implementation falsify the pair-projected affine scorer?",
+          "starting_points": [
+            "msa/core.py",
+            "tests/test_core.py"
+          ],
+          "methods": [
+            "Adversarial terminal, opposite-gap and double-gap tests"
+          ],
+          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-m",
+              "unittest",
+              "discover",
+              "-s",
+              "tests",
+              "-v"
+            ],
+            "expected": "All tests pass; then add independently derived cases",
+            "scope": "MSA-SP-v1 gap convention"
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "overlap_terms": [
+            "MSA-SP-v1 gap convention"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
+              "evidence": "docs/ASSESSMENT.md",
+              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "profile-affine",
+          "question": "Can an exact affine-aware profile proposal outperform the linear surrogate without false optimality claims?",
+          "starting_points": [
+            "msa/refine.py",
+            "docs/MODEL.md"
+          ],
+          "methods": [
+            "Small exhaustive search and explicit boundary-state reasoning"
+          ],
+          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/replay.py",
+              "--dataset",
+              "BB11001"
+            ],
+            "expected": "REPLAY PASS for BB11001",
+            "scope": "profile proposal correctness"
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "overlap_terms": [
+            "profile proposal correctness"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
+              "evidence": "docs/ASSESSMENT.md",
+              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "reference-evaluator",
+          "question": "Can a second residue-index evaluator falsify our exact pair/column counts?",
+          "starting_points": [
+            "scripts/crosscheck_bali.py",
+            "results/bali-crosscheck/crosscheck.json"
+          ],
+          "methods": [
+            "Independent coordinate mapping and original BAliBASE cross-check"
+          ],
+          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-m",
+              "msa",
+              "verify",
+              "--dataset",
+              "BB20029"
+            ],
+            "expected": "PASS",
+            "scope": "core mask and evaluation arithmetic"
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "overlap_terms": [
+            "core mask and evaluation arithmetic"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
+              "evidence": "docs/ASSESSMENT.md",
+              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "status": "author-checked"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biology",
+      "weight": 25,
+      "useful_outcome": "Determine where objective gains align with independent biological reference agreement.",
+      "tasks": [
+        {
+          "id": "accuracy-association",
+          "question": "Do within-family score changes predict accuracy on a larger, predeclared evaluation set?",
+          "starting_points": [
+            "results/evaluation.json",
+            "docs/ASSESSMENT.md"
+          ],
+          "methods": [
+            "Family-level paired analysis; avoid pseudoreplication of seeds"
+          ],
+          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "first_step": {
+            "command": [
+              "python3",
+              "scripts/evaluate.py",
+              "--check"
+            ],
+            "expected": "EVALUATION RECOMPUTATION PASS",
+            "scope": "score versus accuracy"
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "overlap_terms": [
+            "score versus accuracy"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
+              "evidence": "docs/ASSESSMENT.md",
+              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "independent-families",
+          "question": "Do effects survive homolog-disjoint families and a second reference collection?",
+          "starting_points": [
+            "docs/LITERATURE.md",
+            "data/manifest.json"
+          ],
+          "methods": [
+            "Audit overlap and provenance before running new methods"
+          ],
+          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-m",
+              "msa",
+              "datasets"
+            ],
+            "expected": "Eight immutable dataset records",
+            "scope": "independent benchmark expansion"
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "overlap_terms": [
+            "independent benchmark expansion"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
+              "evidence": "docs/ASSESSMENT.md",
+              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "status": "author-checked"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "baselines",
+      "weight": 15,
+      "useful_outcome": "Strengthen comparator coverage and reproducibility without weakening the starting point.",
+      "tasks": [
+        {
+          "id": "muscle5-reproduction",
+          "question": "Can MUSCLE5 be reproduced and added as a separate independent baseline on this host?",
+          "starting_points": [
+            "results/toolchain.json",
+            "docs/REPRODUCE.md"
+          ],
+          "methods": [
+            "Resolve runtime in a local environment or build reviewed source; no global installation"
+          ],
+          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-m",
+              "msa",
+              "verify",
+              "--dataset",
+              "BB11015"
+            ],
+            "expected": "PASS",
+            "scope": "MUSCLE5 reproduction"
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "overlap_terms": [
+            "MUSCLE5 reproduction"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
+              "evidence": "docs/ASSESSMENT.md",
+              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "status": "author-checked"
+            }
+          ]
+        },
+        {
+          "id": "larger-families",
+          "question": "Where does exact rescoring or profile search become the scaling bottleneck?",
+          "starting_points": [
+            "data/manifest.json",
+            "msa/core.py",
+            "msa/refine.py"
+          ],
+          "methods": [
+            "Add larger intact BAliBASE families; measure resource costs separately from biological accuracy"
+          ],
+          "acceptance_gate": "Exact validator and two scorers agree; reproducible evidence on fixed inputs; report independent accuracy and all attempts. No biological claim from score alone.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-m",
+              "msa",
+              "verify",
+              "--dataset",
+              "BB20030"
+            ],
+            "expected": "PASS",
+            "scope": "larger-family scaling"
+          },
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "claim_kind": [
+            "model",
+            "measured"
+          ],
+          "overlap_terms": [
+            "larger-family scaling"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Initial scorer, baseline and local experiments already checked; avoid repeating them without a distinct purpose.",
+              "evidence": "docs/ASSESSMENT.md",
+              "remaining": "Stronger proposals, wider independent evaluation and review.",
+              "status": "author-checked"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

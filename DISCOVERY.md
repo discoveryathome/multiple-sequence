@@ -58,9 +58,9 @@ is removed because it makes the hypothesis less attractive.
 
 ## Work distribution and review
 
-`discover/catalog.json` has four weighted tracks: refinement (35), verifier
-hardening (25), biological evaluation (25), and independent baseline/coverage
-replication (15). The seeded picker distributes distinct family tasks. Claims
+`discover/catalog.json` has four weighted tracks: refinement (25), verifier
+hardening (30), biological evaluation (35), and independent baseline/coverage
+replication (10). The seeded picker distributes distinct family tasks. Claims
 and handoffs remain local files; the private GitHub repository is not listed
 on the hub. Inspect overlap before working, and retain the seed in the result package.
 The first step on every card is an executable positive control already run in
@@ -94,3 +94,10 @@ weak initial alignment. Global-optimum claims need a bound/certificate, not an
 improvement trace. A changed scoring model, larger datasets, new reference set,
 DNA biology, or a different acceptance rule is a new scoped experiment and
 requires a distinct result table, not retroactive edits to this one.
+
+## Preparation for scoped contributor trials — 2026-10-21
+
+Start with [the preparation package](research/readiness-20261021/README.md) and
+`discover/readiness.json`. The refreshed catalogue uses checked inherited starts
+and explicitly separates exploratory work from future confirmation. Historical
+results remain reproducible; scientific review and public intake are pending.

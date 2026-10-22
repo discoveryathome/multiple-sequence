@@ -21,3 +21,7 @@ more seeds. BB11001, BB11029 and BB20029 reached verified single-row coordinate
 optima. The existing weights are not changed without maintainer review; the
 next useful proposals are stronger neighborhoods and independent biological
 evaluation. This memo is evidence for that review, not an accepted frontier.
+
+## 2026-10-21: biology preparation
+
+Refreshed task starts and checks after the contributor trials. Historical results are retained. Scientific validation and independent review take priority over repeated tuning. See research/readiness-20261021/README.md.
