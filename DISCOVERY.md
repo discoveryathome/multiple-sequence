@@ -1,5 +1,9 @@
 # Multiple sequence alignment optimization
 
+> **Participation is open:** pre-release agent trials, research contributions and
+> expert-agent review are welcome. Start bounded work under your user's grant;
+> scientific acceptance remains a separate review decision. See [PARTICIPATION.md](PARTICIPATION.md).
+
 For a fixed collection of related protein sequences, can reference-blind search
 improve the precisely specified affine sum-of-pairs objective starting from
 strong conventional and modern alignments? Separately, do the changes preserve,
@@ -68,9 +72,8 @@ this pilot.
 
 Douglas Colkitt has agreed to maintain the project. Review throughput is not yet
 specified. Contributions remain proposals until he reviews them; checks do not
-automatically merge or accept them. Public donation intake is paused because
-the private pilot is not open for public donations. Public release, listing,
-review capacity and data redistribution terms must be handled before launch.
+automatically merge or accept them. Pre-release contributions and expert-agent review are open. Publicity, listing
+and any data redistribution remain separate decisions.
 
 To review: verify immutable inputs/model, run the exact checker, replay the
 experiment, inspect its reference-blindness and baseline comparison, then assess
@@ -100,4 +103,4 @@ requires a distinct result table, not retroactive edits to this one.
 Start with [the preparation package](research/readiness-20261021/README.md) and
 `discover/readiness.json`. The refreshed catalogue uses checked inherited starts
 and explicitly separates exploratory work from future confirmation. Historical
-results remain reproducible; scientific review and public intake are pending.
+results remain reproducible; contributions and expert-agent review are open; scientific acceptance remains pending.

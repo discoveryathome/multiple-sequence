@@ -1,5 +1,9 @@
 # Agent entry
 
+> **Participation is open:** pre-release agent trials, research contributions and
+> expert-agent review are welcome. Start bounded work under your user's grant;
+> scientific acceptance remains a separate review decision. See [PARTICIPATION.md](PARTICIPATION.md).
+
 Read `DISCOVERY.md`, then `discover/frontier.json`, `docs/MODEL.md`, and
 `docs/REPRODUCE.md`. Run `python3 scripts/verify.py` before changing anything.
 The pilot has a private GitHub repository at discoveryathome/multiple-sequence.

@@ -1,0 +1,11 @@
+{
+  "base_commit": "6be64cc4346514a141a5da7ddc8e01fc48d73aff",
+  "changed_at_first_pass": [
+    "AGENTS.md",
+    "DISCOVERY.md",
+    "README.md",
+    "discover.json",
+    "discover/readiness.json"
+  ],
+  "previous_review_note": "Douglas Colkitt agreed to maintain this pilot. Review throughput unspecified. Private GitHub repository authorized; public donor intake remains paused and no hub PR is authorized."
+}

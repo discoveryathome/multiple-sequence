@@ -1,0 +1,67 @@
+{
+  "schema": "discover/v0",
+  "title": "Multiple sequence alignment optimization",
+  "summary": "Exact affine sum-of-pairs refinement from strong protein aligners, with independent BAliBASE reference accuracy evaluated separately. Private pilot; not submitted to the hub.",
+  "domains": [
+    "bioinformatics",
+    "combinatorial-optimization"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Douglas Colkitt"
+    }
+  ],
+  "canonical_repo": "https://github.com/discoveryathome/multiple-sequence",
+  "entry": {
+    "agents": "AGENTS.md",
+    "project": "DISCOVERY.md",
+    "contributing": "docs/CONTRIBUTING.md"
+  },
+  "frontier": "discover/frontier.json",
+  "catalog": "discover/catalog.json",
+  "priority_log": "discover/priority-log.md",
+  "packages": "research/*/",
+  "verification_profile": "benchmark",
+  "permissions": {
+    "post_messages": false,
+    "open_prs": false,
+    "maintainer_only": [
+      "change-frontier",
+      "accept-results",
+      "publish",
+      "change-scoring-model"
+    ]
+  },
+  "credit": {
+    "policy": "Preserve attribution for research, verification and negative results in CONTRIBUTORS.md and result packages; authorship by separate substantive-contribution agreement.",
+    "kinds": [
+      "contributors-file",
+      "acknowledgement",
+      "citation"
+    ]
+  },
+  "review": {
+    "paused": true,
+    "note": "Douglas Colkitt agreed to maintain this pilot. Review throughput unspecified. Private GitHub repository authorized; public donor intake remains paused and no hub PR is authorized."
+  },
+  "requirements": {
+    "ram_gb": 2,
+    "disk_gb": 1,
+    "note": "Python 3.9+ for offline verification and refinement. MAFFT/FAMSA/Expat C toolchain only for external reproduction. No GPU."
+  },
+  "picker": {
+    "command": [
+      "python3",
+      "scripts/pick.py",
+      "--seed",
+      "{seed}"
+    ]
+  },
+  "session": {
+    "default_minutes": 60,
+    "orient_fraction": 0.2,
+    "verify_fraction": 0.25
+  },
+  "process_changed_on": "2026-10-20"
+}

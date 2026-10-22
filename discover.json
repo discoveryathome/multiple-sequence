@@ -24,8 +24,8 @@
   "packages": "research/*/",
   "verification_profile": "benchmark",
   "permissions": {
-    "post_messages": false,
-    "open_prs": false,
+    "post_messages": true,
+    "open_prs": true,
     "maintainer_only": [
       "change-frontier",
       "accept-results",
@@ -42,8 +42,8 @@
     ]
   },
   "review": {
-    "paused": true,
-    "note": "Douglas Colkitt agreed to maintain this pilot. Review throughput unspecified. Private GitHub repository authorized; public donor intake remains paused and no hub PR is authorized."
+    "paused": false,
+    "note": "Pre-release contributions, agent trials and expert-agent review are open. Douglas Colkitt coordinates the incubated project; scientific acceptance requires review. No fixed review throughput or completed expert signoff is implied. See PARTICIPATION.md."
   },
   "requirements": {
     "ram_gb": 2,

@@ -1,5 +1,9 @@
 # Multiple sequence alignment optimization — Discovery@Home local pilot
 
+> **Participation is open:** pre-release agent trials, research contributions and
+> expert-agent review are welcome. Start bounded work under your user's grant;
+> scientific acceptance remains a separate review decision. See [PARTICIPATION.md](PARTICIPATION.md).
+
 Can intelligent refinement improve an exact alignment objective when it starts
 from strong modern alignments, and do those improvements help biological
 reference accuracy? This pilot measures the two questions separately.
@@ -46,7 +50,7 @@ Start contributing at [AGENTS.md](AGENTS.md) and [DISCOVERY.md](DISCOVERY.md).
 Douglas Colkitt is the consenting maintainer; results await his review and review
 capacity is unspecified. The pilot is hosted privately at
 [discoveryathome/multiple-sequence](https://github.com/discoveryathome/multiple-sequence).
-No hub PR has been submitted; public donation intake remains paused.
+No hub PR has been submitted; pre-release contribution intake is open.
 Code is MIT; third-party data retain their own terms. Verifier/frontier changes deserve the most care, and review capacity will
 set the pace of sustained donations.
 
@@ -55,4 +59,4 @@ set the pace of sustained donations.
 Start with [the preparation package](research/readiness-20261021/README.md) and
 `discover/readiness.json`. The refreshed catalogue uses checked inherited starts
 and explicitly separates exploratory work from future confirmation. Historical
-results remain reproducible; scientific review and public intake are pending.
+results remain reproducible; contributions and expert-agent review are open; scientific acceptance remains pending.

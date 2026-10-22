@@ -1,0 +1,59 @@
+{
+  "base_commit": "6be64cc4346514a141a5da7ddc8e01fc48d73aff",
+  "versions": {
+    "AGENTS.md": {
+      "286dbbe3bfddccc6f9909b03d8f08e8c21c70343512c1ed705273bb0d16161b8": {
+        "snapshot": "research/participation-20261022/historical/286dbbe3bfddccc6f9909b03d8f08e8c21c70343512c1ed705273bb0d16161b8/AGENTS.md",
+        "current_sha256": "ce5680f0392d82de77c5c9cdb8780f528556b8808adf5145519fba01c5e5a75b"
+      }
+    },
+    "DISCOVERY.md": {
+      "c5707898abef9dd2fed69da195cb50c41f20ef801567e7983c6d9fe873be4091": {
+        "snapshot": "research/participation-20261022/historical/c5707898abef9dd2fed69da195cb50c41f20ef801567e7983c6d9fe873be4091/DISCOVERY.md",
+        "current_sha256": "320ebeb343b5da95536f1b20329629f380c699010c0be830774c2612d5451cba"
+      }
+    },
+    "README.md": {
+      "97731686ae686db10ac55732c0e369196471a26f25250b6e3dfa881d80094515": {
+        "snapshot": "research/participation-20261022/historical/97731686ae686db10ac55732c0e369196471a26f25250b6e3dfa881d80094515/README.md",
+        "current_sha256": "deaed3d6e93b2db28280e565ba3508aa2a26fb307f159ec5ceee64a4fbc6fc11"
+      }
+    },
+    "discover.json": {
+      "52fe14382b5e97ed04454a664a9cacfecf557eff19ad715636c9de352ff81ea5": {
+        "snapshot": "research/participation-20261022/historical/52fe14382b5e97ed04454a664a9cacfecf557eff19ad715636c9de352ff81ea5/discover.json",
+        "current_sha256": "ca2bafc1439cd77ddb6730a5a6824d5718d23fc3b87f8563353c9fc5b8ef305f"
+      }
+    },
+    "discover/catalog.json": {
+      "b9bfffd1ed142676371104560430821e8d6a3ed5da44c922bb1b42abd74ab3b7": {
+        "snapshot": "research/participation-20261022/historical/b9bfffd1ed142676371104560430821e8d6a3ed5da44c922bb1b42abd74ab3b7/discover/catalog.json",
+        "current_sha256": "7352696b03875e141378de130e48f79c20d33534301666c6b592a120d4d6204e"
+      }
+    },
+    "discover/readiness.json": {
+      "e44023f0ce8e26ed689111069ead7f495abb2bbd5e87e8b6d9361edbde906c73": {
+        "snapshot": "research/participation-20261022/historical/e44023f0ce8e26ed689111069ead7f495abb2bbd5e87e8b6d9361edbde906c73/discover/readiness.json",
+        "current_sha256": "ca0bfa48539c2a76806d80e54681546e269337881752e681f2b95f7c8fc97bad"
+      }
+    },
+    "docs/ASSESSMENT.md": {
+      "247944e767dc71bc74631cda937ccfc61bd79bf21f8e7cff8fcaa4bb6ee54534": {
+        "snapshot": "research/participation-20261022/historical/247944e767dc71bc74631cda937ccfc61bd79bf21f8e7cff8fcaa4bb6ee54534/docs/ASSESSMENT.md",
+        "current_sha256": "5921897a7a449a1c4108a142817c8880c99b4fff5d9ead53ac636bcc36afe138"
+      }
+    },
+    "docs/REVIEW.md": {
+      "de4fd240fdaf90893960aaedd872a4d7582dfc08577629fe9c868e2f1dd0fb41": {
+        "snapshot": "research/participation-20261022/historical/de4fd240fdaf90893960aaedd872a4d7582dfc08577629fe9c868e2f1dd0fb41/docs/REVIEW.md",
+        "current_sha256": "e8566eaaeea54fc08d5a4b93b42cac5fd2f61630d91cd2a0384d4f07bc72fa8b"
+      }
+    },
+    "research/readiness-20261021/check_manifest.py": {
+      "33704ceee11f46bf0fb7a3c05cf884b9fcfb88c360cd65452b48d304fef706d8": {
+        "snapshot": "research/participation-20261022/historical/33704ceee11f46bf0fb7a3c05cf884b9fcfb88c360cd65452b48d304fef706d8/research/readiness-20261021/check_manifest.py",
+        "current_sha256": "b7e7bb8779cbc07efc88023493fc626b1fed142062824b9c39df1caa9ebd5d1b"
+      }
+    }
+  }
+}

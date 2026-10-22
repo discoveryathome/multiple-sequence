@@ -2,6 +2,10 @@
 > [contributor rehearsal](../research/contributor-30m/REPORT.md) changes the
 > practical search frontier and gives the current featured-pilot recommendation.
 
+> **Current participation:** pre-release contributions and expert-agent review are open.
+> Any closed-intake or missing-coordinator statement below records an earlier stage;
+> see [the current policy](../PARTICIPATION.md). Scientific results and review requirements remain in force.
+
 # Initial pilot assessment
 
 This report covers the initial fixed-budget implementation, before any subsequent

@@ -1,5 +1,9 @@
 # Review status
 
+> **Current participation:** pre-release contributions and expert-agent review are open.
+> Any closed-intake or missing-coordinator statement below records an earlier stage;
+> see [the current policy](../PARTICIPATION.md). Scientific results and review requirements remain in force.
+
 Douglas Colkitt explicitly agreed to serve as maintainer on 2026-10-20.
 Review capacity is unspecified. His agreement to maintain is not review or
 acceptance of any result. All current scientific and implementation evidence
